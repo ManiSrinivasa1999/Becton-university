@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-  faBars,
+  faBars, faUserFriends, faUserGraduate, faTrophy, faUserEdit,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
@@ -20,6 +20,10 @@ import vuetify from './plugins/vuetify';
 
 library.add(
   faBars,
+  faUserFriends,
+  faUserGraduate,
+  faTrophy,
+  faUserEdit,
   faFacebook,
   faLinkedin,
   faTwitter,

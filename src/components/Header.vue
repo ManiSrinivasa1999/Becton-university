@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <v-container>
-      <v-system-bar v-if="$vuetify.breakpoint.lgAndUp" app height="50px">
+      <v-system-bar v-if="$vuetify.breakpoint.lgAndUp" app height="45px">
         <v-toolbar-title class="text-h4 font-weight-bold ml-2">
           <v-row justify="space-around" class="ma-2">
              <a
@@ -39,13 +39,13 @@
           v-if="$vuetify.breakpoint.mdAndDown"
           class="text-h6 font-weight-bold ml-2 green--text"
         >
-          Becton University
+          BECTON UNIVERSITY
         </v-toolbar-title>
         <v-toolbar-title
           v-if="$vuetify.breakpoint.lgAndUp"
           class="text-h4 font-weight-bold ml-2"
         >
-          Becton University
+          BECTON UNIVERSITY
         </v-toolbar-title>
 
         <v-spacer></v-spacer>
