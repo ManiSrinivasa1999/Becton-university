@@ -1,0 +1,182 @@
+<template>
+  <div class="header">
+    <v-container>
+      <v-system-bar v-if="$vuetify.breakpoint.lgAndUp" app height="50px">
+        <v-toolbar-title class="text-h4 font-weight-bold ml-2">
+          <v-row justify="space-around" class="ma-2">
+             <a
+                v-for="icon in icons"
+                :key="icon.icon"
+                :href="icon.url"
+                class="ma-4 white--text"
+                icon
+              >
+                <v-icon :color="icon.color">
+                  {{ icon.icon }}
+                </v-icon>
+              </a>
+          </v-row>
+        </v-toolbar-title>
+        <v-spacer></v-spacer>
+        <div>
+          <a
+            href="mailto:info@bectonuniversity.org"
+            class="pa-2 email-phone-links black--text"
+          >
+            info@bectonuniversity.org
+          </a>
+          <a
+            href="tel:+1 302-827-3939"
+            class="pa-2 email-phone-links black--text"
+          >
+            +1 302-827-3939
+          </a>
+        </div>
+      </v-system-bar>
+
+      <v-app-bar app>
+        <v-toolbar-title
+          v-if="$vuetify.breakpoint.mdAndDown"
+          class="text-h6 font-weight-bold ml-2 green--text"
+        >
+          Becton University
+        </v-toolbar-title>
+        <v-toolbar-title
+          v-if="$vuetify.breakpoint.lgAndUp"
+          class="text-h4 font-weight-bold ml-2"
+        >
+          Becton University
+        </v-toolbar-title>
+
+        <v-spacer></v-spacer>
+
+        <div v-if="$vuetify.breakpoint.mdAndDown">
+          <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        </div>
+        <div v-else-if="$vuetify.breakpoint.lgAndUp">
+          <v-btn
+            text
+            v-for="button in buttons"
+            :key="button.label"
+            :to="button.url"
+            class="pa-2 btn text-body-2 font-weight-bold "
+            active-class="green--text"
+          >
+            {{ button.label }}
+          </v-btn>
+        </div>
+      </v-app-bar>
+      <v-navigation-drawer
+        v-if="$vuetify.breakpoint.mdAndDown"
+        v-model="drawer"
+        app
+        right
+      >
+        <v-list dense>
+          <v-list-item
+            v-for="button in buttons"
+            :key="button.label"
+            :to="button.url"
+            color="success"
+          >
+            <v-list-item-content>
+              <v-list-item-title>{{ button.label }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </v-navigation-drawer>
+
+    </v-container>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Header',
+  data() {
+    return {
+      drawer: null,
+      icons: [
+        {
+          icon: 'fab fa-facebook',
+          url: '/',
+          color: '#3b5998',
+        },
+        {
+          icon: 'fab fa-twitter',
+          url: '/',
+          color: '#00acee',
+        },
+        {
+          icon: 'fab fa-linkedin',
+          url: '/',
+          color: '#0e76a8',
+        },
+        {
+          icon: 'fab fa-instagram',
+          url: '/',
+          color: '#E1306C',
+        },
+        {
+          icon: 'fab fa-youtube',
+          url: '',
+          color: '#c4302b',
+        },
+      ],
+      buttons: [
+        {
+          label: 'Home',
+          url: '/',
+        },
+        {
+          label: 'About Us',
+          url: '/about',
+        },
+        {
+          label: 'Programmes',
+          url: '/programmes',
+        },
+        {
+          label: 'Admissions and Fee',
+          url: '/admissions',
+        },
+        {
+          label: 'Award Verification',
+          url: '/awardverification',
+        },
+        {
+          label: 'Gallery',
+          url: '/gallery',
+        },
+        {
+          label: 'Contact',
+          url: '/contact',
+        },
+        {
+          label: 'Apply Now',
+          url: '/apply',
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+
+.email-phone-links {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+.btn:active {
+  background: white !important;
+}
+
+.btn:hover {
+  background: white !important;
+}
+
+</style>
