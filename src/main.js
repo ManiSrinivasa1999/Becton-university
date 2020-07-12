@@ -1,7 +1,18 @@
 import Vue from 'vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-  faBars, faUserFriends, faUserGraduate, faTrophy, faUserEdit, faChevronDown,
+  faBars,
+  faUserFriends,
+  faUserGraduate,
+  faTrophy,
+  faUserEdit,
+  faChevronDown,
+  faCommentDollar,
+  faBlog,
+  faRoute,
+  faUsers,
+  faMapMarkedAlt,
+  faObjectGroup,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
@@ -24,6 +35,12 @@ library.add(
   faUserGraduate,
   faTrophy,
   faChevronDown,
+  faCommentDollar,
+  faBlog,
+  faRoute,
+  faUsers,
+  faMapMarkedAlt,
+  faObjectGroup,
   faUserEdit,
   faFacebook,
   faLinkedin,

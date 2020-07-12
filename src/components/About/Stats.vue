@@ -1,0 +1,176 @@
+<template>
+  <div class="stats">
+    <v-container>
+      <v-row class="fill-height pa-0 ma-0" justify="center" align="center">
+        <v-col cols="11">
+          <div class="pa-4">
+            <p class="text-h6 text-center">
+              Becton University’s formula has proven a great success over the
+              years. It is efficient, student-oriented, and can be transmitted
+              from any computer terminal anywhere in the world. That is why this
+              formula is now being championed by numerous online educational
+              institutions around the world.
+            </p>
+          </div>
+        </v-col>
+        <div v-if="$vuetify.breakpoint.lgAndUp">
+          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
+            <template v-for="(item, i) in items.slice(0, 3)">
+              <v-col cols="9" md="3" :key="i">
+                <div class="text-center cm-hg ma-4">
+                  <v-icon class="icon" color="success">
+                    {{ item.icon }}
+                  </v-icon>
+                </div>
+                <div class="text-h4 text-center cm-hg">
+                  {{ item.number }}
+                </div>
+                <div class="text-h6 text-center cm-hg mb-4">
+                  {{ item.title }}
+                </div>
+                <v-divider></v-divider>
+                <div class="text-subtitle text-center text-hg">
+                  {{ item.text }}
+                </div>
+              </v-col>
+            </template>
+          </v-row>
+          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
+            <template v-for="(item, i) in items.slice(3, 6)">
+              <v-col cols="9" md="3" :key="i">
+                <div class="text-center cm-hg ma-4">
+                  <v-icon class="icon" color="success">
+                    {{ item.icon }}
+                  </v-icon>
+                </div>
+                <div class="text-h4 text-center cm-hg">
+                  {{ item.number }}
+                </div>
+                <div class="text-h6 text-center cm-hg mb-4">
+                  {{ item.title }}
+                </div>
+                <v-divider></v-divider>
+                <div class="text-subtitle text-center text-hg">
+                  {{ item.text }}
+                </div>
+              </v-col>
+            </template>
+          </v-row>
+        </div>
+        <div v-if="$vuetify.breakpoint.mdAndDown">
+          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
+            <template v-for="(item, i) in items.slice(0, 3)">
+              <v-col cols="9" md="3" :key="i">
+                <div class="text-center cm-hg ma-4">
+                  <v-icon class="icon" color="success">
+                    {{ item.icon }}
+                  </v-icon>
+                </div>
+                <div class="text-h4 text-center cm-hg">
+                  {{ item.number }}
+                </div>
+                <div class="text-h6 text-center cm-hg mb-4">
+                  {{ item.title }}
+                </div>
+                <v-divider></v-divider>
+                <div class="text-subtitle text-center text-hg">
+                  {{ item.text }}
+                </div>
+              </v-col>
+            </template>
+          </v-row>
+          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
+            <template v-for="(item, i) in items.slice(3, 6)">
+              <v-col cols="9" md="3" :key="i">
+                <div class="text-center cm-hg ma-4">
+                  <v-icon class="icon" color="success">
+                    {{ item.icon }}
+                  </v-icon>
+                </div>
+                <div class="text-h4 text-center cm-hg">
+                  {{ item.number }}
+                </div>
+                <div class="text-h6 text-center cm-hg mb-4">
+                  {{ item.title }}
+                </div>
+                <v-divider></v-divider>
+                <div class="text-subtitle text-center text-hg">
+                  {{ item.text }}
+                </div>
+              </v-col>
+            </template>
+          </v-row>
+        </div>
+      </v-row>
+    </v-container>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Stats',
+  data() {
+    return {
+      items: [
+        {
+          icon: 'fas fa-comment-dollar',
+          title: 'Low Fee',
+          number: '£1.5K',
+          text:
+            'Pay fee in easy (Interest free) instalments. You can choose from UK online education payments options.',
+        },
+        {
+          icon: 'fas fa-blog',
+          title: 'Online and flexible',
+          number: '50+',
+          text:
+            'Study anytime, anywhere - You dont have to attend a College campus so you can study from anywhere in the world. You can download & submit assignments - 100% online.',
+        },
+        {
+          icon: 'fas fa-route',
+          title: 'UK Diploma Online Professional Education',
+          number: '15+',
+          text:
+            'Assignments based - no exams for UK diploma All modules are assessed via submission of assignments - there are no exams.',
+        },
+        {
+          icon: 'fas fa-users',
+          title: 'UK Accredited Diploma',
+          number: '50+',
+          text:
+            'BU Universities Bachelor and Master Affordable, Accredited and 100% Online Education',
+        },
+        {
+          icon: 'fas fa-map-marked-alt',
+          title: 'Athletic Championships',
+          number: '270+',
+          text: 'Becton University 270+ Athletic Championships',
+        },
+        {
+          icon: 'fas fa-object-group',
+          title: 'Thousand Alumni',
+          number: '500+',
+          text: 'Becton University 500+ Thousand Alumni',
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+
+.icon {
+  height: 60px;
+  width: 60px;
+}
+// common height
+.cm-hg {
+  height: 60px;
+}
+
+.text-hg {
+  height: 120px;
+}
+
+</style>

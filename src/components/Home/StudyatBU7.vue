@@ -2,13 +2,13 @@
   <div class="becton-uni bg-img mt-8">
     <v-container class="informn">
       <div class="align-center justify-center d-flex flex-column pa-0 ma-0">
-        <span class="text-h4 pa-4 ma-4 font-weight-bold text-center black--text">
+        <span class="text-h4 pa-4 ma-4 font-weight-bold text-center white--text">
           STUDYING AT BECTON UNIVERSITY
         </span>
       </div>
       <v-row class="fill-height" align="center" justify="center">
         <v-col cols="12" md="10">
-          <p class="title text-center white--text bg-col">
+          <p class="title text-center white--text">
             Becton University’s formula has proven a great success over the
             years. It is efficient, student-oriented, and can be transmitted
             from any computer terminal anywhere in the world. That is why
@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 
 .bg-img {
-  background-image: url('../../assets/general3.jpg');
+  background-image: url('../../assets/book2.jpg');
   background-size: cover;
   background-position: center;
   filter: brightness(0.9);

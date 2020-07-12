@@ -10,7 +10,7 @@
         <v-col cols="12" md="10">
           <v-row justify="center">
             <v-col cols="12" md="6">
-              <v-img src="../../assets/homebanner-2.jpg" height="350px"></v-img>
+              <v-img src="../../assets/feature.jpg" height="350px"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <v-expansion-panels focusable>
