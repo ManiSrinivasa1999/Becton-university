@@ -1,18 +1,19 @@
 <template>
   <div class="contact">
     <CommonBanner1 pageHeading="Contact Us" caption="Contact Us" />
-    <v-container>
-    </v-container>
+    <Contacts />
   </div>
 </template>
 
 <script>
 import CommonBanner1 from '@/components/CommonBanner1.vue';
+import Contacts from '@/components/Contacts.vue';
 
 export default {
   name: 'Contact',
   components: {
     CommonBanner1,
+    Contacts,
   },
 };
 </script>
