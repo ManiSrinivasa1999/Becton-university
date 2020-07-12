@@ -39,12 +39,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 .screen1 {
   background-size: cover;
   background-position: center;
-  background-image: url('../assets/homebanner3.jpg');
 }
 
 #screen1-content {

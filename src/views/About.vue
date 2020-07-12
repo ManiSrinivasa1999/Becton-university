@@ -45,7 +45,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 .screen1 {
   background-image: url('../assets/homebanner3.jpg');

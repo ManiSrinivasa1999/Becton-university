@@ -13,6 +13,7 @@ import {
   faUsers,
   faMapMarkedAlt,
   faObjectGroup,
+  faCaretDown,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
@@ -33,6 +34,7 @@ library.add(
   faBars,
   faUserFriends,
   faUserGraduate,
+  faCaretDown,
   faTrophy,
   faChevronDown,
   faCommentDollar,
