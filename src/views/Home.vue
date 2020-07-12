@@ -8,6 +8,8 @@
     <LatestEvents6 />
     <StudyatBU7 />
     <WhyChoose8 />
+    <Features9 />
+    <Accreditation10  />
   </div>
 </template>
 
@@ -20,6 +22,8 @@ import UniversityTeam5 from '@/components/Home/UniversityTeam5.vue';
 import LatestEvents6 from '@/components/Home/LatestEvents6.vue';
 import StudyatBU7 from '@/components/Home/StudyatBU7.vue';
 import WhyChoose8 from '@/components/Home/WhyChoose8.vue';
+import Features9 from '@/components/Home/Features9.vue';
+import Accreditation10 from '@/components/Home/Accreditation10.vue';
 
 export default {
   name: 'Home',
@@ -32,6 +36,8 @@ export default {
     LatestEvents6,
     StudyatBU7,
     WhyChoose8,
+    Features9,
+    Accreditation10,
   },
 };
 </script>

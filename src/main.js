@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-  faBars, faUserFriends, faUserGraduate, faTrophy, faUserEdit,
+  faBars, faUserFriends, faUserGraduate, faTrophy, faUserEdit, faChevronDown,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
@@ -23,6 +23,7 @@ library.add(
   faUserFriends,
   faUserGraduate,
   faTrophy,
+  faChevronDown,
   faUserEdit,
   faFacebook,
   faLinkedin,
