@@ -11,12 +11,12 @@
           <p class="title text-center white--text">
             Online and distance learning is the future of education.
             Even though we live in a global village the concept of a becton university –
-            not rooted in a particular country – such as Becton Tamil University –
+            not rooted in a particular country – such as Becton  University –
             is occasionally misunderstood by the dinosaurs
             of brick and mortar education especially in countries where
             online education is still a novelty.
             <br />
-            Becton Tamil University’s formula has proven a great success over the years.
+            Becton University’s formula has proven a great success over the years.
             It is efficient, student-oriented, and can be transmitted from any computer terminal
             anywhere in the world.<br />
             That is why this formula is now being championed by numerous online educational
