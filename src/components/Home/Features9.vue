@@ -42,7 +42,7 @@ export default {
       features: [
         {
           head: 'Student Learning Oppurtunities',
-          content: 'Online and distance learning is the future of education. Even though we live in a global village the concept of a becton university – not rooted in a particular country – such as becton Tamil University – is occasionally misunderstood by the dinosaurs of brick and mortar education especially in countries where online education is still a novelty.',
+          content: 'Online and distance learning is the future of education. Even though we live in a global village the concept of a becton university – not rooted in a particular country – such as Becton University – is occasionally misunderstood by the dinosaurs of brick and mortar education especially in countries where online education is still a novelty.',
         },
         {
           head: 'Student Stories',

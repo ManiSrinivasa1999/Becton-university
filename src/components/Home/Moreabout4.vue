@@ -11,7 +11,7 @@
           >
             <template>
               <v-col cols="12" md="6">
-                <v-img src="@/assets/homebanner3.jpg" height="100%"></v-img>
+                <v-img src="@/assets/homebanner3-compressed.jpg" height="100%"></v-img>
               </v-col>
               <v-col cols="12" md="6">
                 <div class="text-h5 font-weight-bold pa-4">
@@ -19,7 +19,7 @@
                 </div>
                 <p class="pa-2 pl-4">
                   Online and distance learning is the future of education. Even
-                  though we live in a global village the concept of a global
+                  though we live in a global village the concept of a becton
                   university – not rooted in a particular country – such as
                   Becton University – is occasionally misunderstood by the
                   dinosaurs of brick and mortar education especially in
@@ -52,7 +52,7 @@
                 </div>
                 <p class="pa-2 pl-4">
                   Online and distance learning is the future of education. Even
-                  though we live in a global village the concept of a global
+                  though we live in a global village the concept of a becton
                   university – not rooted in a particular country – such as
                   Becton University – is occasionally misunderstood by the
                   dinosaurs of brick and mortar education especially in
@@ -71,7 +71,7 @@
                 </a>
               </v-col>
               <v-col cols="12" md="6">
-                <v-img src="@/assets/homebanner3.jpg" height="100%"></v-img>
+                <v-img src="@/assets/homebanner3-compressed.jpg" height="100%"></v-img>
               </v-col>
             </template>
           </v-row>

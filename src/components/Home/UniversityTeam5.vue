@@ -78,12 +78,12 @@ export default {
           degree: 'MBA. PhD',
           prof: 'Vice Chancellor',
           // eslint-disable-next-line global-require
-          src: require('@/assets/team-2.jpg'),
+          src: require('@/assets/faculty3.jpg'),
         },
         {
           name: 'Prof. Dr. A Ra Sivakumaran',
           degree: 'MA. PhD',
-          prof: 'GTU Head –Tamil Language and Culture Division',
+          prof: 'BU Head –Tamil Language and Culture Division',
           // eslint-disable-next-line global-require
           src: require('@/assets/team-3.jpg'),
         },
@@ -92,7 +92,7 @@ export default {
           degree: 'BA. BSc. PGD. MBA',
           prof: 'Business Development Manager',
           // eslint-disable-next-line global-require
-          src: require('@/assets/team-4.jpg'),
+          src: require('@/assets/faculty4.jpg'),
         },
         {
           name: 'Febrian Nishanthan',

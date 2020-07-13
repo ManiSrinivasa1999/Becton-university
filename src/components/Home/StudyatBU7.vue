@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 
 .bg-img {
-  background-image: url('../../assets/book2.jpg');
+  background-image: url('../../assets/book2-compressed.jpg');
   background-size: cover;
   background-position: center;
   filter: brightness(0.9);

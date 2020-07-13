@@ -8,7 +8,7 @@
               <strong class="text-h4 font-weight-bold">Becton University</strong>
               <p class="text-h6 mt-4">
                 Online and distance learning is the future of education. Even
-                though we live in a global village the concept of a global
+                though we live in a global village the concept of a becton
                 university – not rooted in a particular country – such as Becton
                 University.
               </p>

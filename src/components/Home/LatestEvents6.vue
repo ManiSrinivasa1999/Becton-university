@@ -52,7 +52,7 @@ export default {
             'Midlands College of Media Leicester Business Centre 111 Ross Walk Leicester Leicestershire LE4 5HH United Kingdom',
           date: '20th May 2019',
           // eslint-disable-next-line global-require
-          src: require('../../assets/event2.jpg'),
+          src: require('../../assets/event3.jpg'),
         },
         {
           name: 'CONVOCATION IN LONDON, UK.',
@@ -60,7 +60,7 @@ export default {
             'UK Online Education & Training 100 High Street, Southgate London, N14 6BN United Kingdom ',
           date: '20th May 2020',
           // eslint-disable-next-line global-require
-          src: require('../../assets/event3.jpg'),
+          src: require('../../assets/event2.jpg'),
         },
         {
           name: 'CENTRAL LONDON.',

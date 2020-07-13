@@ -115,7 +115,7 @@ export default {
         {
           icon: 'fas fa-comment-dollar',
           title: 'Low Fee',
-          number: '£1.5K',
+          number: '$1.5K',
           text:
             'Pay fee in easy (Interest free) instalments. You can choose from UK online education payments options.',
         },

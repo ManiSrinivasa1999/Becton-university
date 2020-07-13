@@ -43,30 +43,30 @@ export default {
         {
           title: 'Diploma',
           subtitle: 'and all Diploma programs',
-          price: '£2000*',
+          price: '$2000*',
           text:
-          '£2000.00* for the full diploma programme regardless of duration (programme fees £1500.00 plus £500.00 supervisor’s professional fees)',
+          '$2000.00* for the full diploma programme regardless of duration (programme fees $1500.00 plus $500.00 supervisor’s professional fees)',
         },
         {
           title: 'Undergraduate',
           subtitle: 'and all Undergraduate programs',
-          price: '£5000*',
+          price: '$5000*',
           text:
-          '£5000.00* for the full degree programme regardless of duration (programme fees £4000.00 plus £1000.00 supervisor’s professional fees)',
+          '$5000.00* for the full degree programme regardless of duration (programme fees $4000.00 plus $1000.00 supervisor’s professional fees)',
         },
         {
           title: 'Post Graduate',
           subtitle: 'and all Post Graduate programs',
-          price: '£4000*',
+          price: '$4000*',
           text:
-          '£4000.00* for the full degree programme regardless of duration (programme fees £3000.00 plus £1000.00 supervisor’s professional fees)',
+          '$4000.00* for the full degree programme regardless of duration (programme fees $3000.00 plus $1000.00 supervisor’s professional fees)',
         },
         {
           title: 'Doctorate',
           subtitle: 'and all Doctorate programs',
-          price: '£6000*',
+          price: '$6000*',
           text:
-          '£6000.00* for the full doctorate programme regardless of duration (programme fees £5000.00 plus £1000.00 supervisor’s professional fees)',
+          '$6000.00* for the full doctorate programme regardless of duration (programme fees $5000.00 plus $1000.00 supervisor’s professional fees)',
         },
       ],
     };

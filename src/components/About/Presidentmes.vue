@@ -3,7 +3,7 @@
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
         <v-col cols="10">
-          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
+          <v-row class="fill-height pa-0 ma-0">
             <v-col cols="12" md="3">
               <v-img src="@/assets/president.jpg"></v-img>
             </v-col>

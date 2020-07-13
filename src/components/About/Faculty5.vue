@@ -68,12 +68,12 @@
                 study programs are based on the university’s recommended curricula.
                 Affiliates operate under the auspices of their region’s head office.
                 <br /><br />
-                Becton Tamil University is a private international institution.
-                Becton Tamil University Online is specialized in Distance Learning
+                Becton University is a private international institution.
+                Becton University Online is specialized in Distance Learning
                 education our international learning arm is London College of Media
                 (www.londoncollegeofmedia.com).
                 <br /><br />
-                Becton   Tamil University Online is licensed by E-Learning
+                Becton University Online is licensed by E-Learning
                 International LLC (California).
               </p>
             </v-col>

@@ -12,14 +12,14 @@
                 Graduation Fee
               </div>
               <div class="text-subtitle mt-6 mb-6">
-                £150.00 (payable on the issuance & notarization of degree &
+                $150.00 (payable on the issuance & notarization of degree &
                 transcripts)
               </div>
               <div class="text-h6 mb-6 mt-6">
                 The Becton University Studentship Award (BUSA)
               </div>
               <div class="text-title mb-6 mt-6">
-                The Becton University offers a £1000 scholarship, off the total
+                The Becton University offers a $1000 scholarship, off the total
                 program fee to financially deserving, and academically qualified
                 students from a number of national and international students:
                 Applications for Becton University bursaries should be made upon

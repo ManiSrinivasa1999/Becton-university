@@ -16,7 +16,6 @@
             <v-col cols="12" md="5" class="pa-6">
               <v-text-field
                 outlined
-                rounded
                 label="Certificate Number"
                 required
               ></v-text-field>
@@ -34,7 +33,6 @@
                     v-model="dateFormatted"
                     label="Date of birth"
                     outlined
-                    rounded
                     v-bind="attrs"
                     @blur="date = parseDate(dateFormatted)"
                     v-on="on"
@@ -47,7 +45,7 @@
                 ></v-date-picker>
               </v-menu>
               <v-row justify="center" align="center">
-                <v-btn color="success" outlined rounded>
+                <v-btn color="success" outlined>
                   Get Result
                 </v-btn>
               </v-row>
