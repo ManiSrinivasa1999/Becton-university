@@ -92,35 +92,7 @@ export default {
           degree: 'BA. BSc. PGD. MBA',
           prof: 'Business Development Manager',
           // eslint-disable-next-line global-require
-          src: require('@/assets/faculty4.jpg'),
-        },
-        {
-          name: 'Febrian Nishanthan',
-          degree: 'BA. PGD. MA',
-          prof: 'Chief Technology Officer',
-          // eslint-disable-next-line global-require
-          src: require('@/assets/team-1.jpg'),
-        },
-        {
-          name: 'Regina Meganathan',
-          degree: 'BSc. BA. PGD',
-          prof: 'Social Media Officer',
-          // eslint-disable-next-line global-require
-          src: require('@/assets/team-2.jpg'),
-        },
-        {
-          name: 'Brintha Ranja Kumar',
-          degree: 'BA. PGD',
-          prof: 'General Administrator',
-          // eslint-disable-next-line global-require
-          src: require('@/assets/team-3.jpg'),
-        },
-        {
-          name: 'Dilaxshika Johnsan',
-          degree: 'BA. PGD',
-          prof: 'Admin Officer',
-          // eslint-disable-next-line global-require
-          src: require('@/assets/team-4.jpg'),
+          src: require('@/assets/faculty4-compressed.jpg'),
         },
       ],
     };

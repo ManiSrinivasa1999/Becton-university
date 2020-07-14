@@ -6,7 +6,7 @@
           <v-row class="fill-height" justify="center" align="center">
             <v-col cols="12" md="4">
               <a href="/about" class="links">
-                <v-img src="@/assets/general1-compressed.jpg" height="250" class="mb-4">
+                <v-img src="@/assets/general1.jpg" height="250" class="mb-4">
                   <v-row
                     align="end"
                     class="lightbox white--text pa-2 fill-height"
@@ -44,7 +44,7 @@
                 </v-img>
               </a>
               <a href="/gallery" class="links">
-                <v-img src="@/assets/homebanner-2-compressed.jpg" height="250">
+                <v-img src="@/assets/general4-compressed.jpg" height="250">
                   <v-row
                     align="end"
                     class="lightbox white--text pa-2 fill-height"
