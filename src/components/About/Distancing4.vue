@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/distance.jpg"></v-img>
+              <v-img src="@/assets/distance-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">
@@ -29,7 +29,7 @@
             justify="center"
           >
             <v-col cols="12" md="6">
-              <v-img src="@/assets/bu.jpg"></v-img>
+              <v-img src="@/assets/bu-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="7">
               <div class="font-weight-bold ml-4" :class="heading">
@@ -73,7 +73,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/bu.jpg"></v-img>
+              <v-img src="@/assets/bu-compressed.jpg"></v-img>
             </v-col>
           </v-row>
         </v-col>

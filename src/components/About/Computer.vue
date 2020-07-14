@@ -51,7 +51,7 @@
           </v-row>
           <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/assignments.jpg"></v-img>
+              <v-img src="@/assets/assignments-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold ml-4 mb-4 pd-4">

@@ -52,14 +52,14 @@ export default {
         text:
           'What a great atmosphere we have had at the 2020 Graduation Ceremony! We are glad that graduates, their families and loved ones celebrated it in the best way possible.',
         // eslint-disable-next-line global-require
-        img: require('@/assets/gallery_pic3.jpg'),
+        img: require('@/assets/gallery_pic3-compressed.jpg'),
       },
       {
         title: 'BU Awards 2020',
         text:
           'Gala evening BU Awards 2020 took place in Clarion Congress Hotel Prague, Czech Republic on the 31st January, 2020.',
         // eslint-disable-next-line global-require
-        img: require('@/assets/gallery_pic4.jpg'),
+        img: require('@/assets/gallery_pic4-compressed.jpg'),
       },
       {
         title: 'Graduation ceremony, June 2020',
@@ -73,14 +73,14 @@ export default {
         text:
           'Photos from the BU AWARDS 2020 gala evening that took place at Clarion Congress Hotel Prague on the 1st February, 2020.',
         // eslint-disable-next-line global-require
-        img: require('@/assets/gallery_pic6.jpg'),
+        img: require('@/assets/gallery_pic6-compressed.jpg'),
       },
       {
         title: 'Graduation ceremony at BU University, June 2020',
         text:
           'Have a look at the most captivating moments from our Graduation Ceremony, where we handed out diplomas to our successful graduates.',
         // eslint-disable-next-line global-require
-        img: require('@/assets/gallery_pic7.jpg'),
+        img: require('@/assets/gallery_pic7-compressed.jpg'),
       },
       {
         title: 'BU Awards 2020',
@@ -98,7 +98,7 @@ export default {
 <style lang="scss">
 
 .screen1 {
-  background-image: url('../assets/homebanner6.jpg');
+  background-image: url('../assets/homebanner6-compressed.jpg');
 }
 
 .hg-wd {

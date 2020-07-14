@@ -5,7 +5,7 @@
         <v-col cols="10" md="10">
           <v-row lass="fill-height" align="center" justify="center">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/onlinepro.jpg"></v-img>
+              <v-img src="@/assets/onlinepro-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold ml-4 mt-4">
@@ -40,7 +40,7 @@
             justify="center"
           >
             <v-col cols="12" md="6">
-              <v-img src="@/assets/enrich.jpg"></v-img>
+              <v-img src="@/assets/enrich-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold ml-4 mb-4">
@@ -78,7 +78,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/enrich.jpg"></v-img>
+              <v-img src="@/assets/enrich-compressed.jpg"></v-img>
             </v-col>
           </v-row>
         </v-col>

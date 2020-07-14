@@ -74,7 +74,7 @@ export default {
           src: require('@/assets/team-1.jpg'),
         },
         {
-          name: 'Prof. DR A.M.Roy Fernando',
+          name: 'Regine Meganathan',
           degree: 'MBA. PhD',
           prof: 'Vice Chancellor',
           // eslint-disable-next-line global-require
@@ -83,9 +83,9 @@ export default {
         {
           name: 'Prof. Dr. A Ra Sivakumaran',
           degree: 'MA. PhD',
-          prof: 'BU Head –Tamil Language and Culture Division',
+          prof: 'BU Head –Culture Division',
           // eslint-disable-next-line global-require
-          src: require('@/assets/team-3.jpg'),
+          src: require('@/assets/team-5-compressed.jpg'),
         },
         {
           name: 'Michael Kanthakaran',

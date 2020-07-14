@@ -5,7 +5,7 @@
         <v-col cols="10" md="10">
           <v-row class="pa-0 ma-0">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/fees.jpg"></v-img>
+              <v-img src="@/assets/fees-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="font-weight-bold text-h5 upper-case">

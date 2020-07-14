@@ -24,12 +24,12 @@
               </div>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/payment.jpg"></v-img>
+              <v-img src="@/assets/payment-compressed.jpg"></v-img>
             </v-col>
           </v-row>
           <v-row v-if="$vuetify.breakpoint.mdAndDown">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/payment.jpg"></v-img>
+              <v-img src="@/assets/payment-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="font-weight-bold text-h5 upper-case">

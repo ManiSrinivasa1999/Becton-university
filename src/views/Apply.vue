@@ -109,7 +109,7 @@ export default {
 <style lang="scss">
 
 .screen1 {
-  background-image: url('../assets/homebanner8.jpg');
+  background-image: url('../assets/homebanner8-compressed.jpg');
 }
 
 </style>
