@@ -3,11 +3,11 @@
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
         <v-col cols="10">
-          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-            <v-col cols="12" md="6">
+          <v-row class="fill-height pa-0 ma-0">
+            <v-col cols="12" md="3">
               <v-img src="@/assets/faculty2-compressed.jpg"></v-img>
             </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="8">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">
                 FACULTY
               </div>
@@ -53,8 +53,6 @@
           <v-row
             v-if="$vuetify.breakpoint.lgAndUp"
             class="fill-height pa-0 ma-0"
-            align="center"
-            justify="center"
           >
             <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4 mb-4" :class="heading">

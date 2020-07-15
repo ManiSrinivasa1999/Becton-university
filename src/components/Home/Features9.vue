@@ -8,7 +8,7 @@
       </div>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
         <v-col cols="12" md="10">
-          <v-row justify="center">
+          <v-row>
             <v-col cols="12" md="6">
               <v-img src="../../assets/feature-compressed.jpg" height="350px"></v-img>
             </v-col>

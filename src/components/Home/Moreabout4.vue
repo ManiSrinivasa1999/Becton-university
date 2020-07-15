@@ -42,8 +42,6 @@
           <v-row
             v-if="$vuetify.breakpoint.lgAndUp"
             class="fill-height"
-            align="center"
-            justify="center"
           >
             <template>
               <v-col cols="12" md="6">

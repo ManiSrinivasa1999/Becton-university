@@ -5,15 +5,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           Bachelor of Arts
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="dropdown_arts"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels class="mt-4" focusable>
           <v-expansion-panel
             v-for="course in dropdown_arts"
             :key="course.title"
@@ -202,15 +194,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           Bachelor of Science
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="dropdown_science"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels class="mt-4" focusable>
           <v-expansion-panel
             v-for="course in dropdown_science"
             :key="course.title"

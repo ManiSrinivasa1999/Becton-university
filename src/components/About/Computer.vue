@@ -29,8 +29,6 @@
           <v-row
             v-if="$vuetify.breakpoint.lgAndUp"
             class="fill-height pa-0 ma-0"
-            align="center"
-            justify="center"
           >
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold ml-4 mt-4">
@@ -49,7 +47,7 @@
               <v-img src="@/assets/computer.jpg"></v-img>
             </v-col>
           </v-row>
-          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
+          <v-row class="fill-height pa-0 mt-8">
             <v-col cols="12" md="6">
               <v-img src="@/assets/assignments-compressed.jpg"></v-img>
             </v-col>

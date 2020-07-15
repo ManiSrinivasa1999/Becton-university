@@ -5,15 +5,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           Master of Arts(MA)
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="dropdown_arts"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels class="mt-4" focusable>
           <v-expansion-panel
             v-for="course in dropdown_arts"
             :key="course.title"
@@ -202,15 +194,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           Master of Science(MSc)
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="dropdown_science"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels class="mt-4" focusable>
           <v-expansion-panel
             v-for="course in dropdown_science"
             :key="course.title"
@@ -410,15 +394,7 @@
             >Administration(MBA)</span
           >
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="dropdown_mba"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels class="mt-4" focusable>
           <v-expansion-panel v-for="course in dropdown_mba" :key="course.title">
             <v-expansion-panel-header>
               {{ course.text }}
@@ -604,15 +580,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           Master of Commerce(MCom)
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="dropdown_mcom"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels class="mt-4" focusable>
           <v-expansion-panel
             v-for="course in dropdown_mcom"
             :key="course.title"

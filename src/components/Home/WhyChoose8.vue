@@ -40,8 +40,6 @@
           <v-row
             v-else-if="$vuetify.breakpoint.lgAndUp"
             class="fill-height pa-0 ma-0"
-            align="center"
-            justify="center"
           >
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold pa-4">

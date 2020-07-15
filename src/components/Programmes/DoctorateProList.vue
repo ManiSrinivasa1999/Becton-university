@@ -5,15 +5,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           PhD
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="phd"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels  class="mt-4" focusable>
           <v-expansion-panel v-for="course in phd" :key="course.title">
             <v-expansion-panel-header>
               {{ course.text }}
@@ -199,15 +191,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           DBA
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="dba"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels class="mt-4" focusable>
           <v-expansion-panel v-for="course in dba" :key="course.title">
             <v-expansion-panel-header>
               {{ course.text }}
@@ -393,15 +377,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           DPE
         </span>
-        <v-overflow-btn
-          class="my-2"
-          :items="dpe"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels class="mt-4" focusable>
           <v-expansion-panel v-for="course in dpe" :key="course.title">
             <v-expansion-panel-header>
               {{ course.text }}

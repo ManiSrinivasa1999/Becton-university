@@ -5,16 +5,7 @@
         <span class="font-weight-bold text-h5 ml-3">
           Diploma
         </span>
-        <v-overflow-btn
-          v-model="selected"
-          class="my-2"
-          :items="dropdown_edit"
-          label="Search"
-          editable
-          item-value="text"
-          width="100%"
-        ></v-overflow-btn>
-        <v-expansion-panels focusable>
+        <v-expansion-panels  class="mt-4" focusable>
           <v-expansion-panel
             v-for="course in dropdown_edit"
             :key="course.title"
