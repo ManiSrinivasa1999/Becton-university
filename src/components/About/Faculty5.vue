@@ -52,9 +52,9 @@
           </v-row>
           <v-row
             v-if="$vuetify.breakpoint.lgAndUp"
-            class="fill-height pa-0 ma-0"
+            class="fill-height pa-0 mt-8"
           >
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="7">
               <div class="font-weight-bold ml-4 mb-4" :class="heading">
                 AFFILIATES
               </div>
@@ -75,7 +75,8 @@
                 International LLC (California).
               </p>
             </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="2"></v-col>
+            <v-col cols="12" md="3">
               <v-img src="@/assets/faculty-compressed.jpg"></v-img>
             </v-col>
           </v-row>

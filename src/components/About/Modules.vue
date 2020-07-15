@@ -7,7 +7,7 @@
             <v-col cols="12" md="3">
               <v-img src="@/assets/modules-compressed.jpg"></v-img>
             </v-col>
-            <v-col cols="12" md="8">
+            <v-col cols="12" md="9">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">
                 MODULES
               </div>
