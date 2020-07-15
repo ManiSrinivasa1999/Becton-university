@@ -23,7 +23,7 @@
               >
                 {{ item.text }}
               </div>
-              <v-btn x-large color="success" dark width="50%">
+              <v-btn x-large color="success" to="/apply" dark width="50%">
                 Apply Now
               </v-btn>
             </div>

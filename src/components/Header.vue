@@ -49,7 +49,9 @@
         <div
           class="text-h4 font-weight-bold ml-4 mr-4"
         >
-          BECTON UNIVERSITY
+          <div class="college-name">
+            <v-img src="../assets/BectonCollege.png" height="150" width="200" contain></v-img>
+          </div>
         </div>
         <div v-if="$vuetify.breakpoint.lgAndUp">
           <v-btn
@@ -192,6 +194,12 @@ export default {
 
 .main-logo {
   clip-path: polygon(0% 0%, 100% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.college-name {
+  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 50% 100%, 0 50%);
+  position: relative;
+  top: -2px
 }
 
 </style>

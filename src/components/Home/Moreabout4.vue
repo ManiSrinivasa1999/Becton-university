@@ -33,9 +33,9 @@
                   online educational institutions around the world.
                 </p>
 
-                <a href="/about" class="subtitle pa-2 blue--text pl-4">
-                  Read More
-                </a>
+                <v-btn x-large to="/about" color="success" class="ml-4">
+                  More about Becton
+                </v-btn>
               </v-col>
             </template>
           </v-row>
@@ -64,9 +64,9 @@
                   online educational institutions around the world.
                 </p>
 
-                <a href="/about" class="subtitle pa-2 blue--text pl-4">
-                  Read More
-                </a>
+                <v-btn x-large to="/about" color="success" class="ml-4">
+                  More about Becton
+                </v-btn>
               </v-col>
               <v-col cols="12" md="6">
                 <v-img src="@/assets/homebanner3-compressed.jpg" height="100%"></v-img>
