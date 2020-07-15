@@ -21,7 +21,7 @@ export default {
 <style lang="scss">
 
 .screen1 {
-  background-image: url('../assets/homebanner-2-compressed.jpg');
+  background-image: url('../assets/contact-banner.jpg');
 }
 
 </style>

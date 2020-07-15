@@ -68,7 +68,7 @@ export default {
             'Midlands college of Management 58 Underwood Road London E1 5AW United Kingdom',
           date: '20th May 2019',
           // eslint-disable-next-line global-require
-          src: require('../../assets/event4.jpg'),
+          src: require('../../assets/latestevent.jpg'),
         },
       ],
     };

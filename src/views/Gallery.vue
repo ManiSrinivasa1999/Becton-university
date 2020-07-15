@@ -38,7 +38,7 @@ export default {
         text:
           'Have a look at the most captivating moments from our Graduation Ceremony, where we handed out diplomas to our successful graduates.',
         // eslint-disable-next-line global-require
-        img: require('@/assets/gallery_pic1.jpg'),
+        img: require('@/assets/event3.jpg'),
       },
       {
         title: 'Hawaii: Oahu',
@@ -52,7 +52,7 @@ export default {
         text:
           'What a great atmosphere we have had at the 2020 Graduation Ceremony! We are glad that graduates, their families and loved ones celebrated it in the best way possible.',
         // eslint-disable-next-line global-require
-        img: require('@/assets/gallery_pic3-compressed.jpg'),
+        img: require('@/assets/event.jpg'),
       },
       {
         title: 'BU Awards 2020',

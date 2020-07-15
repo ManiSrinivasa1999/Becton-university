@@ -15,7 +15,7 @@
             justify="center"
           >
             <v-col cols="12" md="6">
-              <v-img src="../../assets/general1.jpg"></v-img>
+              <v-img src="../../assets/whychoose.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold pa-4">
@@ -63,7 +63,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="../../assets/general1.jpg"></v-img>
+              <v-img src="../../assets/whychoose.jpg"></v-img>
             </v-col>
           </v-row>
         </v-col>
