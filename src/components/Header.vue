@@ -33,17 +33,40 @@
           </a>
         </div>
       </v-system-bar>
-
-      <v-app-bar app>
-        <v-toolbar-title
-          v-if="$vuetify.breakpoint.mdAndDown"
-          class="text-h6 font-weight-bold ml-2 green--text"
+      <v-app-bar app v-if="$vuetify.breakpoint.lgAndUp" class="d-flex justify-center align-center">
+         <div v-if="$vuetify.breakpoint.lgAndUp">
+          <v-btn
+            text
+            v-for="button in buttons.slice(0, 4)"
+            :key="button.label"
+            :to="button.url"
+            class="pa-2 btn text-body-2 font-weight-bold "
+            active-class="green--text"
+          >
+            {{ button.label }}
+          </v-btn>
+        </div>
+        <div
+          class="text-h4 font-weight-bold ml-4 mr-4"
         >
           BECTON UNIVERSITY
-        </v-toolbar-title>
+        </div>
+        <div v-if="$vuetify.breakpoint.lgAndUp">
+          <v-btn
+            text
+            v-for="button in buttons.slice(4, 8)"
+            :key="button.label"
+            :to="button.url"
+            class="pa-2 btn text-body-2 font-weight-bold "
+            active-class="green--text"
+          >
+            {{ button.label }}
+          </v-btn>
+        </div>
+      </v-app-bar>
+      <v-app-bar app v-else-if="$vuetify.breakpoint.mdAndDown">
         <v-toolbar-title
-          v-if="$vuetify.breakpoint.lgAndUp"
-          class="text-h4 font-weight-bold ml-2"
+          class="text-h6 font-weight-bold ml-2"
         >
           BECTON UNIVERSITY
         </v-toolbar-title>
@@ -52,18 +75,6 @@
 
         <div v-if="$vuetify.breakpoint.mdAndDown">
           <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-        </div>
-        <div v-else-if="$vuetify.breakpoint.lgAndUp">
-          <v-btn
-            text
-            v-for="button in buttons"
-            :key="button.label"
-            :to="button.url"
-            class="pa-2 btn text-body-2 font-weight-bold "
-            active-class="green--text"
-          >
-            {{ button.label }}
-          </v-btn>
         </div>
       </v-app-bar>
       <v-navigation-drawer
@@ -177,6 +188,10 @@ export default {
 
 .btn:hover {
   background: white !important;
+}
+
+.main-logo {
+  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 50% 100%, 0 50%);
 }
 
 </style>

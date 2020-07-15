@@ -3,6 +3,7 @@
     <HomeBanner1 />
     <Acheivements2 />
     <General3 />
+    <AdmissionHome />
     <Moreabout4 />
     <UniversityTeam5 />
     <LatestEvents6 />
@@ -17,6 +18,7 @@
 import HomeBanner1 from '@/components/Home/HomeBanner1.vue';
 import Acheivements2 from '@/components/Home/Acheivements2.vue';
 import General3 from '@/components/Home/General3.vue';
+import AdmissionHome from '@/components/Home/AdmissionHome.vue';
 import Moreabout4 from '@/components/Home/Moreabout4.vue';
 import UniversityTeam5 from '@/components/Home/UniversityTeam5.vue';
 import LatestEvents6 from '@/components/Home/LatestEvents6.vue';
@@ -31,6 +33,7 @@ export default {
     HomeBanner1,
     Acheivements2,
     General3,
+    AdmissionHome,
     Moreabout4,
     UniversityTeam5,
     LatestEvents6,

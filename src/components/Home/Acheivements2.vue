@@ -2,7 +2,7 @@
   <div class="acheivements">
     <v-container>
       <v-row justify="center" align="center">
-        <v-col cols="12">
+        <v-col cols="12" md="10">
           <p class="text-h4 font-weight-bold text-center">
             OUR ACHIEVEMENTS
           </p>
