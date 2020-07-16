@@ -29,7 +29,21 @@
             </v-card-text>
           </div>
         </v-col>
-        <v-col v-if="$vuetify.breakpoint.smAndDown" class="d-flex flex-column" cols="6">
+        <v-col v-if="$vuetify.breakpoint.smOnly" class="d-flex" cols="12">
+          <div
+            v-for="(achievement, i) in achievements"
+            :key="i"
+            class="text-center"
+          >
+            <v-icon class="icon-sm" :color="color">
+              {{ achievement.icon }}
+            </v-icon>
+            <v-card-text class="text-h6">
+              {{ achievement.text }}
+            </v-card-text>
+          </div>
+        </v-col>
+         <v-col v-if="$vuetify.breakpoint.xsOnly" class="d-flex flex-column" cols="12">
           <div
             v-for="(achievement, i) in achievements"
             :key="i"

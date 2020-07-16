@@ -42,28 +42,28 @@ export default {
       items: [
         {
           title: 'Diploma',
-          subtitle: 'and all Diploma programs',
+          subtitle: 'and all Diploma Programs',
           price: '$2000*',
           text:
           '$2000.00* for the full diploma programme regardless of duration (programme fees $1500.00 plus $500.00 supervisor’s professional fees)',
         },
         {
           title: 'Undergraduate',
-          subtitle: 'and all Undergraduate programs',
+          subtitle: 'and all Undergraduate Programs',
           price: '$5000*',
           text:
           '$5000.00* for the full degree programme regardless of duration (programme fees $4000.00 plus $1000.00 supervisor’s professional fees)',
         },
         {
           title: 'Post Graduate',
-          subtitle: 'and all Post Graduate programs',
+          subtitle: 'and all Post Graduate Programs',
           price: '$4000*',
           text:
           '$4000.00* for the full degree programme regardless of duration (programme fees $3000.00 plus $1000.00 supervisor’s professional fees)',
         },
         {
           title: 'Doctorate',
-          subtitle: 'and all Doctorate programs',
+          subtitle: 'and all Doctorate Programs',
           price: '$6000*',
           text:
           '$6000.00* for the full doctorate programme regardless of duration (programme fees $5000.00 plus $1000.00 supervisor’s professional fees)',

@@ -75,21 +75,8 @@
                 International LLC (California).
               </p>
             </v-col>
-            <v-col cols="12" xl="2" md="3">
-              <div class="mb-12">
-                <v-img eager src="@/assets/logo4.png"></v-img>
-              </div>
-              <div>
-                <v-img eager src="@/assets/logo3.png"></v-img>
-              </div>
-            </v-col>
-            <v-col cols="12" xl="2" md="3">
-              <div class="mb-8">
-                <v-img eager src="@/assets/logo5.jpeg"></v-img>
-              </div>
-              <div>
-                <v-img eager src="@/assets/logo7.png"></v-img>
-              </div>
+            <v-col cols="12" md="3">
+              <v-img eager src="@/assets/faculty-compressed.jpg" contain></v-img>
             </v-col>
           </v-row>
         </v-col>

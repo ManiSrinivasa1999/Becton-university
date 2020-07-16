@@ -27,7 +27,7 @@
               </div>
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
-              <v-img eager src="@/assets/payment-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/payment-compressed.jpg" height="350px"></v-img>
             </v-col>
           </v-row>
           <v-row v-if="$vuetify.breakpoint.smAndDown">
