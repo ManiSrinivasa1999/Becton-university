@@ -2,32 +2,38 @@
   <div class="latest-events">
     <v-container>
       <div class="align-center justify-center d-flex flex-column pa-0 ma-0">
-      <span class="text-h4 pa-4 ma-4 font-weight-bold">
-        LATEST EVENTS
-      </span>
-    </div>
-    <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-      <template v-for="(Event, i) in Events">
-        <v-col :key="i" cols="12" md="2">
-          <v-card class="mb-4">
-            <v-img :src="Event.src" height="200px"></v-img>
-          </v-card>
-          <div class="mt-4 event-details">
-            <div class="font-weight-light sub-title mb-2">
-              {{ Event.date }}
+        <span class="text-h4 pa-4 ma-4 font-weight-bold text-center">
+          LATEST EVENTS
+        </span>
+      </div>
+      <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
+        <template v-for="(Event, i) in Events">
+          <v-col :key="i" cols="12" md="3" lg="2" sm="8">
+            <v-card class="mb-4" v-if="$vuetify.breakpoint.lgAndUp">
+              <v-img :src="Event.src" height="20vh"></v-img>
+            </v-card>
+            <v-card class="mb-4" v-if="$vuetify.breakpoint.mdOnly">
+              <v-img :src="Event.src" height="15vh"></v-img>
+            </v-card>
+            <v-card class="mb-4" v-if="$vuetify.breakpoint.smAndDown">
+              <v-img :src="Event.src" height="30vh"></v-img>
+            </v-card>
+            <div class="mt-4 event-details">
+              <div class="font-weight-light sub-title mb-2">
+                {{ Event.date }}
+              </div>
+              <v-divider></v-divider>
+              <div class="font-weight-bold title mb-2 hover">
+                {{ Event.name }}
+              </div>
+              <v-divider></v-divider>
+              <div class="font-weight-light sub-title mt-2">
+                {{ Event.type }}
+              </div>
             </div>
-            <v-divider></v-divider>
-            <div class="font-weight-bold title mb-2 hover">
-              {{ Event.name }}
-            </div>
-            <v-divider></v-divider>
-            <div class="font-weight-light sub-title mt-2">
-              {{ Event.type }}
-            </div>
-          </div>
-        </v-col>
-      </template>
-    </v-row>
+          </v-col>
+        </template>
+      </v-row>
     </v-container>
   </div>
 </template>

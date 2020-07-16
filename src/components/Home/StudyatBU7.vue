@@ -16,7 +16,7 @@
             educational institutions around the world.
           </p>
         </v-col>
-        <v-col cols="12" md="3" class="text-center">
+        <v-col cols="12" md="4" lg="3" class="text-center">
           <v-btn
             color="success"
             dark
@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 
 .bg-img {
-  background-image: url('../../assets/book2-compressed.jpg');
+  background-image: url('../../assets/book2.jpg');
   background-size: cover;
   background-position: center;
   filter: brightness(0.9);

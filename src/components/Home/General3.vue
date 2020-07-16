@@ -2,7 +2,7 @@
   <div class="general">
     <v-container>
       <v-row class="fill-height" justify="center" align="center">
-        <v-col cols="12" md="10">
+        <v-col cols="12" lg="10" sm="8" md="12">
           <v-row class="fill-height" justify="center" align="center">
             <v-col cols="12" md="4">
               <a href="/about" class="links">
@@ -44,7 +44,7 @@
                 </v-img>
               </a>
               <a href="/gallery" class="links">
-                <v-img src="@/assets/general4-compressed.jpg" height="250">
+                <v-img src="@/assets/general4.jpg" height="250">
                   <v-row
                     align="end"
                     class="lightbox white--text pa-2 fill-height"

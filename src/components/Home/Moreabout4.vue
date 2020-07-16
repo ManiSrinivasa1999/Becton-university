@@ -2,12 +2,10 @@
   <div class="more-about">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="12" md="10">
+        <v-col cols="12" md="12" sm="10" lg="10">
           <v-row
-            v-if="$vuetify.breakpoint.mdAndDown"
-            class="fill-height d-flex flex-sm-column-reverse"
-            align="center"
-            justify="center"
+            v-if="$vuetify.breakpoint.smAndDown"
+            class="fill-height d-flex"
           >
             <template>
               <v-col cols="12" md="6">
@@ -40,7 +38,7 @@
             </template>
           </v-row>
           <v-row
-            v-if="$vuetify.breakpoint.lgAndUp"
+            v-if="$vuetify.breakpoint.mdAndUp"
             class="fill-height"
           >
             <template>

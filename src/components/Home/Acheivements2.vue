@@ -19,9 +19,9 @@
           <div
             v-for="(achievement, i) in achievements"
             :key="i"
-            class="pa-4 ml-2 text-center"
+            class="text-center"
           >
-            <v-icon class="icon mt-4" :color="color">
+            <v-icon class="icon-md mt-4" :color="color">
               {{ achievement.icon }}
             </v-icon>
             <v-card-text class="text-h6 mt-4">
@@ -29,16 +29,16 @@
             </v-card-text>
           </div>
         </v-col>
-        <v-col v-if="$vuetify.breakpoint.smAndDown" class="d-flex flex-column">
+        <v-col v-if="$vuetify.breakpoint.smAndDown" class="d-flex flex-column" cols="6">
           <div
             v-for="(achievement, i) in achievements"
             :key="i"
-            class="pa-4 ml-2 text-center d-flex"
+            class="text-center"
           >
-            <v-icon class="icon mt-4" :color="color">
+            <v-icon class="icon-sm" :color="color">
               {{ achievement.icon }}
             </v-icon>
-            <v-card-text class="text-h6 mt-4">
+            <v-card-text class="text-h6">
               {{ achievement.text }}
             </v-card-text>
           </div>
@@ -78,8 +78,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.icon {
+.icon-md {
   height: 50px;
   width: 50px;
+}
+
+.icon-sm {
+  height: 70px;
+  width: 70px;
 }
 </style>

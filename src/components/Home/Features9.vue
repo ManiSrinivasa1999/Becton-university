@@ -7,10 +7,13 @@
         </span>
       </div>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="12" md="10">
+        <v-col cols="12" md="12" sm="10" lg="10">
           <v-row>
-            <v-col cols="12" md="6">
-              <v-img src="../../assets/feature-compressed.jpg" height="350px"></v-img>
+            <v-col v-if="$vuetify.breakpoint.xlOnly" cols="12" md="6">
+              <v-img src="../../assets/feature-compressed.jpg" height="290px"></v-img>
+            </v-col>
+            <v-col v-else cols="12" md="6">
+              <v-img src="../../assets/feature-compressed.jpg" height="100%"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <v-expansion-panels focusable>

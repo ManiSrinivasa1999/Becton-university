@@ -67,7 +67,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../../assets/homebanner-1-compressed.jpg');
+  background-image: url('../../assets/homebanner-1.jpg');
   background-size: cover;
   background-position: center;
   color: white;

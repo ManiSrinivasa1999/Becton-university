@@ -8,35 +8,46 @@
       </div>
       <v-row class="fill-height" align="center" justify="center">
         <template v-for="(faculty, i) in faculties.slice(0, 4)">
-          <v-col :key="i" cols="10" md="2">
+          <v-col :key="i" cols="12" md="3" lg="2">
             <v-hover v-slot:default="{ hover }">
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column justify-center align-center">
                 <v-card
-                  v-if="$vuetify.breakpoint.xlOnly"
+                  v-if="$vuetify.breakpoint.lgAndUp"
                   :elevation="hover ? 12 : 2"
                   :class="{ 'on-hover': hover }"
                   class="hover-card rounded-card-lg"
-                  height="300px"
-                  width="300px"
+                  height="20vh"
+                  width="20vh"
                 >
                   <v-img :src="faculty.src" class="img"></v-img>
                 </v-card>
                 <v-card
-                  v-else-if="$vuetify.breakpoint.mdAndUp"
+                  v-else-if="$vuetify.breakpoint.mdOnly"
                   :elevation="hover ? 12 : 2"
                   :class="{ 'on-hover': hover }"
                   class="hover-card rounded-card-md"
-                  height="180px"
-                  width="300px"
+                  height="15vh"
+                  width="15vh"
                 >
                   <v-img :src="faculty.src" class="img"></v-img>
                 </v-card>
                 <v-card
-                  v-else-if="$vuetify.breakpoint.smAndDown"
+                  v-else-if="$vuetify.breakpoint.smOnly"
                   :elevation="hover ? 12 : 2"
                   :class="{ 'on-hover': hover }"
-                  class="hover-card rounded-card-sm"
-                  height="300px"
+                  class="hover-card rounded-card-sm mx-auto"
+                  height="40vh"
+                  width="50%"
+                >
+                  <v-img :src="faculty.src" class="img"></v-img>
+                </v-card>
+                <v-card
+                  v-else-if="$vuetify.breakpoint.xsOnly"
+                  :elevation="hover ? 12 : 2"
+                  :class="{ 'on-hover': hover }"
+                  class="hover-card rounded-card-sm mx-auto"
+                  height="50vh"
+                  width="100%"
                 >
                   <v-img :src="faculty.src" class="img"></v-img>
                 </v-card>
@@ -107,7 +118,7 @@ export default {
 }
 
 .rounded-card-md {
-  border-radius: 100px;
+  border-radius: 140px;
 }
 
 .rounded-card-sm {

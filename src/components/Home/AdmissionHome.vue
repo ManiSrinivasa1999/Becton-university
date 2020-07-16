@@ -2,7 +2,7 @@
   <div class="admission">
     <v-container>
       <v-row justify="center" align="center">
-        <v-col cols="12">
+        <v-col cols="12" lg="10" md="12" sm="8">
           <p class="text-h4 font-weight-bold text-center">
             ADMISSIONS
           </p>
@@ -13,12 +13,12 @@
         </v-col>
       </v-row>
       <v-row justify="center" align="center">
-        <v-col cols="12" md="10">
-          <v-img src="@/assets/admissions.jpg" class="image"></v-img>
+        <v-col cols="12" lg="10" md="12" sm="10">
+            <v-img src="@/assets/admissions.jpg" class="image"></v-img>
         </v-col>
       </v-row>
       <v-row justify="center" align="center">
-        <v-col cols="12" md="5">
+        <v-col cols="12" md="6" sm="10" lg="5">
           <p class="text-h5 font-weight-bold text-center">
             Explore the possibilities of a Becton education as you map out your college journey.
           </p>
@@ -27,7 +27,7 @@
             their classes, activities, projects, research and lives.
           </p>
         </v-col>
-        <v-col cols="12" md="5">
+        <v-col cols="12" md="6" sm="10" lg="5">
           <p class="text-h5 font-weight-bold text-center">
             Becton meets the full financial need of every admitted undergrad who qualifies
             for assistance.
@@ -39,7 +39,7 @@
         </v-col>
       </v-row>
       <v-row justify="center" align="center">
-        <v-col cols="10" md="4">
+        <v-col cols="10" md="6" lg="4" sm="8">
           <v-btn x-large to="/admissions" color="success" width="100%">
             More about admission
           </v-btn>
@@ -58,7 +58,6 @@ export default {
 <style lang="scss" scoped>
 
 .image {
-  height: 50vh;
+  height: 60vh;
 }
-
 </style>
