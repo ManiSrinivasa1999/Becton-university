@@ -5,7 +5,7 @@
         <v-col cols="10" md="10">
           <v-row class="pa-0 ma-0">
             <v-col cols="12" md="12" lg="6" xl="6">
-              <v-img src="@/assets/refund-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/refund-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
               <div class="upper-case font-weight-bold text-h5">

@@ -10,7 +10,7 @@
             justify="center"
           >
             <v-col cols="12" md="6">
-              <v-img src="@/assets/computer.jpg" height="300px"></v-img>
+              <v-img eager src="@/assets/computer.jpg" height="300px"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold mt-4">
@@ -26,7 +26,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/assignments-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/assignments-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold mb-4 pd-4">
@@ -69,7 +69,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/computer.jpg" height="330px"></v-img>
+              <v-img eager src="@/assets/computer.jpg" height="330px"></v-img>
             </v-col>
           </v-row>
           <v-row
@@ -100,7 +100,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/computer.jpg" height="100%"></v-img>
+              <v-img eager src="@/assets/computer.jpg" height="100%"></v-img>
             </v-col>
           </v-row>
         </v-col>

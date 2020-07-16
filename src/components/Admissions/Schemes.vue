@@ -31,12 +31,12 @@
               </div>
             </v-col>
             <v-col cols="12" md="12" lg="6">
-              <v-img src="@/assets/scheme-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/scheme-compressed.jpg"></v-img>
             </v-col>
           </v-row>
           <v-row v-if="$vuetify.breakpoint.smAndDown">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/scheme-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/scheme-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-h5 upper-case font-weight-bold">

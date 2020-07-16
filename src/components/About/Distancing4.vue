@@ -5,7 +5,7 @@
         <v-col cols="12" lg="10" xl="10" sm="10" md="12">
           <v-row class="fill-height pa-0 mt-16" align="center" justify="center">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/distance.jpg" height="280px"></v-img>
+              <v-img eager src="@/assets/distance.jpg" height="280px"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">
@@ -29,7 +29,7 @@
             justify="center"
           >
             <v-col cols="12">
-              <v-img src="@/assets/bu-compressed.jpg" width="100%"></v-img>
+              <v-img eager src="@/assets/bu-compressed.jpg" width="100%"></v-img>
             </v-col>
             <v-col cols="12">
               <div class="font-weight-bold ml-4" :class="heading">
@@ -73,7 +73,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/bu-compressed.jpg" height="330px"></v-img>
+              <v-img eager src="@/assets/bu-compressed.jpg" height="330px"></v-img>
             </v-col>
           </v-row>
         </v-col>

@@ -30,7 +30,7 @@
               </v-window-item>
               <v-window-item :value="7">
                 <div class="pa-4 text-center">
-                  <v-img
+                  <v-img eager
                     class="mb-4"
                     contain
                     height="128"

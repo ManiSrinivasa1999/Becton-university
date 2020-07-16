@@ -19,7 +19,7 @@
                   height="20vh"
                   width="20vh"
                 >
-                  <v-img :src="faculty.src" class="img"></v-img>
+                  <v-img eager :src="faculty.src" class="img"></v-img>
                 </v-card>
                 <v-card
                   v-else-if="$vuetify.breakpoint.mdOnly"
@@ -29,7 +29,7 @@
                   height="15vh"
                   width="15vh"
                 >
-                  <v-img :src="faculty.src" class="img"></v-img>
+                  <v-img eager :src="faculty.src" class="img"></v-img>
                 </v-card>
                 <v-card
                   v-else-if="$vuetify.breakpoint.smOnly"
@@ -39,7 +39,7 @@
                   height="40vh"
                   width="50%"
                 >
-                  <v-img :src="faculty.src" class="img"></v-img>
+                  <v-img eager :src="faculty.src" class="img"></v-img>
                 </v-card>
                 <v-card
                   v-else-if="$vuetify.breakpoint.xsOnly"
@@ -49,7 +49,7 @@
                   height="50vh"
                   width="100%"
                 >
-                  <v-img :src="faculty.src" class="img"></v-img>
+                  <v-img eager :src="faculty.src" class="img"></v-img>
                 </v-card>
                 <div class="faculty-details ma-2 text-center">
                   <div class="font-weight-bold  title mb-2">

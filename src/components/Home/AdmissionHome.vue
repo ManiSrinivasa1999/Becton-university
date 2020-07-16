@@ -14,7 +14,7 @@
       </v-row>
       <v-row justify="center" align="center">
         <v-col cols="12" lg="10" md="12" sm="10">
-            <v-img src="@/assets/admissions.jpg" class="image"></v-img>
+            <v-img eager src="@/assets/admissions.jpg" class="image"></v-img>
         </v-col>
       </v-row>
       <v-row justify="center" align="center">

@@ -10,13 +10,13 @@
         <template v-for="(Event, i) in Events">
           <v-col :key="i" cols="12" md="3" lg="2" sm="8">
             <v-card class="mb-4" v-if="$vuetify.breakpoint.lgAndUp">
-              <v-img :src="Event.src" height="20vh"></v-img>
+              <v-img eager :src="Event.src" height="20vh"></v-img>
             </v-card>
             <v-card class="mb-4" v-if="$vuetify.breakpoint.mdOnly">
-              <v-img :src="Event.src" height="15vh"></v-img>
+              <v-img eager :src="Event.src" height="15vh"></v-img>
             </v-card>
             <v-card class="mb-4" v-if="$vuetify.breakpoint.smAndDown">
-              <v-img :src="Event.src" height="30vh"></v-img>
+              <v-img eager :src="Event.src" height="30vh"></v-img>
             </v-card>
             <div class="mt-4 event-details">
               <div class="font-weight-light sub-title mb-2">

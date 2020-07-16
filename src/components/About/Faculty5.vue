@@ -5,7 +5,7 @@
         <v-col cols="12" lg="10" xl="10" md="12" sm="10">
           <v-row class="fill-height pa-0 ma-0">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/faculty2.jpg" height="350px"></v-img>
+              <v-img eager src="@/assets/faculty2.jpg" height="350px"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">
@@ -30,7 +30,7 @@
             justify="center"
           >
             <v-col cols="12" md="6">
-              <v-img src="@/assets/faculty-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/faculty-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4" :class="heading">
@@ -77,18 +77,18 @@
             </v-col>
             <v-col cols="12" xl="2" md="3">
               <div class="mb-12">
-                <v-img src="@/assets/logo4.png"></v-img>
+                <v-img eager src="@/assets/logo4.png"></v-img>
               </div>
               <div>
-                <v-img src="@/assets/logo3.png"></v-img>
+                <v-img eager src="@/assets/logo3.png"></v-img>
               </div>
             </v-col>
             <v-col cols="12" xl="2" md="3">
               <div class="mb-8">
-                <v-img src="@/assets/logo5.jpeg"></v-img>
+                <v-img eager src="@/assets/logo5.jpeg"></v-img>
               </div>
               <div>
-                <v-img src="@/assets/logo7.png"></v-img>
+                <v-img eager src="@/assets/logo7.png"></v-img>
               </div>
             </v-col>
           </v-row>

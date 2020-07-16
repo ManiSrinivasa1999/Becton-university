@@ -5,7 +5,7 @@
         <v-col cols="12" lg="10" xl="10" md="12" sm="10">
           <v-row class="fill-height pa-0 ma-0">
             <v-col cols="12" xl="2" lg="4" md="6">
-              <v-img src="@/assets/modules-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/modules-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" xl="9" lg="8" md="6">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">

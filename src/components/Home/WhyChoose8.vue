@@ -13,7 +13,7 @@
             class="fill-height d-flex"
           >
             <v-col cols="12" md="6">
-              <v-img src="../../assets/whychoose.jpg"></v-img>
+              <v-img eager src="../../assets/whychoose.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold pa-4">
@@ -59,7 +59,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="../../assets/whychoose.jpg" height="350px"></v-img>
+              <v-img eager src="../../assets/whychoose.jpg" height="350px"></v-img>
             </v-col>
           </v-row>
         </v-col>

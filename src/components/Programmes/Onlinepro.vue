@@ -7,7 +7,7 @@
             class="fill-height flex-md-column flex-lg-row"
           >
             <v-col cols="12" md="12" lg="6" xl="6">
-              <v-img src="@/assets/onlinepro-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/onlinepro-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
               <div class="text-h5 font-weight-bold ml-4 mt-4">
@@ -42,7 +42,7 @@
             justify="center"
           >
             <v-col cols="12" md="12" lg="6" xl="6">
-              <v-img src="@/assets/enrich-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/enrich-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
               <div class="text-h5 font-weight-bold ml-4 mb-4">
@@ -78,7 +78,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
-              <v-img src="@/assets/enrich-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/enrich-compressed.jpg"></v-img>
             </v-col>
           </v-row>
         </v-col>

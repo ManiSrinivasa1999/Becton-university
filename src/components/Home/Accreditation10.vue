@@ -10,7 +10,7 @@
           </div>
           <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
             <v-col cols="6" md="2" v-for="(item, i) in accreditionData" :key="i">
-              <v-img class="mx-auto" :src="item" width="240" height="120" contain>
+              <v-img eager class="mx-auto" :src="item" width="240" height="120" contain>
               </v-img>
             </v-col>
           </v-row>

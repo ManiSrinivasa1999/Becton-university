@@ -6,7 +6,7 @@
           <v-row class="fill-height" justify="center" align="center">
             <v-col cols="12" md="4">
               <a href="/about" class="links">
-                <v-img src="@/assets/general1.jpg" height="250" class="mb-4">
+                <v-img eager src="@/assets/general1.jpg" height="250" class="mb-4">
                   <v-row
                     align="end"
                     class="lightbox white--text pa-2 fill-height"
@@ -18,7 +18,7 @@
                 </v-img>
               </a>
               <a href="/admissions" class="links">
-                <v-img src="@/assets/general2-compressed.jpg" height="250">
+                <v-img eager src="@/assets/general2-compressed.jpg" height="250">
                   <v-row
                     align="end"
                     class="lightbox white--text pa-2 fill-height"
@@ -32,7 +32,7 @@
             </v-col>
             <v-col cols="12" md="4">
               <a href="/programmes" class="links">
-                <v-img src="@/assets/general3.jpg" height="250" class="mb-4">
+                <v-img eager src="@/assets/general3.jpg" height="250" class="mb-4">
                   <v-row
                     align="end"
                     class="lightbox white--text pa-2 fill-height"
@@ -44,7 +44,7 @@
                 </v-img>
               </a>
               <a href="/gallery" class="links">
-                <v-img src="@/assets/general4.jpg" height="250">
+                <v-img eager src="@/assets/general4.jpg" height="250">
                   <v-row
                     align="end"
                     class="lightbox white--text pa-2 fill-height"
@@ -58,7 +58,7 @@
             </v-col>
             <v-col cols="12" md="4">
               <a href="/programmes" class="links">
-                <v-img src="@/assets/general5-compressed.jpg" height="500">
+                <v-img eager src="@/assets/general5-compressed.jpg" height="500">
                   <v-row
                     align="end"
                     class="lightbox white--text pa-2 fill-height"

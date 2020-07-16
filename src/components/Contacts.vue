@@ -5,7 +5,7 @@
         <v-col cols="12" md="10" class="mt-16 mb-16 pt-16 pb-16">
           <v-row class="pa-0 ma-0">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/usaflag-compressed.jpg" height="350"></v-img>
+              <v-img eager src="@/assets/usaflag-compressed.jpg" height="350"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <v-card height="350">
@@ -56,12 +56,12 @@
               </v-card>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/ukflag-compressed.jpg" height="350"></v-img>
+              <v-img eager src="@/assets/ukflag-compressed.jpg" height="350"></v-img>
             </v-col>
           </v-row>
           <v-row v-if="$vuetify.breakpoint.mdAndDown" class="pa-0 ma-0">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/ukflag-compressed.jpg" height="350"></v-img>
+              <v-img eager src="@/assets/ukflag-compressed.jpg" height="350"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <v-card height="350">

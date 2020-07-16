@@ -5,7 +5,7 @@
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
         <v-col cols="12" md="4" lg="3" sm="6" v-for="(item, i) in items" :key="i">
           <div class="hg-wd mx-auto">
-            <v-img class="mx-auto" :src="item.img" height="250">
+            <v-img eager class="mx-auto" :src="item.img" height="250">
             </v-img>
             <div class="text-center">
               <div class="font-weight-bold title mb-2 green--text">

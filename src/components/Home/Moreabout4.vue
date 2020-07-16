@@ -9,7 +9,7 @@
           >
             <template>
               <v-col cols="12" md="6">
-                <v-img src="@/assets/homebanner3-compressed.jpg" height="100%"></v-img>
+                <v-img eager src="@/assets/homebanner3-compressed.jpg" height="100%"></v-img>
               </v-col>
               <v-col cols="12" md="6">
                 <div class="text-h5 font-weight-bold pa-4">
@@ -67,7 +67,7 @@
                 </v-btn>
               </v-col>
               <v-col cols="12" md="6">
-                <v-img src="@/assets/homebanner3-compressed.jpg" height="100%"></v-img>
+                <v-img eager src="@/assets/homebanner3-compressed.jpg" height="100%"></v-img>
               </v-col>
             </template>
           </v-row>
