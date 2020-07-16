@@ -8,11 +8,11 @@
               <v-img eager src="@/assets/modules-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12" xl="9" lg="8" md="6">
-              <div class="font-weight-bold ml-4 mt-4" :class="heading">
+              <div class="font-weight-bold mt-4" :class="heading">
                 MODULES
               </div>
               <br />
-              <p class="ml-4">
+              <p>
                 All of our distance learning courses have been designed to the
                 most exacting standards, in accordance with the most stringent
                 criteria, in order to provide outstanding education at an
@@ -29,7 +29,7 @@
               </p>
             </v-col>
           </v-row>
-           <v-row class="fill-height pa-0 ma-0">
+          <v-row class="fill-height pa-0 ma-0">
             <v-col cols="12" xl="11">
               <p>
                 When your program starts, you’ll receive your modules by post.

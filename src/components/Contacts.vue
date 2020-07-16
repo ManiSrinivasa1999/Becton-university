@@ -14,18 +14,18 @@
                 </v-card-title>
                 <v-divider></v-divider>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Location: </span
+                  <span class="font-weight-bold green--text">Location: </span
                   ><br />
                   Becton University, <br />
                   LLC 16192 Coastal Highway Lewes DE 19958 <br />
                   United States of America
                 </v-card-text>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Email: </span><br />
+                  <span class="font-weight-bold green--text">Email: </span><br />
                   info@bectonuniversity.org
                 </v-card-text>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Phone: </span><br />
+                  <span class="font-weight-bold green--text">Phone: </span><br />
                   +1 302-827-3939
                 </v-card-text>
               </v-card>
@@ -39,18 +39,18 @@
                 </v-card-title>
                 <v-divider></v-divider>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Location: </span
+                  <span class="font-weight-bold green--text">Location: </span
                   ><br />
                   London College of Media, <br />West Midlands House Gipsy
                   Lane,<br />
                   Willenhall West Midlands, WV13 2HA United Kingdom
                 </v-card-text>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Email: </span><br />
+                  <span class="font-weight-bold green--text">Email: </span><br />
                   admin@londoncollegeofmedia.com
                 </v-card-text>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Phone: </span><br />
+                  <span class="font-weight-bold green--text">Phone: </span><br />
                   +44(0)2034752556
                 </v-card-text>
               </v-card>
@@ -70,18 +70,18 @@
                 </v-card-title>
                 <v-divider></v-divider>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Location: </span
+                  <span class="font-weight-bold green--text">Location: </span
                   ><br />
                   London College of Media, <br />West Midlands House Gipsy
                   Lane,<br />
                   Willenhall West Midlands, WV13 2HA United Kingdom
                 </v-card-text>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Email: </span><br />
+                  <span class="font-weight-bold green--text">Email: </span><br />
                   admin@londoncollegeofmedia.com
                 </v-card-text>
                 <v-card-text>
-                  <span class="font-weight-bold blue--text">Phone: </span><br />
+                  <span class="font-weight-bold green--text">Phone: </span><br />
                   +44(0)2034752556
                 </v-card-text>
               </v-card>

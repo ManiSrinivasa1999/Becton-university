@@ -4,7 +4,7 @@
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
         <v-col cols="12" md="8">
           <div class="align-center justify-center d-flex flex-column pa-4">
-            <span class="text-h4 pa-4 ma-4 font-weight-bold">
+            <span class="text-h4 pa-4 ma-4 font-weight-bold text-center">
               OUR ACCREDITATION AND PARTNERS
             </span>
           </div>
