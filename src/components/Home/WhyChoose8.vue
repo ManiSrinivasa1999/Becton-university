@@ -58,10 +58,7 @@
                 or boundaries.
               </p>
             </v-col>
-            <v-col cols="12" md="6" v-if="xlOnly">
-              <v-img src="../../assets/whychoose.jpg" height="350px"></v-img>
-            </v-col>
-            <v-col cols="12" md="6" v-else>
+            <v-col cols="12" md="6">
               <v-img src="../../assets/whychoose.jpg" height="350px"></v-img>
             </v-col>
           </v-row>

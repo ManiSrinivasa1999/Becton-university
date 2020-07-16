@@ -2,12 +2,12 @@
   <div class="faculty">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="10">
+        <v-col cols="12" lg="10" xl="10" md="12" sm="10">
           <v-row class="fill-height pa-0 ma-0">
-            <v-col cols="12" md="3">
-              <v-img src="@/assets/faculty2-compressed.jpg"></v-img>
+            <v-col cols="12" md="6">
+              <v-img src="@/assets/faculty2.jpg" height="350px"></v-img>
             </v-col>
-            <v-col cols="12" md="8">
+            <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">
                 FACULTY
               </div>
@@ -24,7 +24,7 @@
             </v-col>
           </v-row>
           <v-row
-            v-if="$vuetify.breakpoint.mdAndDown"
+            v-if="$vuetify.breakpoint.smAndDown"
             class="fill-height pa-0 ma-0"
             align="center"
             justify="center"
@@ -51,10 +51,10 @@
             </v-col>
           </v-row>
           <v-row
-            v-if="$vuetify.breakpoint.lgAndUp"
+            v-if="$vuetify.breakpoint.mdAndUp"
             class="fill-height pa-0 mt-8"
           >
-            <v-col cols="12" md="7">
+            <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4 mb-4" :class="heading">
                 AFFILIATES
               </div>
@@ -75,9 +75,21 @@
                 International LLC (California).
               </p>
             </v-col>
-            <v-col cols="12" md="2"></v-col>
-            <v-col cols="12" md="3">
-              <v-img src="@/assets/faculty-compressed.jpg"></v-img>
+            <v-col cols="12" xl="2" md="3">
+              <div class="mb-12">
+                <v-img src="@/assets/logo4.png"></v-img>
+              </div>
+              <div>
+                <v-img src="@/assets/logo3.png"></v-img>
+              </div>
+            </v-col>
+            <v-col cols="12" xl="2" md="3">
+              <div class="mb-8">
+                <v-img src="@/assets/logo5.jpeg"></v-img>
+              </div>
+              <div>
+                <v-img src="@/assets/logo7.png"></v-img>
+              </div>
             </v-col>
           </v-row>
         </v-col>

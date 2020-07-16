@@ -2,7 +2,7 @@
   <div class="stats">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" justify="center" align="center">
-        <v-col cols="11">
+        <v-col cols="12" lg="12" xl="10">
           <div class="pa-4">
             <p class="text-h6 text-center">
               Becton University’s formula has proven a great success over the
@@ -13,94 +13,38 @@
             </p>
           </div>
         </v-col>
-        <div v-if="$vuetify.breakpoint.lgAndUp">
-          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-            <template v-for="(item, i) in items.slice(0, 3)">
-              <v-col cols="9" md="3" :key="i">
-                <div class="text-center cm-hg ma-4">
-                  <v-icon class="icon" color="success">
-                    {{ item.icon }}
-                  </v-icon>
-                </div>
-                <div class="text-h4 text-center cm-hg">
-                  {{ item.number }}
-                </div>
-                <div class="text-h6 text-center cm-hg mb-4">
-                  {{ item.title }}
-                </div>
-                <v-divider></v-divider>
-                <div class="text-subtitle text-center text-hg">
-                  {{ item.text }}
-                </div>
-              </v-col>
-            </template>
-          </v-row>
-          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-            <template v-for="(item, i) in items.slice(3, 6)">
-              <v-col cols="9" md="3" :key="i">
-                <div class="text-center cm-hg ma-4">
-                  <v-icon class="icon" color="success">
-                    {{ item.icon }}
-                  </v-icon>
-                </div>
-                <div class="text-h4 text-center cm-hg">
-                  {{ item.number }}
-                </div>
-                <div class="text-h6 text-center cm-hg mb-4">
-                  {{ item.title }}
-                </div>
-                <v-divider></v-divider>
-                <div class="text-subtitle text-center text-hg">
-                  {{ item.text }}
-                </div>
-              </v-col>
-            </template>
-          </v-row>
-        </div>
-        <div v-if="$vuetify.breakpoint.mdAndDown">
-          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-            <template v-for="(item, i) in items.slice(0, 3)">
-              <v-col cols="9" md="3" :key="i">
-                <div class="text-center cm-hg ma-4">
-                  <v-icon class="icon" color="success">
-                    {{ item.icon }}
-                  </v-icon>
-                </div>
-                <div class="text-h4 text-center cm-hg">
-                  {{ item.number }}
-                </div>
-                <div class="text-h6 text-center cm-hg mb-4">
-                  {{ item.title }}
-                </div>
-                <v-divider></v-divider>
-                <div class="text-subtitle text-center text-hg">
-                  {{ item.text }}
-                </div>
-              </v-col>
-            </template>
-          </v-row>
-          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-            <template v-for="(item, i) in items.slice(3, 6)">
-              <v-col cols="9" md="3" :key="i">
-                <div class="text-center cm-hg ma-4">
-                  <v-icon class="icon" color="success">
-                    {{ item.icon }}
-                  </v-icon>
-                </div>
-                <div class="text-h4 text-center cm-hg">
-                  {{ item.number }}
-                </div>
-                <div class="text-h6 text-center cm-hg mb-4">
-                  {{ item.title }}
-                </div>
-                <v-divider></v-divider>
-                <div class="text-subtitle text-center text-hg">
-                  {{ item.text }}
-                </div>
-              </v-col>
-            </template>
-          </v-row>
-        </div>
+        <v-row class="fill-height pa-0 ma-0" justify="center" align="center">
+          <v-col cols="12" lg="12" xl="10">
+            <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
+              <template v-for="(item, i) in items">
+                <v-col cols="12" xl="4" lg="4" md="6" sm="8" :key="i">
+                  <div class="text-center cm-hg ma-4">
+                    <v-icon class="icon" color="success">
+                      {{ item.icon }}
+                    </v-icon>
+                  </div>
+                  <div class="text-h4 text-center cm-h">
+                    {{ item.number }}
+                  </div>
+                  <div class="text-h6 text-center mb-4">
+                    {{ item.title }}
+                  </div>
+                  <v-divider></v-divider>
+                  <div v-if="$vuetify.breakpoint.mdAndUp">
+                    <div class="text-subtitle text-center text-hg">
+                      {{ item.text }}
+                    </div>
+                  </div>
+                  <div v-else>
+                    <div class="text-subtitle text-center">
+                      {{ item.text }}
+                    </div>
+                  </div>
+                </v-col>
+              </template>
+            </v-row>
+          </v-col>
+        </v-row>
       </v-row>
     </v-container>
   </div>

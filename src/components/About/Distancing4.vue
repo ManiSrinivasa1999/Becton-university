@@ -2,10 +2,10 @@
   <div class="distancing">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="10">
-          <v-row class="fill-height pa-0 ma-0">
+        <v-col cols="12" lg="10" xl="10" sm="10" md="12">
+          <v-row class="fill-height pa-0 mt-16" align="center" justify="center">
             <v-col cols="12" md="6">
-              <v-img src="@/assets/distance.jpg"></v-img>
+              <v-img src="@/assets/distance.jpg" height="280px"></v-img>
             </v-col>
             <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">
@@ -23,18 +23,19 @@
             </v-col>
           </v-row>
           <v-row
-            v-if="$vuetify.breakpoint.mdAndDown"
+            v-if="$vuetify.breakpoint.smAndDown"
             class="fill-height pa-0 ma-0"
             align="center"
             justify="center"
           >
-            <v-col cols="12" md="6">
-              <v-img src="@/assets/bu-compressed.jpg"></v-img>
+            <v-col cols="12">
+              <v-img src="@/assets/bu-compressed.jpg" width="100%"></v-img>
             </v-col>
-            <v-col cols="12" md="7">
+            <v-col cols="12">
               <div class="font-weight-bold ml-4" :class="heading">
                 BECTON UNIVERSITY
               </div>
+              <br />
               <p class="ml-4 text-subtitle">
                 Becton University, the international distance learning centre,
                 which was subsequently incorporated as an independent Online and
@@ -50,13 +51,14 @@
             </v-col>
           </v-row>
           <v-row
-            v-if="$vuetify.breakpoint.lgAndUp"
-            class="fill-height pa-0 ma-0"
+            v-if="$vuetify.breakpoint.mdAndUp"
+            class="fill-height pa-0 mt-16"
           >
             <v-col cols="12" md="6">
               <div class="font-weight-bold ml-4 mb-4" :class="heading">
                 BECTON UNIVERSITY
               </div>
+              <br />
               <p class="ml-4 text-subtitle">
                 Becton University, the international distance learning centre,
                 which was subsequently incorporated as an independent Online and
@@ -71,7 +73,7 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img src="@/assets/bu-compressed.jpg"></v-img>
+              <v-img src="@/assets/bu-compressed.jpg" height="330px"></v-img>
             </v-col>
           </v-row>
         </v-col>

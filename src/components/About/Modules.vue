@@ -2,12 +2,12 @@
   <div class="modules">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="10">
+        <v-col cols="12" lg="10" xl="10" md="12" sm="10">
           <v-row class="fill-height pa-0 ma-0">
-            <v-col cols="12" md="3">
+            <v-col cols="12" xl="2" lg="4" md="6">
               <v-img src="@/assets/modules-compressed.jpg"></v-img>
             </v-col>
-            <v-col cols="12" md="9">
+            <v-col cols="12" xl="9" lg="8" md="6">
               <div class="font-weight-bold ml-4 mt-4" :class="heading">
                 MODULES
               </div>
@@ -26,6 +26,12 @@
                 You will be taught through printed modules – study materials,
                 specially written textbooks or workbooks, audio CDs and video
                 DVDs.<br /><br />
+              </p>
+            </v-col>
+          </v-row>
+           <v-row class="fill-height pa-0 ma-0">
+            <v-col cols="12" xl="11">
+              <p>
                 When your program starts, you’ll receive your modules by post.
                 /courier .Effective 1st of January 2020, the Becton University
                 modules have been available to students in e-format and may be
