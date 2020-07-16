@@ -3,7 +3,7 @@
     <CommonBanner1 pageHeading="Gallery" caption="Gallery" />
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="10" md="3" v-for="(item, i) in items" :key="i">
+        <v-col cols="12" md="4" lg="3" sm="6" v-for="(item, i) in items" :key="i">
           <div class="hg-wd mx-auto">
             <v-img class="mx-auto" :src="item.img" height="250">
             </v-img>

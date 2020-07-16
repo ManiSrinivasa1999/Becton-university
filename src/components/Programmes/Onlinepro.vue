@@ -2,12 +2,14 @@
   <div class="online-pros">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="10" md="10">
-          <v-row lass="fill-height">
-            <v-col cols="12" md="6">
+        <v-col cols="12" md="12" lg="10" xl="10" sm="10">
+          <v-row
+            class="fill-height flex-md-column flex-lg-row"
+          >
+            <v-col cols="12" md="12" lg="6" xl="6">
               <v-img src="@/assets/onlinepro-compressed.jpg"></v-img>
             </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="12" lg="6" xl="6">
               <div class="text-h5 font-weight-bold ml-4 mt-4">
                 ONLINE DEGREE PROGRAMS
               </div>
@@ -35,14 +37,14 @@
           </v-row>
           <v-row
             v-if="$vuetify.breakpoint.mdAndDown"
-            class="fill-height mt-6"
+            class="fill-height mt-6 flex-md-column"
             align="center"
             justify="center"
           >
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="12" lg="6" xl="6">
               <v-img src="@/assets/enrich-compressed.jpg"></v-img>
             </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="12" lg="6" xl="6">
               <div class="text-h5 font-weight-bold ml-4 mb-4">
                 HOW IS STUDYING AT BECTON UNIVERSITY GOING TO ENRICH ME?
               </div>
@@ -61,7 +63,7 @@
             v-if="$vuetify.breakpoint.lgAndUp"
             class="fill-height mt-6"
           >
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="12" lg="6" xl="6">
               <div class="text-h5 font-weight-bold ml-4 mb-4">
                 HOW IS STUDYING AT BECTON UNIVERSITY GOING TO ENRICH ME?
               </div>
@@ -75,7 +77,7 @@
                 Modern way of education <br /><br />Quality education
               </p>
             </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="12" lg="6" xl="6">
               <v-img src="@/assets/enrich-compressed.jpg"></v-img>
             </v-col>
           </v-row>

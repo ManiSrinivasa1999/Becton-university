@@ -3,7 +3,7 @@
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
         <template v-for="(item, i) in items">
-          <v-col :key="i" cols="12" md="3">
+          <v-col :key="i" cols="12" md="6" lg="6" xl="3" sm="10">
             <div class="mt-4 item-details text-center">
               <div class="font-weight-bold hover text-h4 mb-2 hg">
                 {{ item.title }}
@@ -77,7 +77,7 @@ export default {
 <style lang="scss" scoped>
 
 .text-hg {
-  height: 200px;
+  height: 150px;
 }
 
 .hover:hover {
