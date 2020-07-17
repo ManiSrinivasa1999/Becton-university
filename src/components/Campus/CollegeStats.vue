@@ -77,6 +77,6 @@ h6 {
 hr {
   width: 20%;
   margin: 0 auto;
-  border-top: 5px solid aqua;
+  border-top: 5px solid yellow;
 }
 </style>

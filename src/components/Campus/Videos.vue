@@ -6,7 +6,7 @@
           <v-row class="pa-0 ma-0">
             <v-col cols="12">
               <div class="font-weight-bold text-h5">
-                STUDENT VIDEOS
+                STUDENT LIFE
               </div>
               <div class="text-title mb-6 mt-6">
                 One of the biggest changes in college is that you have much more freedom
