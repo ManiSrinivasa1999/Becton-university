@@ -2,10 +2,10 @@
   <div class="streams">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" justify="center" align="center">
-        <v-col cols="10" lg="12" xl="10" md="10">
+        <v-col cols="12" lg="12" xl="10" md="10" sm="12">
           <v-row class="pa-0 ma-0">
-            <v-col cols="12" md="12" lg="6" xl="6">
-              <v-img eager src="@/assets/live-stream.jpg" height="250px"></v-img>
+            <v-col cols="12" md="12" lg="6" xl="6" sm="12">
+              <v-img eager src="@/assets/live-stream.jpg" height="280px"></v-img>
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
               <div class="font-weight-bold text-h5">

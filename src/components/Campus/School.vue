@@ -2,12 +2,10 @@
   <div class="school">
     <v-container>
        <v-row class="fill-height pa-0 ma-0" justify="center" align="center">
-        <v-col cols="12" lg="12" xl="10" md="10" sm="8">
+        <v-col cols="12" lg="12" xl="10" md="10" sm="12">
           <v-row
             v-if="$vuetify.breakpoint.mdAndUp"
             class="fill-height pa-0 ma-0 flex-md-column-reverse flex-lg-row"
-            justify="center"
-            align="center"
           >
             <v-col cols="12" lg="6" xl="6" md="12" sm="8">
               <div class="font-weight-bold text-h5 mb-4">
@@ -21,7 +19,8 @@
                 Your grade may be based on only two tests for the whole semester
                 — meaning it is important to plan your study schedule and how you use your time.
               </div>
-              <div class="mt-8">
+
+              <div class="mt-12 d-flex">
                 <div
                   v-for="(item, i) in items"
                   :key="i"
@@ -37,19 +36,17 @@
               </div>
             </v-col>
             <v-col cols="12" lg="6" xl="6" md="12" sm="8">
-              <v-img eager src="@/assets/school.jpg" height="400px"></v-img>
+              <v-img eager src="@/assets/school.jpg" height="350px"></v-img>
             </v-col>
           </v-row>
           <v-row
-            v-else
+            v-else-if="$vuetify.breakpoint.smOnly"
             class="fill-height pa-0 ma-0 flex-md-column-reverse flex-lg-row"
-            justify="center"
-            align="center"
           >
-            <v-col cols="12" lg="6" xl="6" md="12" sm="8">
+            <v-col cols="12" lg="6" xl="6" md="12" sm="12">
               <v-img eager src="@/assets/school.jpg" height="400px"></v-img>
             </v-col>
-            <v-col cols="12" lg="6" xl="6" md="12" sm="8">
+            <v-col cols="12" lg="6" xl="6" md="12" sm="12">
               <div class="font-weight-bold text-h5 mb-4">
                 WHY GO TO OUR SCHOOL
               </div>
@@ -61,9 +58,10 @@
                 Your grade may be based on only two tests for the whole semester
                 — meaning it is important to plan your study schedule and how you use your time.
               </div>
-              <div class="mt-8">
+
+              <div class="mt-8 d-flex">
                 <div
-                  v-for="(item, i) in items.slice(0, 2)"
+                  v-for="(item, i) in items"
                   :key="i"
                   class="text-center mx-auto"
                 >
@@ -74,8 +72,32 @@
                     {{ item.label }}
                   </v-card-text>
                 </div>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row
+            v-else-if="$vuetify.breakpoint.xsOnly"
+            class="fill-height pa-0 ma-0 flex-md-column-reverse flex-lg-row"
+          >
+            <v-col cols="12" lg="6" xl="6" md="12" sm="12">
+              <v-img eager src="@/assets/school.jpg" height="400px"></v-img>
+            </v-col>
+            <v-col cols="12" lg="6" xl="6" md="12" sm="12">
+              <div class="font-weight-bold text-h5 mb-4">
+                WHY GO TO OUR SCHOOL
+              </div>
+              <div class="text-subtitle">
+                You will probably have less contact with your professors.
+                The workload and expectations are different as well.
+                You may have weekly reading assignments but have fewer,
+                larger projects to turn in for the semester.
+                Your grade may be based on only two tests for the whole semester
+                — meaning it is important to plan your study schedule and how you use your time.
+              </div>
+
+              <div class="mt-8">
                 <div
-                  v-for="(item, i) in items.slice(0, 2)"
+                  v-for="(item, i) in items"
                   :key="i"
                   class="text-center mx-auto"
                 >

@@ -3,9 +3,10 @@
     <CommonBanner1 pageHeading="Campus" caption="Campus" />
     <School />
     <Stream />
-    <Payments />
-    <Refund />
+    <Videos />
+    <CollegeStats />
     <Acheivements2 />
+    <LastScreen />
   </div>
 </template>
 
@@ -13,8 +14,9 @@
 import CommonBanner1 from '@/components/CommonBanner1.vue';
 import School from '@/components/Campus/School.vue';
 import Stream from '@/components/Campus/Stream.vue';
-import Payments from '@/components/Campus/Payments.vue';
-import Refund from '@/components/Campus/Refund.vue';
+import Videos from '@/components/Campus/Videos.vue';
+import CollegeStats from '@/components/Campus/CollegeStats.vue';
+import LastScreen from '@/components/Campus/LastScreen.vue';
 import Acheivements2 from '@/components/Home/Acheivements2.vue';
 
 export default {
@@ -23,8 +25,9 @@ export default {
     CommonBanner1,
     School,
     Stream,
-    Payments,
-    Refund,
+    Videos,
+    CollegeStats,
+    LastScreen,
     Acheivements2,
   },
 };
