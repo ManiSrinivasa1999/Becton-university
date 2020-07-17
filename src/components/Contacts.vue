@@ -16,13 +16,13 @@
                 <v-card-text>
                   <span class="font-weight-bold green--text">Location: </span
                   ><br />
-                  Becton University, <br />
+                  Becton College, <br />
                   LLC 16192 Coastal Highway Lewes DE 19958 <br />
                   United States of America
                 </v-card-text>
                 <v-card-text>
                   <span class="font-weight-bold green--text">Email: </span><br />
-                  info@bectonuniversity.org
+                  info@bectonCollege.org
                 </v-card-text>
                 <v-card-text>
                   <span class="font-weight-bold green--text">Phone: </span><br />

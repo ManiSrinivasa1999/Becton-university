@@ -1,9 +1,9 @@
 <template>
-  <div class="university-team">
+  <div class="College-team">
     <v-container>
       <div class="align-center justify-center d-flex flex-column pa-0 ma-0">
         <span class="text-h4 pa-4 ma-4 font-weight-bold text-center">
-          BECTON UNIVERSITY TEAM
+          Becton College TEAM
         </span>
       </div>
       <v-row class="fill-height" align="center" justify="center">
@@ -73,7 +73,7 @@
 
 <script>
 export default {
-  name: 'UniversityTeam5',
+  name: 'CollegeTeam5',
   data() {
     return {
       faculties: [

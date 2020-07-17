@@ -20,7 +20,7 @@
                 RESEARCH AND TEACHING
               </div>
               <p class="pa-2 pl-4">
-                The University‘s academic staff are highly qualified and
+                The College‘s academic staff are highly qualified and
                 experienced. They are accustomed to working with executives,
                 managers and consultants employed in both the private and public
                 sectors.
@@ -44,7 +44,7 @@
                 RESEARCH AND TEACHING
               </div>
               <p class="pa-2 pl-4 subtitle">
-                The University‘s academic staff are highly qualified and
+                The College‘s academic staff are highly qualified and
                 experienced. They are accustomed to working with executives,
                 managers and consultants employed in both the private and public
                 sectors.

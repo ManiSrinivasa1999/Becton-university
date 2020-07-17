@@ -5,12 +5,12 @@
         <v-row justify="center">
           <v-col cols="12" md="4">
             <v-card-text class="white--text">
-              <strong class="text-h4 font-weight-bold">Becton University</strong>
+              <strong class="text-h4 font-weight-bold">Becton College</strong>
               <p class="text-h6 mt-4">
                 Online and distance learning is the future of education. Even
-                though we live in a global village the concept of a becton
-                university – not rooted in a particular country – such as Becton
-                University.
+                though we live in a global village the concept of a Becton
+                College – not rooted in a particular country – such as Becton
+                College.
               </p>
             </v-card-text>
             <v-card-text class="white--text">
@@ -30,7 +30,7 @@
             </v-card-text>
             <v-card-text class="white--text" v-if="$vuetify.breakpoint.lgAndUp">
               <span>Copyright &copy;</span>{{ new Date().getFullYear() }}
-              <strong>Becton University | All rights reserved.</strong>
+              <strong>Becton College | All rights reserved.</strong>
             </v-card-text>
           </v-col>
           <v-col cols="12" md="4"></v-col>
@@ -50,7 +50,7 @@
             </v-card-text>
             <v-card-text class="white--text" v-if="$vuetify.breakpoint.mdAndDown">
               <span>Copyright &copy;</span>{{ new Date().getFullYear() }}
-              <strong>Becton University | All rights reserved.</strong>
+              <strong>Becton College | All rights reserved.</strong>
             </v-card-text>
           </v-col>
         </v-row>

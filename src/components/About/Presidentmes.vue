@@ -13,15 +13,15 @@
               </div>
               <br />
               <p class="">
-                 Becton University is a high quality progressive modern e
-                learning university. Our aim is to create a friendly environment
+                 Becton College is a high quality progressive modern e
+                learning College. Our aim is to create a friendly environment
                 for people who decide to work hard on their professional and
                 personal development. Nothing makes us happier and more
                 satisfied than our students, lecturers, and employees being
-                proud to be a part of Becton University.<br />
+                proud to be a part of Becton College.<br />
                 <br />
-                I am very honored to be the President of Becton University. The
-                University as it is today is the result of the dedication that
+                I am very honored to be the President of Becton College. The
+                College as it is today is the result of the dedication that
                 called for lots of energy, diligence, and enthusiasm of students
                 and graduates; excellent support, care, and effort of staff and
                 employees; passion and active involvement of many of our
@@ -31,7 +31,7 @@
                 interactive online diploma and degree programs provided in the
                 English and Tamil languages. In the upcoming years, our plan is
                 to expand and launch new specializations and languages of
-                instruction to make it possible to study in a university of high
+                instruction to make it possible to study in a College of high
                 quality at a reasonable price for anyone who wants to learn,
                 develop and work on their future.<br />
                 <br />
@@ -42,11 +42,11 @@
                 why we support creative minds, ideas and commitment to others,
                 and invest our profits to the development of new systems and
                 study materials. <br />
-                <br />Take the opportunity to explore what Becton University has
+                <br />Take the opportunity to explore what Becton College has
                 to offer and what makes it unique. Do not hesitate to contact us
                 with any questions - we will be happy to answer all your
                 inquiries! <br />
-                <br />I believe you will find the story of Becton University
+                <br />I believe you will find the story of Becton College
                 inspiring and become a part of it - because thanks to YOU we
                 have the chance to grow and continue to make a difference!
                 <br />
@@ -55,7 +55,7 @@
                   Sincerely,<br />
                   <br />
                   Dr Larry Adams <br />
-                  <br />President of Becton University
+                  <br />President of Becton College
                 </b>
               </p>
             </v-col>

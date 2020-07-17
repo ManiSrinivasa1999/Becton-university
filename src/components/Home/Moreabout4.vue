@@ -13,18 +13,18 @@
               </v-col>
               <v-col cols="12" md="6">
                 <div class="text-h5 font-weight-bold pa-4">
-                  MORE ABOUT OUR UNIVERSITY
+                  MORE ABOUT OUR College
                 </div>
                 <p class="pa-2 pl-4">
                   Online and distance learning is the future of education. Even
-                  though we live in a global village the concept of a becton
-                  university – not rooted in a particular country – such as
-                  Becton University – is occasionally misunderstood by the
+                  though we live in a global village the concept of a Becton
+                  College – not rooted in a particular country – such as
+                  Becton College – is occasionally misunderstood by the
                   dinosaurs of brick and mortar education especially in
                   countries where online education is still a novelty.
                 </p>
                 <p class="pa-2 pl-4">
-                  Becton University's formula has proven a great success over
+                  Becton College's formula has proven a great success over
                   the years. It is efficient, student-oriented, and can be
                   transmitted from any computer terminal anywhere in the world.
                   That is why this formula is now being championed by numerous
@@ -44,18 +44,18 @@
             <template>
               <v-col cols="12" md="6">
                 <div class="text-h5 font-weight-bold pa-4">
-                  MORE ABOUT OUR UNIVERSITY
+                  MORE ABOUT OUR College
                 </div>
                 <p class="pa-2 pl-4">
                   Online and distance learning is the future of education. Even
-                  though we live in a global village the concept of a becton
-                  university – not rooted in a particular country – such as
-                  Becton University – is occasionally misunderstood by the
+                  though we live in a global village the concept of a Becton
+                  College – not rooted in a particular country – such as
+                  Becton College – is occasionally misunderstood by the
                   dinosaurs of brick and mortar education especially in
                   countries where online education is still a novelty.
                 </p>
                 <p class="pa-2 pl-4">
-                  Becton University's formula has proven a great success over
+                  Becton College's formula has proven a great success over
                   the years. It is efficient, student-oriented, and can be
                   transmitted from any computer terminal anywhere in the world.
                   That is why this formula is now being championed by numerous

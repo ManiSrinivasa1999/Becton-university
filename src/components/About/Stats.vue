@@ -5,7 +5,7 @@
         <v-col cols="12" lg="12" xl="10">
           <div class="pa-4">
             <p class="text-h6 text-center">
-              Becton University’s formula has proven a great success over the
+              Becton College’s formula has proven a great success over the
               years. It is efficient, student-oriented, and can be transmitted
               from any computer terminal anywhere in the world. That is why this
               formula is now being championed by numerous online educational
@@ -88,13 +88,13 @@ export default {
           icon: 'fas fa-map-marked-alt',
           title: 'Athletic Championships',
           number: '270+',
-          text: 'Becton University 270+ Athletic Championships',
+          text: 'Becton College 270+ Athletic Championships',
         },
         {
           icon: 'fas fa-object-group',
           title: 'Thousand Alumni',
           number: '500+',
-          text: 'Becton University 500+ Thousand Alumni',
+          text: 'Becton College 500+ Thousand Alumni',
         },
       ],
     };
