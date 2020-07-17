@@ -26,9 +26,6 @@
               </p>
             </v-col>
             <v-col cols="12" md="6">
-              <v-img eager src="@/assets/assignments-compressed.jpg"></v-img>
-            </v-col>
-            <v-col cols="12" md="6">
               <div class="text-h5 font-weight-bold mb-4 pd-4">
                 ASSIGNMENTS & EXAMINATIONS
               </div>

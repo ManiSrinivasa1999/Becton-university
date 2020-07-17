@@ -56,7 +56,7 @@
         <div v-if="$vuetify.breakpoint.lgAndUp">
           <v-btn
             text
-            v-for="button in buttons.slice(4, 8)"
+            v-for="button in buttons.slice(4, 7)"
             :key="button.label"
             :to="button.url"
             class="pa-2 btn text-body-2 font-weight-bold "
@@ -146,19 +146,15 @@ export default {
           url: '/about',
         },
         {
-          label: 'Programmes',
-          url: '/programmes',
-        },
-        {
-          label: 'Admissions and Fee',
+          label: 'Campus',
           url: '/admissions',
         },
         {
-          label: 'Award Verification',
-          url: '/awardverification',
+          label: 'Diploma Programs',
+          url: '/programmes',
         },
         {
-          label: 'Gallery',
+          label: 'Events',
           url: '/gallery',
         },
         {
@@ -166,7 +162,7 @@ export default {
           url: '/contact',
         },
         {
-          label: 'Apply Now',
+          label: 'Online Application',
           url: '/apply',
         },
       ],

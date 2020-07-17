@@ -101,19 +101,15 @@ export default {
           url: '/about',
         },
         {
-          label: 'Programmes',
-          url: '/programmes',
-        },
-        {
-          label: 'Admissions and Fee',
+          label: 'Campus',
           url: '/admissions',
         },
         {
-          label: 'Award Verification',
-          url: '/awardverification',
+          label: 'Diploma Programs',
+          url: '/programmes',
         },
         {
-          label: 'Gallery',
+          label: 'Events',
           url: '/gallery',
         },
         {
@@ -121,7 +117,7 @@ export default {
           url: '/contact',
         },
         {
-          label: 'Apply Now',
+          label: 'Online Application',
           url: '/apply',
         },
       ],

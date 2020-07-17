@@ -1,6 +1,6 @@
 <template>
   <div class="admissions">
-    <CommonBanner1 pageHeading="Admissions and Fees" caption="Admissions and Fees" />
+    <CommonBanner1 pageHeading="Campus" caption="Campus" />
     <Types />
     <Schemes />
     <Fee />

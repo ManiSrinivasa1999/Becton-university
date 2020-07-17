@@ -8,11 +8,11 @@
               <v-img eager src="@/assets/faculty2.jpg" height="350px"></v-img>
             </v-col>
             <v-col cols="12" md="6">
-              <div class="font-weight-bold ml-4 mt-4" :class="heading">
+              <div class="font-weight-bold  mt-4" :class="heading">
                 FACULTY
               </div>
               <br />
-              <p class="ml-4">
+              <p>
                 The University‘s academic staff are highly qualified and experienced.
                 They are accustomed to working with executives, managers and consultants
                 employed in both the private and public sectors.
@@ -25,18 +25,18 @@
           </v-row>
           <v-row
             v-if="$vuetify.breakpoint.smAndDown"
-            class="fill-height pa-0 ma-0"
+            class="fill-height"
             align="center"
             justify="center"
           >
             <v-col cols="12" md="6">
-              <v-img eager src="@/assets/faculty-compressed.jpg"></v-img>
+              <v-img eager src="@/assets/faculty-compressed.jpg" contain></v-img>
             </v-col>
             <v-col cols="12" md="6">
-              <div class="font-weight-bold ml-4" :class="heading">
+              <div class="font-weight-bold" :class="heading">
                 AFFILIATES
               </div>
-              <p class="ml-4 text-subtitle">
+              <p class="text-subtitle">
                 Becton University, the international distance learning centre,
                 which was subsequently incorporated as an independent Online and
                 Distance Learning University in Delaware, America.<br /><br />
@@ -55,10 +55,10 @@
             class="fill-height pa-0 mt-8"
           >
             <v-col cols="12" md="6">
-              <div class="font-weight-bold ml-4 mb-4" :class="heading">
+              <div class="font-weight-bold  mb-4" :class="heading">
                 AFFILIATES
               </div>
-              <p class="ml-4 text-subtitle">
+              <p class="text-subtitle">
                 Affiliates are at the centre of our educational formula.
                 Most of the degree programs offered are taught by our affiliates.
                 To give but one example, as soon as an enquiry is received at the university

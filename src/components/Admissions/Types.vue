@@ -19,7 +19,7 @@
               </div>
               <v-divider></v-divider>
               <div
-                class="font-weight-light text-h6 mt-4 black--text text-hg"
+                class="font-weight-light text-h6 mb-2 black--text text-hg"
               >
                 {{ item.text }}
               </div>

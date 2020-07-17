@@ -1,6 +1,6 @@
 <template>
   <div class="gallery">
-    <CommonBanner1 pageHeading="Gallery" caption="Gallery" />
+    <CommonBanner1 pageHeading="Events" caption="Events" />
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
         <v-col cols="12" md="4" lg="3" sm="6" v-for="(item, i) in items" :key="i">

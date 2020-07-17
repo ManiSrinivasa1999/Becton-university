@@ -2,7 +2,7 @@
   <div class="online-pros">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="12" md="12" lg="10" xl="10" sm="10">
+        <v-col cols="12" md="12" lg="12" xl="10" sm="10">
           <v-row
             class="fill-height flex-md-column flex-lg-row"
           >

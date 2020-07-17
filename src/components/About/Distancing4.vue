@@ -8,11 +8,11 @@
               <v-img eager src="@/assets/distance.jpg" height="280px"></v-img>
             </v-col>
             <v-col cols="12" md="6">
-              <div class="font-weight-bold ml-4 mt-4" :class="heading">
+              <div class="font-weight-bold" :class="heading">
                 WHY DISTANCE LEARNING?
               </div>
               <br />
-              <p class="ml-4">
+              <p>
                 Very few people can afford to give up work to start studying,
                 and with university fees at an all-time high, learning via
                 traditional methods is beyond reach for many.<br /><br />
@@ -24,19 +24,19 @@
           </v-row>
           <v-row
             v-if="$vuetify.breakpoint.smAndDown"
-            class="fill-height pa-0 ma-0"
+            class="fill-height"
             align="center"
             justify="center"
           >
             <v-col cols="12">
-              <v-img eager src="@/assets/bu-compressed.jpg" width="100%"></v-img>
+              <v-img eager src="@/assets/bu-compressed.jpg"></v-img>
             </v-col>
             <v-col cols="12">
-              <div class="font-weight-bold ml-4" :class="heading">
+              <div class="font-weight-bold" :class="heading">
                 BECTON UNIVERSITY
               </div>
               <br />
-              <p class="ml-4 text-subtitle">
+              <p class="text-subtitle">
                 Becton University, the international distance learning centre,
                 which was subsequently incorporated as an independent Online and
                 Distance Learning University in Delaware, America.<br /><br />
@@ -59,7 +59,7 @@
                 BECTON UNIVERSITY
               </div>
               <br />
-              <p class="ml-4 text-subtitle">
+              <p class="text-subtitle">
                 Becton University, the international distance learning centre,
                 which was subsequently incorporated as an independent Online and
                 Distance Learning University in Delaware, America.<br /><br />

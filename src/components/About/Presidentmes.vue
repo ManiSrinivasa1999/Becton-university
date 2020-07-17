@@ -4,15 +4,15 @@
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
         <v-col cols="12" md="12" sm="10" lg="10" xl="10">
           <v-row class="fill-height pa-0 ma-0">
-            <v-col cols="12" md="3" lg="3" xl="3" sm="8">
+            <v-col cols="12" md="3" lg="3" xl="3" sm="10">
               <v-img eager src="@/assets/president.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="9">
-              <div class="font-weight-bold ml-4 mt-4" :class="heading">
+              <div class="font-weight-bold  mt-4" :class="heading">
                 PRESIDENT'S MESSAGE
               </div>
               <br />
-              <p class="ml-4">
+              <p class="">
                  Becton University is a high quality progressive modern e
                 learning university. Our aim is to create a friendly environment
                 for people who decide to work hard on their professional and

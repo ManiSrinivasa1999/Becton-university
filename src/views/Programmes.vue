@@ -1,6 +1,6 @@
 <template>
   <div class="programmes">
-    <CommonBanner1 pageHeading="Programmes" caption="Programmes" />
+    <CommonBanner1 pageHeading="Diploma Programs" caption="Diploma Programs" />
     <Onlinepro />
     <ProgrammesBanner pageHeading="DIPLOMA PROGRAMS" />
     <DiplomaProList />
