@@ -1,9 +1,8 @@
 <template>
   <div class="Campus">
     <CommonBanner1 pageHeading="Campus" caption="Campus" />
-    <Types />
-    <Schemes />
-    <Fee />
+    <School />
+    <Stream />
     <Payments />
     <Refund />
     <Acheivements2 />
@@ -12,9 +11,8 @@
 
 <script>
 import CommonBanner1 from '@/components/CommonBanner1.vue';
-import Types from '@/components/Campus/Types.vue';
-import Schemes from '@/components/Campus/Schemes.vue';
-import Fee from '@/components/Campus/Fee.vue';
+import School from '@/components/Campus/School.vue';
+import Stream from '@/components/Campus/Stream.vue';
 import Payments from '@/components/Campus/Payments.vue';
 import Refund from '@/components/Campus/Refund.vue';
 import Acheivements2 from '@/components/Home/Acheivements2.vue';
@@ -23,9 +21,8 @@ export default {
   name: 'Campus',
   components: {
     CommonBanner1,
-    Types,
-    Schemes,
-    Fee,
+    School,
+    Stream,
     Payments,
     Refund,
     Acheivements2,

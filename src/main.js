@@ -14,6 +14,8 @@ import {
   faMapMarkedAlt,
   faObjectGroup,
   faCaretDown,
+  faGraduationCap,
+  faDotCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
@@ -34,6 +36,7 @@ library.add(
   faBars,
   faUserFriends,
   faUserGraduate,
+  faGraduationCap,
   faCaretDown,
   faTrophy,
   faChevronDown,
@@ -49,6 +52,7 @@ library.add(
   faTwitter,
   faYoutube,
   faInstagram,
+  faDotCircle,
 );
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
