@@ -147,7 +147,7 @@ export default {
         },
         {
           label: 'Campus',
-          url: '/admissions',
+          url: '/campus',
         },
         {
           label: 'Diploma Programs',
@@ -155,7 +155,7 @@ export default {
         },
         {
           label: 'Events',
-          url: '/gallery',
+          url: '/events',
         },
         {
           label: 'Contact',
