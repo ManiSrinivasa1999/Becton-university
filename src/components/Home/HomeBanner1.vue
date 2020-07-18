@@ -1,57 +1,66 @@
 <template>
-  <div class="home-banner bg-img">
-    <v-container v-if="$vuetify.breakpoint.smAndDown">
-      <v-row justify="center">
-        <v-col cols="9">
-          <div class="text-h4 text-center font-weight-bold mb-4">
-            Experimental & Experienced Learning
-          </div>
-          <div class="text-center">
-            <v-btn
-              class="ma-4 green"
-              text
-              color="white"
-            >
-              Read More
-            </v-btn>
-            <v-btn
-              class="ma-4 green"
-              text
-              color="white"
-            >
-              Apply Now
-            </v-btn>
-          </div>
+  <div class="home-banner">
+    <v-row>
+      <v-col cols="12">
+        <v-img src="../../assets/homebanner-1.jpg" height="80vh">
+          <v-overlay absolute opacity="0.8">
+            <v-row class="pb-0" app>
+              <v-col cols="12" sm="12" class="text-center">
+                <div class="text-h3 text-center font-weight-bold mb-4">
+                  Experimental & Experienced Learning
+                </div>
+                <div class="text-center">
+                  <v-btn
+                    class="ma-4 green"
+                    text
+                    color="white"
+                  >
+                    Read More
+                  </v-btn>
+                  <v-btn
+                    class="ma-4 green"
+                    text
+                    color="white"
+                  >
+                    Apply Now
+                  </v-btn>
+                </div>
+              </v-col>
+            </v-row>
+          </v-overlay>
+        </v-img>
+      </v-col>
+      <!-- <v-row justify="center" align="center" class="fill-height pa-0 ma-0">
+        <v-col cols="12">
+           <v-img
+            src="../../assets/homebanner-1.jpg"
+            height="80vh"
+          >
+            <v-overlay absolute opacity="0.6">
+              <div class="text-h2 text-center font-weight-bold mb-4">
+                Experimental & Experienced Learning
+              </div>
+              <div class="text-center">
+                <v-btn
+                  class="ma-4 green"
+                  text
+                  color="white"
+                >
+                  Read More
+                </v-btn>
+                <v-btn
+                  class="ma-4 green"
+                  text
+                  color="white"
+                >
+                  Apply Now
+                </v-btn>
+              </div>
+            </v-overlay>
+          </v-img>
         </v-col>
-      </v-row>
-    </v-container>
-    <v-container v-else-if="$vuetify.breakpoint.mdAndUp">
-      <v-row justify="center" align="center" class="fill-height">
-        <v-col cols="6" md="6">
-          <div class="text-h3 text-center font-weight-bold mb-8">
-            Experimental & Experienced Learning
-          </div>
-          <div class="text-center">
-            <v-btn
-              class="ma-4 green"
-              text
-              color="white"
-              to="/about"
-            >
-              Read More
-            </v-btn>
-            <v-btn
-              class="ma-4 green"
-              text
-              color="white"
-              to="/apply"
-            >
-              Apply Now
-            </v-btn>
-          </div>
-        </v-col>
-      </v-row>
-    </v-container>
+      </v-row> -->
+    </v-row>
   </div>
 </template>
 
@@ -62,15 +71,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.bg-img {
-  min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../../assets/homebanner-1.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
+
+.v-overlay__content {
+  min-width: 100vw !important;
 }
 
 </style>
