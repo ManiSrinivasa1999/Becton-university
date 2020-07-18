@@ -3,20 +3,20 @@
     <v-container class="informn">
       <div class="align-center justify-center d-flex flex-column pa-0 ma-0">
         <span class="text-h4 pa-4 ma-4 font-weight-bold text-center white--text">
-          BECTON UNIVERSITY
+          Becton College
         </span>
       </div>
       <v-row class="fill-height" align="center" justify="center">
         <v-col cols="12" md="10">
           <p class="title text-center white--text">
             Online and distance learning is the future of education.
-            Even though we live in a global village the concept of a becton university –
-            not rooted in a particular country – such as Becton  University –
+            Even though we live in a global village the concept of a Becton College –
+            not rooted in a particular country – such as Becton  College –
             is occasionally misunderstood by the dinosaurs
             of brick and mortar education especially in countries where
             online education is still a novelty.
             <br />
-            Becton University’s formula has proven a great success over the years.
+            Becton College’s formula has proven a great success over the years.
             It is efficient, student-oriented, and can be transmitted from any computer terminal
             anywhere in the world.<br />
             That is why this formula is now being championed by numerous online educational

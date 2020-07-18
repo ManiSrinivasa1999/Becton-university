@@ -13,7 +13,7 @@
               </div>
               <br />
               <p>
-                The University‘s academic staff are highly qualified and experienced.
+                The College‘s academic staff are highly qualified and experienced.
                 They are accustomed to working with executives, managers and consultants
                 employed in both the private and public sectors.
                 <br />
@@ -37,15 +37,15 @@
                 AFFILIATES
               </div>
               <p class="text-subtitle">
-                Becton University, the international distance learning centre,
+                Becton College, the international distance learning centre,
                 which was subsequently incorporated as an independent Online and
-                Distance Learning University in Delaware, America.<br /><br />
-                Becton University is a private international institution.
-                American British Graduate University Online is specialized in
+                Distance Learning College in Delaware, America.<br /><br />
+                Becton College is a private international institution.
+                American British Graduate College Online is specialized in
                 Distance Learning education our international learning arm is
                 London College of Media (www.londoncollegeofmedia.com).<br /><br />
                 Distance learning is rapidly becoming the preferred alternative,
-                and Becton University has quickly become established as one of
+                and Becton College has quickly become established as one of
                 the pioneers in the field.
               </p>
             </v-col>
@@ -61,17 +61,17 @@
               <p class="text-subtitle">
                 Affiliates are at the centre of our educational formula.
                 Most of the degree programs offered are taught by our affiliates.
-                To give but one example, as soon as an enquiry is received at the university
+                To give but one example, as soon as an enquiry is received at the College
                 it is passed on to the relevant affiliate in the applicant’s country. Affiliates’
-                study programs are based on the university’s recommended curricula.
+                study programs are based on the College’s recommended curricula.
                 Affiliates operate under the auspices of their region’s head office.
                 <br /><br />
-                Becton University is a private international institution.
-                Becton University Online is specialized in Distance Learning
+                Becton College is a private international institution.
+                Becton College Online is specialized in Distance Learning
                 education our international learning arm is London College of Media
                 (www.londoncollegeofmedia.com).
                 <br /><br />
-                Becton University Online is licensed by E-Learning
+                Becton College Online is licensed by E-Learning
                 International LLC (California).
               </p>
             </v-col>

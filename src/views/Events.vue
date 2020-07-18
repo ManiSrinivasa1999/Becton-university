@@ -43,7 +43,7 @@ export default {
       {
         title: 'Hawaii: Oahu',
         text:
-          'BU University is not just about students, but also about employees that take care of them from a beautiful island Oahu! Since life is not all about work and no fun',
+          'BU College is not just about students, but also about employees that take care of them from a beautiful island Oahu! Since life is not all about work and no fun',
         // eslint-disable-next-line global-require
         img: require('@/assets/gallery_pic2.jpg'),
       },
@@ -76,7 +76,7 @@ export default {
         img: require('@/assets/gallery_pic6-compressed.jpg'),
       },
       {
-        title: 'Graduation ceremony at BU University, June 2020',
+        title: 'Graduation ceremony at BU College, June 2020',
         text:
           'Have a look at the most captivating moments from our Graduation Ceremony, where we handed out diplomas to our successful graduates.',
         // eslint-disable-next-line global-require

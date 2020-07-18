@@ -45,15 +45,15 @@ export default {
       features: [
         {
           head: 'Student Learning Oppurtunities',
-          content: 'Online and distance learning is the future of education. Even though we live in a global village the concept of a becton university – not rooted in a particular country – such as Becton University – is occasionally misunderstood by the dinosaurs of brick and mortar education especially in countries where online education is still a novelty.',
+          content: 'Online and distance learning is the future of education. Even though we live in a global village the concept of a Becton College – not rooted in a particular country – such as Becton College – is occasionally misunderstood by the dinosaurs of brick and mortar education especially in countries where online education is still a novelty.',
         },
         {
           head: 'Student Stories',
-          content: ' I believe you will find the story of Becton University inspiring and become a part of it - because thanks to YOU we have the chance to grow and continue to make a difference!',
+          content: ' I believe you will find the story of Becton College inspiring and become a part of it - because thanks to YOU we have the chance to grow and continue to make a difference!',
         },
         {
           head: 'New Courses',
-          content: 'With our unique, world-leading style of distance learning,Becton University enables you to study from home, work or even on the move, at a time that suits you. With a wide choice of qualifications, at undergraduate and postgraduate level, Becton University offers the choice and flexibility you need.',
+          content: 'With our unique, world-leading style of distance learning,Becton College enables you to study from home, work or even on the move, at a time that suits you. With a wide choice of qualifications, at undergraduate and postgraduate level, Becton College offers the choice and flexibility you need.',
         },
       ],
     };

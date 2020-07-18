@@ -20,10 +20,10 @@
         <v-spacer></v-spacer>
         <div>
           <a
-            href="mailto:info@bectonuniversity.org"
+            href="mailto:info@bectonCollege.org"
             class="pa-2 email-phone-links black--text"
           >
-            info@bectonuniversity.org
+            info@bectonCollege.org
           </a>
           <a
             href="tel:+1 302-827-3939"
@@ -70,7 +70,7 @@
         <v-toolbar-title
           class="text-h6 font-weight-bold ml-2"
         >
-          BECTON UNIVERSITY
+          Becton College
         </v-toolbar-title>
 
         <v-spacer></v-spacer>

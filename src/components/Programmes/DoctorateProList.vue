@@ -144,7 +144,7 @@
                           qualification is approved and regulated, learners are
                           eligible to progress to master’s top-up programmes at
                           many universities in the UK and overseas with advanced
-                          standing. For more information visit University
+                          standing. For more information visit College
                           Progressions page in this website.
                         </p>
                       </v-card-text>
@@ -306,7 +306,7 @@
                         qualification is approved and regulated, learners are
                         eligible to progress to master’s top-up programmes at
                         many universities in the UK and overseas with advanced
-                        standing. For more information visit University
+                        standing. For more information visit College
                         Progressions page in this website.
                       </p>
                     </v-card-text>
@@ -482,7 +482,7 @@
                           qualification is approved and regulated, learners are
                           eligible to progress to master’s top-up programmes at
                           many universities in the UK and overseas with advanced
-                          standing. For more information visit University
+                          standing. For more information visit College
                           Progressions page in this website.
                         </p>
                       </v-card-text>
@@ -644,7 +644,7 @@
                         qualification is approved and regulated, learners are
                         eligible to progress to master’s top-up programmes at
                         many universities in the UK and overseas with advanced
-                        standing. For more information visit University
+                        standing. For more information visit College
                         Progressions page in this website.
                       </p>
                     </v-card-text>
@@ -820,7 +820,7 @@
                           qualification is approved and regulated, learners are
                           eligible to progress to master’s top-up programmes at
                           many universities in the UK and overseas with advanced
-                          standing. For more information visit University
+                          standing. For more information visit College
                           Progressions page in this website.
                         </p>
                       </v-card-text>
@@ -982,7 +982,7 @@
                         qualification is approved and regulated, learners are
                         eligible to progress to master’s top-up programmes at
                         many universities in the UK and overseas with advanced
-                        standing. For more information visit University
+                        standing. For more information visit College
                         Progressions page in this website.
                       </p>
                     </v-card-text>

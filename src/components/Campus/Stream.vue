@@ -9,7 +9,7 @@
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
               <div class="font-weight-bold text-h5">
-                LIVE STREAM
+                CAMPUS LIFE
               </div>
               <div class="text-title mb-6 mt-6">
                 Equally important to differences in academics are the increased

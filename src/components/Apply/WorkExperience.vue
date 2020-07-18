@@ -15,7 +15,7 @@
           <thead>
             <tr>
               <th class="text-left">Certificate/ Degree Title</th>
-              <th class="text-left">Name of the Board/ University</th>
+              <th class="text-left">Name of the Board/ College</th>
               <th class="text-left">Group/ Subjects</th>
               <th class="text-left">Year Awarded</th>
               <th class="text-left">Division/ Class /GPA</th>
