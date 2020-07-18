@@ -2,15 +2,15 @@
   <div class="contacts">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="12" md="10" class="mt-16 mb-16 pt-16 pb-16">
+        <v-col cols="12" md="12" class="mt-16 mb-16 pt-16 pb-16">
           <v-row class="pa-0 ma-0">
-            <v-col cols="12" md="6">
+            <v-col cols="12" xl="3" lg="3" md="12" sm="12" xs="12">
               <v-img eager src="@/assets/usaflag-compressed.jpg" height="350"></v-img>
             </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" xl="3" lg="3" md="12" sm="12" xs="12">
               <v-card height="350">
                 <v-card-title>
-                  USA
+                  USA Contact Info
                 </v-card-title>
                 <v-divider></v-divider>
                 <v-card-text>
@@ -30,43 +30,13 @@
                 </v-card-text>
               </v-card>
             </v-col>
-          </v-row>
-          <v-row v-if="$vuetify.breakpoint.lgAndUp" class="pa-0 ma-0">
-            <v-col cols="12" md="6">
-              <v-card height="350">
-                <v-card-title>
-                  UK
-                </v-card-title>
-                <v-divider></v-divider>
-                <v-card-text>
-                  <span class="font-weight-bold green--text">Location: </span
-                  ><br />
-                  London College of Media, <br />West Midlands House Gipsy
-                  Lane,<br />
-                  Willenhall West Midlands, WV13 2HA United Kingdom
-                </v-card-text>
-                <v-card-text>
-                  <span class="font-weight-bold green--text">Email: </span><br />
-                  admin@londoncollegeofmedia.com
-                </v-card-text>
-                <v-card-text>
-                  <span class="font-weight-bold green--text">Phone: </span><br />
-                  +44(0)2034752556
-                </v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" xl="3" lg="3" md="12" sm="12" xs="12">
               <v-img eager src="@/assets/ukflag-compressed.jpg" height="350"></v-img>
             </v-col>
-          </v-row>
-          <v-row v-if="$vuetify.breakpoint.mdAndDown" class="pa-0 ma-0">
-            <v-col cols="12" md="6">
-              <v-img eager src="@/assets/ukflag-compressed.jpg" height="350"></v-img>
-            </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" xl="3" lg="3" md="12" sm="12" xs="12">
               <v-card height="350">
                 <v-card-title>
-                  UK
+                  UK Contact Info
                 </v-card-title>
                 <v-divider></v-divider>
                 <v-card-text>
