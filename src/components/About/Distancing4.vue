@@ -33,7 +33,7 @@
             </v-col>
             <v-col cols="12">
               <div class="font-weight-bold" :class="heading">
-                Becton College
+                BECTON COLLEGE
               </div>
               <br />
               <p class="text-subtitle">
@@ -55,8 +55,8 @@
             class="fill-height pa-0 mt-16"
           >
             <v-col cols="12" md="6">
-              <div class="font-weight-bold ml-4 mb-4" :class="heading">
-                Becton College
+              <div class="font-weight-bold mb-4" :class="heading">
+                BECTON COLLEGE
               </div>
               <br />
               <p class="text-subtitle">

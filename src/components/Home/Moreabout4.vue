@@ -13,7 +13,7 @@
               </v-col>
               <v-col cols="12" md="6">
                 <div class="text-h5 font-weight-bold pa-4">
-                  MORE ABOUT OUR College
+                  MORE ABOUT OUR COLLEGE
                 </div>
                 <p class="pa-2 pl-4">
                   Online and distance learning is the future of education. Even
@@ -44,7 +44,7 @@
             <template>
               <v-col cols="12" md="6">
                 <div class="text-h5 font-weight-bold pa-4">
-                  MORE ABOUT OUR College
+                  MORE ABOUT OUR COLLEGE
                 </div>
                 <p class="pa-2 pl-4">
                   Online and distance learning is the future of education. Even

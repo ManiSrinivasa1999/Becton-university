@@ -3,7 +3,7 @@
     <v-container class="informn">
       <div class="align-center justify-center d-flex flex-column pa-0 ma-0">
         <span class="text-h4 pa-4 ma-4 font-weight-bold text-center white--text">
-          STUDYING AT Becton College
+          STUDYING AT BECTON COLLEGE
         </span>
       </div>
       <v-row class="fill-height" align="center" justify="center">

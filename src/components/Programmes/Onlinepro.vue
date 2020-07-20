@@ -46,7 +46,7 @@
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
               <div class="text-h5 font-weight-bold ml-4 mb-4">
-                HOW IS STUDYING AT Becton College GOING TO ENRICH ME?
+                HOW IS STUDYING AT BECTON COLLEGE GOING TO ENRICH ME?
               </div>
               <p class="ml-4 text-subtitle">
                 Skills and knowledge immediately applicable into practice<br /><br />
@@ -65,7 +65,7 @@
           >
             <v-col cols="12" md="12" lg="6" xl="6">
               <div class="text-h5 font-weight-bold ml-4 mb-4">
-                HOW IS STUDYING AT Becton College GOING TO ENRICH ME?
+                HOW IS STUDYING AT BECTON COLLEGE GOING TO ENRICH ME?
               </div>
               <p class="ml-4 text-subtitle">
                 Skills and knowledge immediately applicable into practice<br /><br />

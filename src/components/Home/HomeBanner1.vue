@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12">
         <v-img src="../../assets/homebanner-1.jpg" height="80vh">
-          <v-overlay absolute opacity="0.8">
+          <v-overlay absolute opacity="0.6">
             <v-row class="pb-0" app>
               <v-col cols="12" sm="12" class="text-center">
                 <div class="text-h3 text-center font-weight-bold mb-4">
@@ -30,36 +30,6 @@
           </v-overlay>
         </v-img>
       </v-col>
-      <!-- <v-row justify="center" align="center" class="fill-height pa-0 ma-0">
-        <v-col cols="12">
-           <v-img
-            src="../../assets/homebanner-1.jpg"
-            height="80vh"
-          >
-            <v-overlay absolute opacity="0.6">
-              <div class="text-h2 text-center font-weight-bold mb-4">
-                Experimental & Experienced Learning
-              </div>
-              <div class="text-center">
-                <v-btn
-                  class="ma-4 green"
-                  text
-                  color="white"
-                >
-                  Read More
-                </v-btn>
-                <v-btn
-                  class="ma-4 green"
-                  text
-                  color="white"
-                >
-                  Apply Now
-                </v-btn>
-              </div>
-            </v-overlay>
-          </v-img>
-        </v-col>
-      </v-row> -->
     </v-row>
   </div>
 </template>
