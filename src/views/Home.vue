@@ -5,7 +5,7 @@
     <General3 />
     <AdmissionHome />
     <Moreabout4 />
-    <CollegeTeam5 />
+    <!-- <CollegeTeam5 /> -->
     <LatestEvents6 />
     <StudyatBU7 />
     <WhyChoose8 />
@@ -20,6 +20,7 @@ import Acheivements2 from '@/components/Home/Acheivements2.vue';
 import General3 from '@/components/Home/General3.vue';
 import AdmissionHome from '@/components/Home/AdmissionHome.vue';
 import Moreabout4 from '@/components/Home/Moreabout4.vue';
+// import CollegeTeam5 from '@/components/Home/CollegeTeam5.vue';
 import LatestEvents6 from '@/components/Home/LatestEvents6.vue';
 import StudyatBU7 from '@/components/Home/StudyatBU7.vue';
 import WhyChoose8 from '@/components/Home/WhyChoose8.vue';
@@ -34,6 +35,7 @@ export default {
     General3,
     AdmissionHome,
     Moreabout4,
+    // CollegeTeam5,
     LatestEvents6,
     StudyatBU7,
     WhyChoose8,
