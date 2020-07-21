@@ -54,7 +54,7 @@
           class="text-h4 font-weight-bold ml-4 mr-4"
         >
           <div class="college-name">
-            <v-img eager src="../assets/BectonCollege.png" height="150" width="200" contain></v-img>
+            <v-img eager src="../assets/logo-new.png" height="150" width="325" contain></v-img>
           </div>
         </div>
         <div v-if="$vuetify.breakpoint.lgAndUp">
@@ -190,10 +190,6 @@ export default {
 
 .btn:hover {
   background: white !important;
-}
-
-.main-logo {
-  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 50% 100%, 0 50%);
 }
 
 .college-name {
