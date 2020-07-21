@@ -33,7 +33,11 @@
           </a>
         </div>
       </v-system-bar>
-      <v-app-bar app v-if="$vuetify.breakpoint.lgAndUp" class="d-flex justify-center align-center">
+      <v-app-bar
+        app
+        v-if="$vuetify.breakpoint.lgAndUp"
+        class="d-flex justify-center align-center"
+      >
          <div v-if="$vuetify.breakpoint.lgAndUp">
           <v-btn
             text
@@ -162,7 +166,7 @@ export default {
           url: '/contact',
         },
         {
-          label: 'Online Application',
+          label: 'Apply Now',
           url: '/apply',
         },
       ],
