@@ -20,10 +20,10 @@
         <v-spacer></v-spacer>
         <div>
           <a
-            href="mailto:info@bectonCollege.org"
+            href="mailto:info@bectoncollege.org"
             class="pa-2 email-phone-links black--text"
           >
-            info@bectonCollege.org
+            info@bectoncollege.org
           </a>
           <a
             href="tel:+1 302-827-3939"
@@ -54,7 +54,15 @@
           class="mr-2 ml-2"
         >
           <div class="college-name">
-            <v-img eager src="../assets/logo-new.png" height="150" width="225" contain></v-img>
+            <v-img
+              class="px-5"
+              eager
+              src="../assets/logo.png"
+              height="125"
+              width="425"
+              contain
+            >
+            </v-img>
           </div>
         </div>
         <div v-if="$vuetify.breakpoint.lgAndUp" class="mr-16 pr-16">
@@ -191,9 +199,12 @@ export default {
 }
 
 .college-name {
-  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 50% 100%, 0 50%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%);
   position: relative;
-  top: -2px
+  top: -0px;
+  background-color: #e0e0e0;
+  width: 200px;
+  height: 150px;
 }
 
 </style>
