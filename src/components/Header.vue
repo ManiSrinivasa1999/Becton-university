@@ -80,7 +80,7 @@
       </v-app-bar>
       <v-app-bar app v-else-if="$vuetify.breakpoint.mdAndDown">
         <div class="">
-          <v-img eager src="../assets/logo-new.png" height="50px" width="50px" contain></v-img>
+          <v-img eager src="../assets/logo.png" height="50px" width="50px" contain></v-img>
         </div>
 
         <v-spacer></v-spacer>
