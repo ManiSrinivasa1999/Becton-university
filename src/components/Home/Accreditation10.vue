@@ -29,21 +29,19 @@ export default {
         // eslint-disable-next-line global-require
         require('../../assets/logo1.jpeg'),
         // eslint-disable-next-line global-require
-        require('../../assets/logo2.png'),
+        require('../../assets/logo2.jpeg'),
         // eslint-disable-next-line global-require
-        require('../../assets/logo3.png'),
+        require('../../assets/logo3.jpeg'),
         // eslint-disable-next-line global-require
-        require('../../assets/logo4.png'),
+        require('../../assets/logo4.jpeg'),
         // eslint-disable-next-line global-require
         require('../../assets/logo5.jpeg'),
         // eslint-disable-next-line global-require
         require('../../assets/logo6.jpeg'),
         // eslint-disable-next-line global-require
-        require('../../assets/logo7.png'),
+        require('../../assets/logo7.jpeg'),
         // eslint-disable-next-line global-require
-        require('../../assets/logo8.jpg'),
-        // eslint-disable-next-line global-require
-        require('../../assets/logo9.jpeg'),
+        require('../../assets/logo8.jpeg'),
       ],
     };
   },

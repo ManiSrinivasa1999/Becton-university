@@ -44,20 +44,20 @@
             v-for="button in buttons.slice(0, 4)"
             :key="button.label"
             :to="button.url"
-            class="pa-2 btn text-body-2 font-weight-bold "
+            class="pa-2 btn text-body-2 font-weight-bold"
             active-class="green--text"
           >
             {{ button.label }}
           </v-btn>
         </div>
         <div
-          class="text-h4 font-weight-bold ml-4 mr-4"
+          class="text-h4 font-weight-bold mr-2 ml-2"
         >
           <div class="college-name">
-            <v-img eager src="../assets/logo-new.png" height="150" width="325" contain></v-img>
+            <v-img eager src="../assets/logo-new.png" height="150" width="225" contain></v-img>
           </div>
         </div>
-        <div v-if="$vuetify.breakpoint.lgAndUp">
+        <div v-if="$vuetify.breakpoint.lgAndUp" class="mr-16 pr-16">
           <v-btn
             text
             v-for="button in buttons.slice(4, 7)"
