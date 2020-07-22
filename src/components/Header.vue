@@ -51,7 +51,7 @@
           </v-btn>
         </div>
         <div
-          class="text-h4 font-weight-bold mr-2 ml-2"
+          class="mr-2 ml-2"
         >
           <div class="college-name">
             <v-img eager src="../assets/logo-new.png" height="150" width="225" contain></v-img>
@@ -71,11 +71,9 @@
         </div>
       </v-app-bar>
       <v-app-bar app v-else-if="$vuetify.breakpoint.mdAndDown">
-        <v-toolbar-title
-          class="text-h6 font-weight-bold ml-2"
-        >
-          Becton College
-        </v-toolbar-title>
+        <div class="">
+          <v-img eager src="../assets/logo-new.png" height="50px" width="50px" contain></v-img>
+        </div>
 
         <v-spacer></v-spacer>
 
