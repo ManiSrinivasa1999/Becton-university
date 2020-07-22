@@ -20,10 +20,10 @@
         <v-spacer></v-spacer>
         <div>
           <a
-            href="mailto:info@bectonCollege.org"
+            href="mailto:info@bectoncollege.org"
             class="pa-2 email-phone-links black--text"
           >
-            info@bectonCollege.org
+            info@bectoncollege.org
           </a>
           <a
             href="tel:+1 302-827-3939"
@@ -203,7 +203,10 @@ export default {
 .college-name {
   clip-path: polygon(0% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%);
   position: relative;
-  top: -15px;
+  top: -0px;
+  background-color: #e0e0e0;
+  width: 200px;
+  height: 150px;
 }
 
 </style>
