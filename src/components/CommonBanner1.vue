@@ -7,11 +7,11 @@
           cols="12"
           sm="12"
         >
-          <h1 class="display-1 font-weight-bold mt-5 text-center">
+          <h1 class="display-1 font-weight-bold mt-16 mb-1 text-center">
             {{ pageHeading }}
           </h1>
           <div
-            class="d-flex flex-row text-center mt-4"
+            class="d-flex flex-row text-center"
             v-if="Boolean(caption) === true"
           >
             <a href="/" class="white--text home-ref mr-2">

@@ -1,6 +1,6 @@
 <template>
   <div class="lastscreen">
-    <v-row id="last-screen">
+    <v-row id="last-screen" class="pa-0 ma-0">
       <v-col cols="1"></v-col>
       <v-col class="flexClass" cols="12" md="10">
         <h2 class="mx-auto centerClass white--text">

@@ -79,8 +79,8 @@
         </div>
       </v-app-bar>
       <v-app-bar app v-else-if="$vuetify.breakpoint.mdAndDown">
-        <div class="">
-          <v-img eager src="../assets/logo.png" height="50px" width="50px" contain></v-img>
+        <div class="college-name-sm">
+          <v-img eager src="../assets/logo.png" height="70px" width="75px" contain></v-img>
         </div>
 
         <v-spacer></v-spacer>
@@ -205,6 +205,15 @@ export default {
   background-color: #e0e0e0;
   width: 200px;
   height: 150px;
+}
+
+.college-name-sm {
+  clip-path: polygon(0% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%);
+  position: relative;
+  top: -0px;
+  background-color: #e0e0e0;
+  width: 75px;
+  height: 75px;
 }
 
 </style>

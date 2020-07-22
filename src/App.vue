@@ -2,22 +2,17 @@
   <!-- App.vue -->
   <v-app>
     <Header />
-    <!-- Sizes your content based upon application components -->
     <v-main v-if="$vuetify.breakpoint.mdAndDown" class="pt-0">
 
-      <!-- Provides the application the proper gutter -->
       <v-container fluid class="pa-0">
 
-        <!-- If using vue-router -->
         <router-view></router-view>
       </v-container>
     </v-main>
-    <v-main v-if="$vuetify.breakpoint.lgAndUp" class="pt">
+    <v-main v-if="$vuetify.breakpoint.lgAndUp" class="pt-0">
 
-      <!-- Provides the application the proper gutter -->
       <v-container fluid class="pa-0">
 
-        <!-- If using vue-router -->
         <router-view></router-view>
       </v-container>
     </v-main>

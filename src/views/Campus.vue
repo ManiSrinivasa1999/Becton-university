@@ -5,8 +5,7 @@
     <Stream />
     <Videos />
     <CollegeStats />
-    <!-- <Acheivements2 /> -->
-    <v-row class="screen3">
+    <v-row class="pa-0 ma-0">
       <v-col cols="1"></v-col>
       <v-col cols="12" md="10">
         <h2 class="ml-5">EVENTS</h2>
@@ -17,10 +16,9 @@
       </v-col>
       <v-col cols="1"></v-col>
     </v-row>
-    <v-row class="screen4 mb-5">
+    <v-row class="pa-0 ma-0 mb-5">
       <v-col cols="1"></v-col>
       <v-col class="mx-auto" cols="12" md="3">
-        <!-- <v-img src="../assets/event-1.jpg"></v-img> -->
         <v-card class="mx-auto eventCard" max-width="400" height="100%">
           <v-img
             class="white--text align-end"
@@ -45,7 +43,6 @@
         </v-card>
       </v-col>
       <v-col class="mx-auto" cols="12" md="3">
-        <!-- <v-img src="../assets/event-1.jpg"></v-img> -->
         <v-card class="mx-auto eventCard" max-width="400" height="100%">
           <v-img
             class="white--text align-end"
@@ -70,7 +67,6 @@
         </v-card>
       </v-col>
       <v-col class="mx-auto" cols="12" md="3">
-        <!-- <v-img src="../assets/event-1.jpg"></v-img> -->
         <v-card class="mx-auto eventCard" max-width="400" height="100%">
           <v-img
             class="white--text align-end"
@@ -107,7 +103,6 @@ import Stream from '@/components/Campus/Stream.vue';
 import Videos from '@/components/Campus/Videos.vue';
 import CollegeStats from '@/components/Campus/CollegeStats.vue';
 import LastScreen from '@/components/Campus/LastScreen.vue';
-// import Acheivements2 from '@/components/Home/Acheivements2.vue';
 
 export default {
   name: 'Campus',
@@ -118,7 +113,6 @@ export default {
     Videos,
     CollegeStats,
     LastScreen,
-    // Acheivements2,
   },
 };
 </script>

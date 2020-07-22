@@ -1,5 +1,5 @@
 <template>
-  <v-row id="screen4" class="theme--dark">
+  <v-row id="screen4" class="theme--dark pa-0 ma-0">
     <v-col cols="1"></v-col>
     <v-col
       cols="12"
