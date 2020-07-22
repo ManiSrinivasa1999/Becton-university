@@ -14,6 +14,7 @@
                     class="ma-4 green"
                     text
                     color="white"
+                    to="/about"
                   >
                     Read More
                   </v-btn>
@@ -21,6 +22,7 @@
                     class="ma-4 green"
                     text
                     color="white"
+                    to="apply"
                   >
                     Apply Now
                   </v-btn>

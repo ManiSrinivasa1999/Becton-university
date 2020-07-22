@@ -40,7 +40,7 @@
       </v-row>
       <v-row justify="center" align="center">
         <v-col cols="10" md="6" lg="4" sm="8">
-          <v-btn x-large to="/admissions" color="success" width="100%">
+          <v-btn x-large to="/programmes" color="success" width="100%">
             More about admission
           </v-btn>
         </v-col>
