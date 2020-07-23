@@ -2,18 +2,22 @@
   <div class="accreditation">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="12" md="8">
-          <div class="align-center justify-center d-flex flex-column pa-4">
+        <v-col cols="12" md="12" lg="10" xl="10" sm="12" xs="12">
+          <div class="align-center justify-center d-flex flex-column pa-4 mb-8">
             <span class="text-h4 pa-4 ma-4 font-weight-bold text-center">
               OUR ACCREDITATION AND PARTNERS
             </span>
           </div>
-          <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-            <v-col cols="6" md="2" v-for="(item, i) in accreditionData" :key="i">
-              <v-img eager class="mx-auto" :src="item" width="240" height="120" contain>
-              </v-img>
-            </v-col>
-          </v-row>
+          <infinite-slide-bar>
+            <div class="items mb-8">
+              <div v-for="(item, i) in accreditionData" :key="i">
+                <div class="f-left pd-t-8px mg-r-10px">
+                  <v-img eager class="mx-auto" :src="item" width="240" height="120" contain>
+                  </v-img>
+                </div>
+              </div>
+            </div>
+          </infinite-slide-bar>
         </v-col>
       </v-row>
     </v-container>
@@ -49,5 +53,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.items {
+  display: flex;
+  justify-content: space-around;
+}
 
 </style>

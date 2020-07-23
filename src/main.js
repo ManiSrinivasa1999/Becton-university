@@ -25,6 +25,7 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import InfiniteSlideBar from 'vue-infinite-slide-bar';
 import App from './App.vue';
 
 import './registerServiceWorker';
@@ -55,6 +56,7 @@ library.add(
   faDotCircle,
 );
 Vue.component('font-awesome-icon', FontAwesomeIcon);
+Vue.component('infinite-slide-bar', InfiniteSlideBar);
 
 Vue.config.productionTip = false;
 
