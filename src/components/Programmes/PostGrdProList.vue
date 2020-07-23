@@ -336,7 +336,7 @@
                     </v-card-actions>
                   </v-card>
                 </v-dialog>
-                <v-btn color="success" to="/apply" outlined>Apply Now</v-btn>
+                <v-btn color="success" to="/apply" class="mt-4" outlined>Apply Now</v-btn>
               </div>
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -677,7 +677,7 @@
                     </v-card-actions>
                   </v-card>
                 </v-dialog>
-                <v-btn color="success" to="/apply" outlined>Apply Now</v-btn>
+                <v-btn color="success" to="/apply" class="mt-4" outlined>Apply Now</v-btn>
               </div>
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -1026,7 +1026,7 @@
                     </v-card-actions>
                   </v-card>
                 </v-dialog>
-                <v-btn color="success" to="/apply" outlined>Apply Now</v-btn>
+                <v-btn color="success" to="/apply" class="mt-4" outlined>Apply Now</v-btn>
               </div>
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -1367,7 +1367,7 @@
                     </v-card-actions>
                   </v-card>
                 </v-dialog>
-                <v-btn color="success" to="/apply" outlined>Apply Now</v-btn>
+                <v-btn color="success" to="/apply" class="mt-4" outlined>Apply Now</v-btn>
               </div>
             </v-expansion-panel-content>
           </v-expansion-panel>
