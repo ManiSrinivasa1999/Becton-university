@@ -16,7 +16,7 @@
           through our virtual campus with expert support throughout your
           enrolment.
         </p>
-        <v-btn color="warning" x-large>
+        <v-btn color="black" class="white--text" to="/apply" x-large>
           <v-icon class="mr-3">fas fa-graduation-cap</v-icon>ENROLL TODAY
         </v-btn>
       </v-col>

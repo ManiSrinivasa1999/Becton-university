@@ -56,7 +56,7 @@
 
           <v-card-text class="text--primary">
             <div>July 03 at 09:00 am</div>
-            <div>16 London St, Paddington, London, United Kingdom</div>
+            <div>St, Paddington, London, United Kingdom</div>
           </v-card-text>
 
           <v-card-actions>
