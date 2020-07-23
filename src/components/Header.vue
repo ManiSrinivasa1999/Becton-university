@@ -68,11 +68,20 @@
         <div v-if="$vuetify.breakpoint.lgAndUp" class="mr-16 pr-16">
           <v-btn
             text
-            v-for="button in buttons.slice(4, 7)"
+            v-for="button in buttons.slice(4, 6)"
             :key="button.label"
             :to="button.url"
             class="pa-2 btn text-body-2 font-weight-bold "
             active-class="green--text"
+          >
+            {{ button.label }}
+          </v-btn>
+          <v-btn
+            text
+            v-for="button in buttons.slice(6, 7)"
+            :key="button.label"
+            :to="button.url"
+            class="pa-2 text-body-2 font-weight-bold success"
           >
             {{ button.label }}
           </v-btn>

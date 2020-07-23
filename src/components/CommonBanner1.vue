@@ -47,7 +47,7 @@ export default {
 }
 
 #screen1-content {
-  min-height: 25vh;
+  min-height: 35vh;
   background-color: rgba(black, 0.5);
   z-index: 2;
 }

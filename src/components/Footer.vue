@@ -39,7 +39,17 @@
               </div>
             </v-card-text>
           </v-col>
-          <v-col cols="12" md="4"></v-col>
+          <v-col cols="12" md="4">
+            <div v-if="$vuetify.breakpoint.smAndDown">
+              <v-img eager src="../assets/logo.png" height="30vh" width="34vh" contain></v-img>
+            </div>
+             <div v-else-if="$vuetify.breakpoint.mdOnly" class="mt-4">
+              <v-img eager src="../assets/logo.png" height="25vh" width="34vh" contain></v-img>
+            </div>
+            <div v-else-if="$vuetify.breakpoint.lgAndUp">
+              <v-img eager src="../assets/logo.png" height="40vh" width="50vh" contain></v-img>
+            </div>
+          </v-col>
           <v-col cols="12" md="4">
             <v-card-text class="white--text">
               <strong class="text-h4 font-weight-bold mb-4">Quick Links</strong>
