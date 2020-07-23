@@ -80,7 +80,7 @@
       </v-app-bar>
       <v-app-bar app v-else-if="$vuetify.breakpoint.mdAndDown">
         <div class="college-name-sm">
-          <v-img eager src="../assets/logo.png" height="70px" width="75px" contain></v-img>
+          <v-img eager src="../assets/logo.png" height="75px" width="80px" contain></v-img>
         </div>
 
         <v-spacer></v-spacer>
@@ -212,8 +212,8 @@ export default {
   position: relative;
   top: -0px;
   background-color: #e0e0e0;
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
 }
 
 </style>

@@ -7,7 +7,7 @@
           cols="12"
           sm="12"
         >
-          <h1 class="display-1 font-weight-bold mt-16 mb-1 text-center">
+          <h1 class="display-1 font-weight-bold mt-16 pt-md-12 mb-1 text-center">
             {{ pageHeading }}
           </h1>
           <div
