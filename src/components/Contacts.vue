@@ -22,7 +22,7 @@
                 </v-card-text>
                 <v-card-text>
                   <span class="font-weight-bold green--text">Email: </span><br />
-                  info@becktonCollege.org
+                  info@becktoncollege.org
                 </v-card-text>
                 <v-card-text>
                   <span class="font-weight-bold green--text">Phone: </span><br />
