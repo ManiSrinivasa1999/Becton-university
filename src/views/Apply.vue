@@ -34,9 +34,9 @@
                     class="mb-4"
                     contain
                     height="128"
-                    src="https://cdn.vuetifyjs.com/images/logos/v.svg"
+                    src="../assets/logo-application.png"
                   ></v-img>
-                  <h3 class="title font-weight-light mb-2">Welcome to USA-GU</h3>
+                  <h3 class="title font-weight-light mb-2">Welcome to Becton College</h3>
                   <span class="caption grey--text"
                     >Thanks for filling the form</span
                   >
