@@ -19,7 +19,7 @@
                 affordable price while ensuring that individual needs are met
                 and that your distance learning experience is both enjoyable and
                 beneficial. Our modules are your own personal tutor at home.<br /><br />
-                Becton College’s unique, style of distance learning is called
+                Beckton College’s unique, style of distance learning is called
                 directed coursework study . This means that you study on your
                 own, either at home or wherever suits you with regular ongoing
                 support from your designated supervisor.<br /><br />
@@ -33,7 +33,7 @@
             <v-col cols="12" xl="11">
               <p>
                 When your program starts, you’ll receive your modules by post.
-                /courier .Effective 1st of January 2020, the Becton College
+                /courier .Effective 1st of January 2020, the Beckton College
                 modules have been available to students in e-format and may be
                 sent to you as PDF attachments to your emails.
                 <br /><br />
@@ -46,9 +46,9 @@
                 study timetable that will help you plan your reading, and
                 assignments due dates.<br /><br />
                 With our unique, world-leading style of distance learning,
-                Becton College enables you to study from home, work or even
+                Beckton College enables you to study from home, work or even
                 on the move, at a time that suits you. With a wide choice of
-                qualifications, at undergraduate and postgraduate level, Becton
+                qualifications, at undergraduate and postgraduate level, Beckton
                 College offers the choice and flexibility you need.<br /><br />
                 “The level of support is fantastic and the modules are
                 brilliant. It’s such a wonderful learning experience”

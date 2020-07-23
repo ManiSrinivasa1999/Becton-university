@@ -1,4 +1,4 @@
-# Becton College
+# Beckton College
 
 ## Live at : https://hungry-beaver-dba38d.netlify.app/
 

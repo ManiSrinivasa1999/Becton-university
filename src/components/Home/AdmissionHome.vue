@@ -20,7 +20,7 @@
       <v-row justify="center" align="center">
         <v-col cols="12" md="6" sm="10" lg="5">
           <p class="text-h5 font-weight-bold text-center">
-            Explore the possibilities of a Becton education as you map out your college journey.
+            Explore the possibilities of a Beckton education as you map out your college journey.
           </p>
           <p class="text-h6 text-center">
             We look for distinctive students who exhibit an abundance of energy and curiosity in
@@ -29,7 +29,7 @@
         </v-col>
         <v-col cols="12" md="6" sm="10" lg="5">
           <p class="text-h5 font-weight-bold text-center">
-            Becton meets the full financial need of every admitted undergrad who qualifies
+            Beckton meets the full financial need of every admitted undergrad who qualifies
             for assistance.
           </p>
           <p class="text-h6 text-center">

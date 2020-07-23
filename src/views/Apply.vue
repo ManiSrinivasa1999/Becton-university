@@ -36,7 +36,7 @@
                     height="128"
                     src="../assets/logo-application.png"
                   ></v-img>
-                  <h3 class="title font-weight-light mb-2">Welcome to Becton College</h3>
+                  <h3 class="title font-weight-light mb-2">Welcome to Beckton College</h3>
                   <span class="caption grey--text"
                     >Thanks for filling the form</span
                   >

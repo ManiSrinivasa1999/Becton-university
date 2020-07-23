@@ -3,13 +3,13 @@
     <v-container class="informn">
       <div class="align-center justify-center d-flex flex-column pa-0 ma-0">
         <span class="text-h4 pa-4 ma-4 font-weight-bold text-center white--text">
-          STUDYING AT BECTON COLLEGE
+          STUDYING AT BECKTON COLLEGE
         </span>
       </div>
       <v-row class="fill-height" align="center" justify="center">
         <v-col cols="12" md="10">
           <p class="title text-center white--text">
-            Becton College’s formula has proven a great success over the
+            Beckton College’s formula has proven a great success over the
             years. It is efficient, student-oriented, and can be transmitted
             from any computer terminal anywhere in the world. That is why
             this formula is now being championed by numerous online

@@ -13,14 +13,14 @@
               </div>
               <br />
               <p class="">
-                 Becton College is a high quality progressive modern e
+                Beckton College is a high quality progressive modern e
                 learning College. Our aim is to create a friendly environment
                 for people who decide to work hard on their professional and
                 personal development. Nothing makes us happier and more
                 satisfied than our students, lecturers, and employees being
-                proud to be a part of Becton College.<br />
+                proud to be a part of Beckton College.<br />
                 <br />
-                I am very honored to be the President of Becton College. The
+                I am very honored to be the President of Beckton College. The
                 College as it is today is the result of the dedication that
                 called for lots of energy, diligence, and enthusiasm of students
                 and graduates; excellent support, care, and effort of staff and
@@ -42,11 +42,11 @@
                 why we support creative minds, ideas and commitment to others,
                 and invest our profits to the development of new systems and
                 study materials. <br />
-                <br />Take the opportunity to explore what Becton College has
+                <br />Take the opportunity to explore what Beckton College has
                 to offer and what makes it unique. Do not hesitate to contact us
                 with any questions - we will be happy to answer all your
                 inquiries! <br />
-                <br />I believe you will find the story of Becton College
+                <br />I believe you will find the story of Beckton College
                 inspiring and become a part of it - because thanks to YOU we
                 have the chance to grow and continue to make a difference!
                 <br />
@@ -55,7 +55,7 @@
                   Sincerely,<br />
                   <br />
                   Dr Larry Adams <br />
-                  <br />President of Becton College
+                  <br />President of Beckton College
                 </b>
               </p>
             </v-col>

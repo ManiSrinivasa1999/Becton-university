@@ -17,14 +17,14 @@
                 </div>
                 <p class="pa-2 pl-4">
                   Online and distance learning is the future of education. Even
-                  though we live in a global village the concept of a Becton
+                  though we live in a global village the concept of a Beckton
                   College – not rooted in a particular country – such as
-                  Becton College – is occasionally misunderstood by the
+                  Beckton College – is occasionally misunderstood by the
                   dinosaurs of brick and mortar education especially in
                   countries where online education is still a novelty.
                 </p>
                 <p class="pa-2 pl-4">
-                  Becton College's formula has proven a great success over
+                  Beckton College's formula has proven a great success over
                   the years. It is efficient, student-oriented, and can be
                   transmitted from any computer terminal anywhere in the world.
                   That is why this formula is now being championed by numerous
@@ -32,7 +32,7 @@
                 </p>
 
                 <v-btn x-large to="/about" color="success" class="ml-4">
-                  More about Becton
+                  More about Beckton
                 </v-btn>
               </v-col>
             </template>
@@ -48,14 +48,14 @@
                 </div>
                 <p class="pa-2 pl-4">
                   Online and distance learning is the future of education. Even
-                  though we live in a global village the concept of a Becton
+                  though we live in a global village the concept of a Beckton
                   College – not rooted in a particular country – such as
-                  Becton College – is occasionally misunderstood by the
+                  Beckton College – is occasionally misunderstood by the
                   dinosaurs of brick and mortar education especially in
                   countries where online education is still a novelty.
                 </p>
                 <p class="pa-2 pl-4">
-                  Becton College's formula has proven a great success over
+                  Beckton College's formula has proven a great success over
                   the years. It is efficient, student-oriented, and can be
                   transmitted from any computer terminal anywhere in the world.
                   That is why this formula is now being championed by numerous
@@ -63,7 +63,7 @@
                 </p>
 
                 <v-btn x-large to="/about" color="success" class="ml-4">
-                  More about Becton
+                  More about Beckton
                 </v-btn>
               </v-col>
               <v-col cols="12" md="6">

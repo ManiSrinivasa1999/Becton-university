@@ -37,15 +37,15 @@
                 AFFILIATES
               </div>
               <p class="text-subtitle">
-                Becton College, the international distance learning centre,
+                Beckton College, the international distance learning centre,
                 which was subsequently incorporated as an independent Online and
                 Distance Learning College in Delaware, America.<br /><br />
-                Becton College is a private international institution.
+                Beckton College is a private international institution.
                 American British Graduate College Online is specialized in
                 Distance Learning education our international learning arm is
                 London College of Media (www.londoncollegeofmedia.com).<br /><br />
                 Distance learning is rapidly becoming the preferred alternative,
-                and Becton College has quickly become established as one of
+                and Beckton College has quickly become established as one of
                 the pioneers in the field.
               </p>
             </v-col>
@@ -66,12 +66,12 @@
                 study programs are based on the College’s recommended curricula.
                 Affiliates operate under the auspices of their region’s head office.
                 <br /><br />
-                Becton College is a private international institution.
-                Becton College Online is specialized in Distance Learning
+                Beckton College is a private international institution.
+                Beckton College Online is specialized in Distance Learning
                 education our international learning arm is London College of Media
                 (www.londoncollegeofmedia.com).
                 <br /><br />
-                Becton College Online is licensed by E-Learning
+                Beckton College Online is licensed by E-Learning
                 International LLC (California).
               </p>
             </v-col>

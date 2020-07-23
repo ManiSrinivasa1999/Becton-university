@@ -7,7 +7,7 @@
             OUR ACHIEVEMENTS
           </p>
           <p class="text-h6 text-center">
-            <strong>BECTON COLLEGE</strong>
+            <strong>BECKTON COLLEGE</strong>
             <br />
             Experience the benefits of a global education community and interact
             with students in countries around the world.
