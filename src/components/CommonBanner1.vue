@@ -1,27 +1,25 @@
 <template>
-  <div class="common-banner">
-     <v-row class="mx-0 screen1 white--text">
-        <v-col
-          class="d-flex flex-column justify-center align-center"
-          id="screen1-content"
-          cols="12"
-          sm="12"
-        >
-          <h1 class="display-1 font-weight-bold mt-16 pt-md-12 mb-1 text-center">
-            {{ pageHeading }}
-          </h1>
-          <div
-            class="d-flex flex-row text-center"
-            v-if="Boolean(caption) === true"
-          >
-            <a href="/" class="white--text home-ref mr-2">
-              Home ->
-            </a>
-            <p class="text-center my-auto" color="white">{{ caption }}</p>
-          </div>
-        </v-col>
-      </v-row>
-  </div>
+  <v-row class="mx-0 screen1 white--text">
+    <v-col
+      class="d-flex flex-column justify-center align-center"
+      id="screen1-content"
+      cols="12"
+      sm="12"
+    >
+      <h1 class="display-1 font-weight-bold mt-16 pt-md-12 mb-1 text-center">
+        {{ pageHeading }}
+      </h1>
+      <div
+        class="d-flex flex-row text-center"
+        v-if="Boolean(caption) === true"
+      >
+        <a href="/" class="white--text home-ref mr-2">
+          Home ->
+        </a>
+        <p class="text-center my-auto" color="white">{{ caption }}</p>
+      </div>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
@@ -39,7 +37,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 .screen1 {
   background-size: cover;

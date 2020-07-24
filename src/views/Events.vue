@@ -95,7 +95,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 .screen1 {
   background-image: url('../assets/gallery-banner.jpg');

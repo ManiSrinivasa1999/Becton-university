@@ -18,7 +18,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 .screen1 {
   background-image: url('../assets/contact-banner.jpg');
