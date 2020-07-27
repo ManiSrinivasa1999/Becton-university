@@ -47,19 +47,19 @@
                   MORE ABOUT OUR COLLEGE
                 </div>
                 <p class="pa-2 pl-4">
-                  Online and distance learning is the future of education. Even
-                  though we live in a global village the concept of a Beckton
-                  College – not rooted in a particular country – such as
-                  Beckton College – is occasionally misunderstood by the
-                  dinosaurs of brick and mortar education especially in
-                  countries where online education is still a novelty.
+                  Beckton College is an education institute situated
+                  in the hearts of West Midlands, we thrive our focus on providing
+                  excellence career developments and continuing education. We are
+                  committed to enriching the lives at all students and delivering a
+                  wide range of high quality learning experiences.
                 </p>
                 <p class="pa-2 pl-4">
-                  Beckton College's formula has proven a great success over
-                  the years. It is efficient, student-oriented, and can be
-                  transmitted from any computer terminal anywhere in the world.
-                  That is why this formula is now being championed by numerous
-                  online educational institutions around the world.
+                  Beckton College organise yearly national and international media
+                  and fine arts competitions. These competitions will improve the students’
+                  confidence and encourage them to succeed.
+                  <br />
+                  On successful attainment students may gain access to Bachelors and
+                  Master programs offered at our partnership colleges and Universities.
                 </p>
 
                 <v-btn x-large to="/about" color="success" class="ml-4">

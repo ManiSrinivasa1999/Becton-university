@@ -9,11 +9,11 @@
       <v-row class="fill-height" align="center" justify="center">
         <v-col cols="12" md="10">
           <p class="title text-center white--text">
-            Beckton College’s formula has proven a great success over the
-            years. It is efficient, student-oriented, and can be transmitted
-            from any computer terminal anywhere in the world. That is why
-            this formula is now being championed by numerous online
-            educational institutions around the world.
+            Studying at Beckton College will provide you with the tools you need to forge a bright
+            future for yourself.
+            With experience in helping students achieve their potential, we are committed
+            to excellence in
+            learning and teaching.
           </p>
         </v-col>
         <v-col cols="12" md="4" lg="3" class="text-center">

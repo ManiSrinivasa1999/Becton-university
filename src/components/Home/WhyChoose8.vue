@@ -16,22 +16,20 @@
               <v-img eager src="../../assets/whychoose.jpg"></v-img>
             </v-col>
             <v-col cols="12" md="6">
-              <div class="text-h5 font-weight-bold pa-4">
-                RESEARCH AND TEACHING
+              <div class="text-h5 font-weight-bold pl-4">
+                <b>The College’s mission is to be open to people, places, methods and ideas.</b>
               </div>
-              <p class="pa-2 pl-4">
-                The College‘s academic staff are highly qualified and
-                experienced. They are accustomed to working with executives,
-                managers and consultants employed in both the private and public
-                sectors.
+              <p class="pa-2 pl-4 subtitle">
+                <br />
+                Nearly all of our courses have no formal entry requirements,
+                either prior qualifications or experience. We allow people who
+                have missed out on education to fulfil their potential and achieve
+                qualification that will see them succeed forward in their career.
               </p>
-              <div class="text-h5 font-weight-bold pa-4">
-                CAREERS & OFFERS
-              </div>
-              <p class="pa-2 pl-4">
-                This exciting alternative in higher education holds for you the
-                promise of professional and personal growth without any limits
-                or boundaries.
+              <p class="pa-2 pl-4 subtitle">
+                We believe that it is the qualifications and practical experience
+                with which our students leave, rather than those with which they enter,
+                that count…..
               </p>
             </v-col>
           </v-row>
@@ -40,22 +38,20 @@
             class="fill-height pa-0 ma-0"
           >
             <v-col cols="12" md="6">
-              <div class="text-h5 font-weight-bold pa-4">
-                RESEARCH AND TEACHING
+              <div class="text-h5 font-weight-bold pl-4">
+                <b>The College’s mission is to be open to people, places, methods and ideas.</b>
               </div>
               <p class="pa-2 pl-4 subtitle">
-                The College‘s academic staff are highly qualified and
-                experienced. They are accustomed to working with executives,
-                managers and consultants employed in both the private and public
-                sectors.
+                <br />
+                Nearly all of our courses have no formal entry requirements,
+                either prior qualifications or experience. We allow people who
+                have missed out on education to fulfil their potential and achieve
+                qualification that will see them succeed forward in their career.
               </p>
-              <div class="text-h5 font-weight-bold pa-4">
-                CAREERS & OFFERS
-              </div>
               <p class="pa-2 pl-4 subtitle">
-                This exciting alternative in higher education holds for you the
-                promise of professional and personal growth without any limits
-                or boundaries.
+                We believe that it is the qualifications and practical experience
+                with which our students leave, rather than those with which they enter,
+                that count…..
               </p>
             </v-col>
             <v-col cols="12" md="6">
