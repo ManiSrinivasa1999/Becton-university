@@ -2,7 +2,7 @@
   <div class="home-banner">
     <v-row class="pa-0 ma-0">
       <v-col cols="12" class="pa-0 ma-0">
-        <v-img src="../../assets/homebanner-1.jpg" height="80vh">
+        <v-img src="../../assets/homebanner-1.jpg" height="80vh" contain>
           <v-overlay absolute opacity="0.6">
             <v-row class="pb-0" app>
               <v-col cols="12" sm="12" class="text-center">
