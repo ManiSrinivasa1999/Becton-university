@@ -3,7 +3,7 @@
     <v-row class="pa-0 ma-0 mt-lg-16">
       <v-col cols="12" class="pa-0 ma-0 mt-5">
         <div v-if="$vuetify.breakpoint.lgAndUp">
-          <v-img src="../../assets/homebanner-1.png" height="80vh" class="banner-width" contain>
+          <v-img src="../../assets/banner5.jpg" height="80vh" position="top top">
             <v-overlay absolute opacity="0.6">
               <v-row class="pb-0" app>
                 <v-col cols="12" sm="12" class="text-center">
@@ -34,7 +34,7 @@
           </v-img>
         </div>
         <div v-else-if="$vuetify.breakpoint.mdAndDown">
-          <v-img src="../../assets/homebanner-1.png" height="80vh">
+          <v-img src="../../assets/banner5.jpg" height="80vh" position="top">
             <v-overlay absolute opacity="0.6">
               <v-row class="pb-0" app>
                 <v-col cols="12" sm="12" class="text-center">
