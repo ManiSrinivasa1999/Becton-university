@@ -23,8 +23,10 @@
             Explore the possibilities of a Beckton education as you map out your college journey.
           </p>
           <p class="text-h6 text-center">
-            We look for distinctive students who exhibit an abundance of energy and curiosity in
-            their classes, activities, projects, research and lives.
+            Learners at Beckton college have at least one thing in common:<br />
+            they are all learning for success. The College is committed to promoting
+            equality and valuing diversity, as we have students of all ages,
+            backgrounds and beliefs.
           </p>
         </v-col>
         <v-col cols="12" md="6" sm="10" lg="5">
@@ -33,8 +35,10 @@
             for assistance.
           </p>
           <p class="text-h6 text-center">
-            Nearly 70% of undergrads receive financial aid. Generally, tuition is covered for
-            families with incomes below $125,000.
+            In our College there will be opportunities to make new friends,
+            take part in national competitions, gain work experience,
+            be involved with work experience and visit new and exciting places,
+            amongst other activities, ensuring your time here is enjoyable and rewarding.
           </p>
         </v-col>
       </v-row>

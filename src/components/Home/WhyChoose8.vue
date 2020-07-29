@@ -29,7 +29,11 @@
               <p class="pa-2 pl-4 subtitle">
                 We believe that it is the qualifications and practical experience
                 with which our students leave, rather than those with which they enter,
-                that count…..
+                that count…..<br /><br />
+                We have students of all ages and backgrounds including overseas: school
+                leavers who choose to begin their careers while they study, people wanting
+                to develop or update their skills, or change career entirely, and retired people
+                wanting to explore new interests and keep mentally active.
               </p>
             </v-col>
           </v-row>
@@ -51,7 +55,11 @@
               <p class="pa-2 pl-4 subtitle">
                 We believe that it is the qualifications and practical experience
                 with which our students leave, rather than those with which they enter,
-                that count…..
+                that count…..<br /><br />
+                We have students of all ages and backgrounds including overseas: school
+                leavers who choose to begin their careers while they study, people wanting
+                to develop or update their skills, or change career entirely, and retired people
+                wanting to explore new interests and keep mentally active.
               </p>
             </v-col>
             <v-col cols="12" md="6">

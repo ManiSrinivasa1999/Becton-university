@@ -8,7 +8,7 @@
               <v-img eager src="@/assets/faculty2.jpg" height="350px"></v-img>
             </v-col>
             <v-col cols="12" md="6">
-              <div class="font-weight-bold  mt-4" :class="heading">
+              <div class="font-weight-bold  mt-2" :class="heading">
                 FACULTY
               </div>
               <br />
@@ -20,6 +20,12 @@
                 <br />
                 This exciting alternative in higher education holds for you the promise
                 of professional and personal growth without any limits or boundaries.
+                <br /><br />
+                The classrooms at BC are modern, spacious, well lit and impressive
+                with all the latest technology. You’ll feel warmth with our staff and tutors,
+                who are all friendly and welcoming.<br /> <br />
+                Beckton College makes sure that all students feel at home in
+                the multi-cultural and multi-lingual atmosphere provided by the College.
               </p>
             </v-col>
           </v-row>

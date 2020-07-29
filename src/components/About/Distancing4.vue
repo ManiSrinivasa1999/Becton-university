@@ -33,20 +33,24 @@
             </v-col>
             <v-col cols="12">
               <div class="font-weight-bold" :class="heading">
-                BECKTON COLLEGE
+                LIFE AT BECKTON COLLEGE
               </div>
               <br />
               <p class="text-subtitle">
-                Beckton College, the international distance learning centre,
-                which was subsequently incorporated as an independent Online and
-                Distance Learning College in Delaware, America.<br /><br />
-                Beckton College is a private international institution.
-                American British Graduate College Online is specialized in
-                Distance Learning education our international learning arm is
-                London College of Media (www.londoncollegeofmedia.com).<br /><br />
-                Distance learning is rapidly becoming the preferred alternative,
-                and Beckton College has quickly become established as one of
-                the pioneers in the field.
+                Beckton College provides a warm and vibrant environment for students from
+                all walks of life.
+                The student will find the learning experience relaxed and enjoyable and
+                that it will stimulate and stretch mental ability. Leicester is an exciting and
+                diverse city with its many shopping areas including the High cross and Haymarket
+                shopping centres, Leicester has something for all tastes.<br /><br />
+                There is a vast choice of bars and restaurants to enjoy and plenty of
+                entertainment available at the various cinemas and theatres around the city.
+                Because the city has such a diverse culture it hosts events such as the
+                Caribbean Carnival,
+                Diwali lights and the Summer Sundae music festival. It is also home
+                to the National Space Centre.<br />
+                We look forward to welcoming you and helping you to achieve your
+                learning objectives.
               </p>
             </v-col>
           </v-row>
@@ -56,20 +60,24 @@
           >
             <v-col cols="12" md="6">
               <div class="font-weight-bold mb-4" :class="heading">
-                BECKTON COLLEGE
+                LIFE AT BECKTON COLLEGE
               </div>
               <br />
               <p class="text-subtitle">
-                Beckton College, the international distance learning centre,
-                which was subsequently incorporated as an independent Online and
-                Distance Learning College in Delaware, America.<br /><br />
-                Beckton College is a private international institution.
-                American British Graduate College Online is specialized in
-                Distance Learning education our international learning arm is
-                London College of Media (www.londoncollegeofmedia.com).<br /><br />
-                Distance learning is rapidly becoming the preferred alternative,
-                and Beckton College has quickly become established as one of
-                the pioneers in the field.
+                Beckton College provides a warm and vibrant environment for students from
+                all walks of life.
+                The student will find the learning experience relaxed and enjoyable and
+                that it will stimulate and stretch mental ability. Leicester is an exciting and
+                diverse city with its many shopping areas including the High cross and Haymarket
+                shopping centres, Leicester has something for all tastes.<br /><br />
+                There is a vast choice of bars and restaurants to enjoy and plenty of
+                entertainment available at the various cinemas and theatres around the city.
+                Because the city has such a diverse culture it hosts events such as the
+                Caribbean Carnival,
+                Diwali lights and the Summer Sundae music festival. It is also home
+                to the National Space Centre.<br />
+                We look forward to welcoming you and helping you to achieve your
+                learning objectives.
               </p>
             </v-col>
             <v-col cols="12" md="6">
