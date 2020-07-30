@@ -9,15 +9,21 @@
             </v-col>
             <v-col cols="12" md="12" lg="6" xl="6">
               <div class="font-weight-bold text-h5">
-                CAMPUS LIFE
+                OUR MISSION
               </div>
               <div class="text-title mb-6 mt-6">
-                Equally important to differences in academics are the increased
-                opportunities to have a social life, especially if you live in a dormitory.
-                Your dorm or campus may offer weekend activities or you may be invited to go
-                out during the week. You will have to decide when to do laundry,
-                what time to get up for class, when to eat and if you want to participate
-                in a student organization.
+                “Beckton College is uniquely and proudly vocational.
+                Our greatest passion is unleashing the potential of individuals,
+                communities and businesses; our greatest legacy is the talent of
+                our students: skilled, professional and enterprising.”
+              </div>
+              <div class="font-weight-bold text-h5">
+                OUR VISION
+              </div>
+              <div class="text-title mb-6 mt-6">
+                “To provide students with an outstanding learning experience,
+                education and skills development to support them into
+                higher levels of study and jobs.”
               </div>
             </v-col>
           </v-row>

@@ -9,15 +9,16 @@
           >
             <v-col cols="12" lg="6" xl="6" md="12" sm="8">
               <div class="font-weight-bold text-h5 mb-4">
-                WHY GO TO OUR SCHOOL
+                WELCOME TO BECKTON COLLEGE
               </div>
               <div class="text-subtitle">
-                You will probably have less contact with your professors.
-                The workload and expectations are different as well.
-                You may have weekly reading assignments but have fewer,
-                larger projects to turn in for the semester.
-                Your grade may be based on only two tests for the whole semester
-                — meaning it is important to plan your study schedule and how you use your time.
+                We are one of the most successful colleges in the country – a
+                place where more than 14,000 people study vocational technical qualifications,
+                apprenticeships and higher education programmes each year.<br />
+                Whether you’re looking to study here as a school leaver,
+                higher education student, apprentice, adult learner, or an
+                employer looking to develop your workforce, you’ll find we’ve got
+                training and courses to suit all needs and ambitions.
               </div>
 
               <div class="mt-12 d-flex">
@@ -48,17 +49,17 @@
             </v-col>
             <v-col cols="12" lg="6" xl="6" md="12" sm="12">
               <div class="font-weight-bold text-h5 mb-4">
-                WHY GO TO OUR SCHOOL
+                WELCOME TO BECKTON COLLEGE
               </div>
               <div class="text-subtitle">
-                You will probably have less contact with your professors.
-                The workload and expectations are different as well.
-                You may have weekly reading assignments but have fewer,
-                larger projects to turn in for the semester.
-                Your grade may be based on only two tests for the whole semester
-                — meaning it is important to plan your study schedule and how you use your time.
+                We are one of the most successful colleges in the country – a
+                place where more than 14,000 people study vocational technical qualifications,
+                apprenticeships and higher education programmes each year.<br />
+                Whether you’re looking to study here as a school leaver,
+                higher education student, apprentice, adult learner, or an
+                employer looking to develop your workforce, you’ll find we’ve got
+                training and courses to suit all needs and ambitions.
               </div>
-
               <div class="mt-8 d-flex">
                 <div
                   v-for="(item, i) in items"
