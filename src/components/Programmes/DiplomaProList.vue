@@ -3,9 +3,9 @@
     <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
       <v-col cols="10" md="10">
         <span class="font-weight-bold text-h5 ml-3">
-          Diploma
+          Courses
         </span>
-        <v-expansion-panels  class="mt-4" focusable>
+        <v-expansion-panels  class="mt-4 mb-16" focusable>
           <v-expansion-panel
             v-for="course in dropdown_edit"
             :key="course.title"
@@ -19,7 +19,9 @@
                 <p>This is the overview of course {{ course.text }}</p>
               </div>
               <div v-if="$vuetify.breakpoint.mdAndUp">
-                {{ course.info }}
+                <div class="mt-4">
+                  {{ course.info }}
+                </div>
                 <div class="ma-6">
                   <v-btn
                     color="info"
@@ -32,123 +34,39 @@
                   <v-dialog v-model="dialog" max-width="1000px">
                     <v-card>
                       <v-card-text>
-                        <span class="text-h4">Overview</span>
+                        <span class="text-h4 mt-8">Course Details:</span>
                         <p class="mt-4">
-                          Diploma in Accounting and Finance qualification is to
-                          provide learners with an understanding of:<br />
-                          contemporary and specialised approaches to accountancy
-                          and finance <br />key practical, theoretical and
-                          empirical issues, and academic research the
-                          <br />complexity of the ever-changing legal framework
-                          in which the financial sector operates <br />the
-                          latest developments in accountancy and reporting
-                          required by local, national and European government.
-                          <br />
-                          <br />This qualification is designed for learners who
-                          wish to pursue a career in the financial services
-                          industry, professional accountancy, banking and
-                          finance or management. The qualification equips
-                          learners with the essential skills and knowledge
-                          needed to pursue high careers in all types of
-                          organisations in the public and private sector and
-                          within industry and commerce, both in the UK and
-                          abroad. Accounting and Finance qualification also
-                          provides learners with the opportunity to work toward
-                          a relevant master’s programme with advanced standing.
+                          {{ course.info }}
                         </p>
                       </v-card-text>
                       <v-card-text>
-                        <span class="text-h4">Entry Requirements</span>
+                        <span class="text-h4">Course Review</span>
                         <p class="mt-4">
-                          Diploma in Accounting and Finance qualification,
-                          learners must possess:
-                          <br />
-                          An honours degree in related subject or UK 6 diploma
-                          or an equivalent overseas qualification <br />Mature
-                          learners (over 21) with management experience
-                          (learners must check with the delivery centre
-                          regarding this experience prior to registering for the
-                          programme) <br />Learner must be 18 years or older at
-                          the beginning of the course <br />English
-                          requirements: If a learner is not from a majority
-                          English-speaking country must provide evidence of
-                          English language competency. For more information
-                          visit English Language Expectations page in this
-                          website..
+                          {{ course.review }}
                         </p>
                       </v-card-text>
                       <v-card-text>
-                        <span class="text-h4">Equivalences</span>
+                        <span class="text-h4">Entry requirements</span>
                         <p class="mt-4">
-                          represent practical knowledge, skills, capabilities
-                          and competences that are assessed in academic terms as
-                          being equivalent to Master’s Degrees, Integrated
-                          Master’s Degrees, Postgraduate Diplomas, Postgraduate
-                          Certificate in Education (PGCE) and Postgraduate
-                          Certificates.
+                          {{ course.requirements }}
                         </p>
                       </v-card-text>
                       <v-card-text>
-                        <span class="text-h4">Qualification Structure</span>
+                        <span class="text-h4">Structure</span>
                         <p class="mt-4">
-                          Diploma in Accounting and Finance qualification
-                          consists of 6 mandatory units for a combined total of
-                          120 credits, 1200 hours Total Qualification Time (TQT)
-                          and 600 Guided Learning Hours (GLH) for the completed
-                          qualification.
+                          {{ course.structure }}
                         </p>
                       </v-card-text>
                       <v-card-text>
-                        <span class="text-h4">Mandatory units</span>
+                        <span class="text-h4">Progression</span>
                         <p class="mt-4">
-                          Investment Analysis (20 credits)<br />
-                          Corporate Social Responsibility and Governance (20
-                          credits)<br />
-                          Global Finance and Strategy (20 credits)<br />
-                          Strategic Financial Management (20 credits)<br />
-                          Strategic Audit (20 credits)<br />
-                          Corporate Reporting (20 credits)<br />
+                          {{ course.progression }}
                         </p>
                       </v-card-text>
                       <v-card-text>
-                        <span class="text-h4">Duration and delivery</span>
+                        <span class="text-h4">Assessment</span>
                         <p class="mt-4">
-                          The qualification is designed to be delivered over one
-                          academic year for full-time study, but it is also
-                          flexible in its delivery in order to accommodate
-                          part-time and distance learning. The qualification is
-                          delivered face-to-face, through lectures, tutorials,
-                          seminars, distance, online by approved centres only.
-                        </p>
-                      </v-card-text>
-                      <v-card-text>
-                        <span class="text-h4">Assesment and Verfication </span>
-                        <p class="mt-4">
-                          All units within this qualification are internally
-                          assessed by the centre and externally verified by GTU.
-                          The qualifications are criterion referenced, based on
-                          the achievement of all the specified learning outcomes
-                          To achieve a ‘pass’ for a unit, learners must provide
-                          evidence to demonstrate that they have fulfilled all
-                          the learning outcomes and meet the standards specified
-                          by all assessment criteria. Judgement that the
-                          learners have successfully fulfilled the assessment
-                          criteria is made by the Assessor. The Assessor should
-                          provide an audit trail showing how the judgement of
-                          the learners’ overall achievement has been arrived at.
-                        </p>
-                      </v-card-text>
-                      <v-card-text>
-                        <span class="text-h4">Progressions </span>
-                        <p class="mt-4">
-                          Diploma in Accounting and Finance qualification
-                          enables learners to progress into or within employment
-                          and/or continue their further study. As this
-                          qualification is approved and regulated, learners are
-                          eligible to progress to master’s top-up programmes at
-                          many universities in the UK and overseas with advanced
-                          standing. For more information visit College
-                          Progressions page in this website.
+                          {{ course.assessment }}
                         </p>
                       </v-card-text>
                       <v-card-actions>
@@ -195,123 +113,39 @@
                 <v-dialog v-model="dialog" max-width="1000px">
                   <v-card>
                     <v-card-text>
-                      <span class="text-h4">Overview</span>
+                      <span class="text-h4 mt-8">Course Details:</span>
                       <p class="mt-4">
-                        Diploma in Accounting and Finance qualification is to
-                        provide learners with an understanding of:<br />
-                        contemporary and specialised approaches to accountancy
-                        and finance <br />key practical, theoretical and
-                        empirical issues, and academic research the
-                        <br />complexity of the ever-changing legal framework
-                        in which the financial sector operates <br />the
-                        latest developments in accountancy and reporting
-                        required by local, national and European government.
-                        <br />
-                        <br />This qualification is designed for learners who
-                        wish to pursue a career in the financial services
-                        industry, professional accountancy, banking and
-                        finance or management. The qualification equips
-                        learners with the essential skills and knowledge
-                        needed to pursue high careers in all types of
-                        organisations in the public and private sector and
-                        within industry and commerce, both in the UK and
-                        abroad. Accounting and Finance qualification also
-                        provides learners with the opportunity to work toward
-                        a relevant master’s programme with advanced standing.
+                        {{ course.info }}
                       </p>
                     </v-card-text>
                     <v-card-text>
-                      <span class="text-h4">Entry Requirements</span>
+                      <span class="text-h4">Course Review</span>
                       <p class="mt-4">
-                        Diploma in Accounting and Finance qualification,
-                        learners must possess:
-                        <br />
-                        An honours degree in related subject or UK 6 diploma
-                        or an equivalent overseas qualification <br />Mature
-                        learners (over 21) with management experience
-                        (learners must check with the delivery centre
-                        regarding this experience prior to registering for the
-                        programme) <br />Learner must be 18 years or older at
-                        the beginning of the course <br />English
-                        requirements: If a learner is not from a majority
-                        English-speaking country must provide evidence of
-                        English language competency. For more information
-                        visit English Language Expectations page in this
-                        website..
+                        {{ course.review }}
                       </p>
                     </v-card-text>
                     <v-card-text>
-                      <span class="text-h4">Equivalences</span>
+                      <span class="text-h4">Entry requirements</span>
                       <p class="mt-4">
-                        represent practical knowledge, skills, capabilities
-                        and competences that are assessed in academic terms as
-                        being equivalent to Master’s Degrees, Integrated
-                        Master’s Degrees, Postgraduate Diplomas, Postgraduate
-                        Certificate in Education (PGCE) and Postgraduate
-                        Certificates.
+                        {{ course.requirements }}
                       </p>
                     </v-card-text>
                     <v-card-text>
-                      <span class="text-h4">Qualification Structure</span>
+                      <span class="text-h4">Structure</span>
                       <p class="mt-4">
-                        Diploma in Accounting and Finance qualification
-                        consists of 6 mandatory units for a combined total of
-                        120 credits, 1200 hours Total Qualification Time (TQT)
-                        and 600 Guided Learning Hours (GLH) for the completed
-                        qualification.
+                        {{ course.structure }}
                       </p>
                     </v-card-text>
                     <v-card-text>
-                      <span class="text-h4">Mandatory units</span>
+                      <span class="text-h4">Progression</span>
                       <p class="mt-4">
-                        Investment Analysis (20 credits)<br />
-                        Corporate Social Responsibility and Governance (20
-                        credits)<br />
-                        Global Finance and Strategy (20 credits)<br />
-                        Strategic Financial Management (20 credits)<br />
-                        Strategic Audit (20 credits)<br />
-                        Corporate Reporting (20 credits)<br />
+                        {{ course.progression }}
                       </p>
                     </v-card-text>
                     <v-card-text>
-                      <span class="text-h4">Duration and delivery</span>
+                      <span class="text-h4">Assessment</span>
                       <p class="mt-4">
-                        The qualification is designed to be delivered over one
-                        academic year for full-time study, but it is also
-                        flexible in its delivery in order to accommodate
-                        part-time and distance learning. The qualification is
-                        delivered face-to-face, through lectures, tutorials,
-                        seminars, distance, online by approved centres only.
-                      </p>
-                    </v-card-text>
-                    <v-card-text>
-                      <span class="text-h4">Assesment and Verfication </span>
-                      <p class="mt-4">
-                        All units within this qualification are internally
-                        assessed by the centre and externally verified by GTU.
-                        The qualifications are criterion referenced, based on
-                        the achievement of all the specified learning outcomes
-                        To achieve a ‘pass’ for a unit, learners must provide
-                        evidence to demonstrate that they have fulfilled all
-                        the learning outcomes and meet the standards specified
-                        by all assessment criteria. Judgement that the
-                        learners have successfully fulfilled the assessment
-                        criteria is made by the Assessor. The Assessor should
-                        provide an audit trail showing how the judgement of
-                        the learners’ overall achievement has been arrived at.
-                      </p>
-                    </v-card-text>
-                    <v-card-text>
-                      <span class="text-h4">Progressions </span>
-                      <p class="mt-4">
-                        Diploma in Accounting and Finance qualification
-                        enables learners to progress into or within employment
-                        and/or continue their further study. As this
-                        qualification is approved and regulated, learners are
-                        eligible to progress to master’s top-up programmes at
-                        many universities in the UK and overseas with advanced
-                        standing. For more information visit College
-                        Progressions page in this website.
+                        {{ course.assessment }}
                       </p>
                     </v-card-text>
                     <v-card-actions>
@@ -355,79 +189,294 @@ export default {
       selected: '',
       dropdown_edit: [
         {
-          text: 'Diploma in Business Management',
+          text: 'Diploma in Education and Training Level 3',
           info:
-            'This qualification is designed for learners who wish to pursue a career in the financial services industry, professional accountancy, banking and finance or management. The qualification equips learners with the essential skills and knowledge needed to pursue high careers in all types of organisations in the public and private sector and within industry and commerce, both in the UK and abroad. Accounting and Finance qualification also provides learners with the opportunity to work toward a relevant master’s programme with advanced standing.',
+            'The objective of the OTHM Level 3 Diploma in Education and Training qualification is to develop learners’ understanding of theory and practice in education. It provides learners with an opportunity to engage with the issues and challenges facing professionals and in their own country. The units will provide knowledge that underpins the ability to work as an effective practitioner in the education sector. They combine both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of approaches to teaching and learning, developing resources and reflective practice. Learners will be able to work in a variety of roles within education delivery, administration or assessment.',
+          review: 'The objective of the OTHM Level 3 Diploma in Education and Training qualification is to develop learners’ understanding of theory and practice in education. It provides learners with an opportunity to engage with the issues and challenges facing professionals and in their own country. The units will provide knowledge that underpins the ability to work as an effective practitioner in the education sector. They combine both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of approaches to teaching and learning, developing resources and reflective practice. Learners will be able to work in a variety of roles within education delivery, administration or assessment.',
+          requirements: 'For entry onto the OTHM Level 3 Diploma in Education and Training qualification, learners must possess: OTHM Level 3 qualifications can be offered to learners from age 16. OTHM does not specify entry requirements for these qualifications. OTHM ensures that learners admitted to the programme have sufficient capability at the right level to undertake the learning and assessment criteria.',
+          structure: 'The OTHM Level 3 Diploma in Education and Training qualification consists of 6 mandatory units for a combined total of 120 credits Unit Ref. No. D/617/4977 Understanding the Principles and Practices of Education and Training Credit:20, ECTS:10, GLH:80, TQT:200 H/617/4978 Understanding Roles and Responsibilities in Education and Training Credit:20, ECTS:10, GLH:80, TQT:200 K/617/4979 Develop Resources for Education and Training Credit:20, ECTS:10, GLH:80, TQT:200 D/617/4980 Deliver Education and Training Credit:20, ECTS:10, GLH:80, TQT:200 H/617/4981 Evaluate Education and Training Provision Credit:20, ECTS:10, GLH:80, TQT:200 K/617/4982 Reflect on Own Practice in Education and Training Credit:20, ECTS:10, GLH:80, TQT:200 Total: Credit: 120, ECTS: 60, GLH: 480, TQT: 1200',
+          progression: 'Learners completing the OTHM Level 3 Diploma in Education and Training will allow progress to: Successful completion of OTHM Level 3 Diploma in Education and Training qualification provides learners with the opportunity for academic progressions to a wide range of undergraduate programmes including OTHM Level 4 diplomas or directly entry to employment',
+          assessment: 'Assessment is via assignment submission No Exams Accreditation: This programme is accredited by Ofqual Awarding body (Othm)',
         },
         {
-          text: 'Diploma in Accounting and Finance Management',
+          text: 'Diploma in Education and Training Level 4',
           info:
-            'This qualification is designed for learners who wish to pursue a career in the financial services industry, professional accountancy, banking and finance or management. The qualification equips learners with the essential skills and knowledge needed to pursue high careers in all types of organisations in the public and private sector and within industry and commerce, both in the UK and abroad. Accounting and Finance qualification also provides learners with the opportunity to work toward a relevant master’s programme with advanced standing.',
+            'The objective of the OTHM Level 4 Diploma in Education and Training qualification is to develop learners’ understanding of theory and practice relating to their role in education. The qualification will provide learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective practitioner in the education sector. The units combine both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of effective performance, planning and accountability, development and team working. Learners will be able to work in a variety of roles within education administration and/or management.',
+          review: 'The objective of the OTHM Level 4 Diploma in Education and Training qualification is to develop learners’ understanding of theory and practice relating to their role in education. The qualification will provide learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective practitioner in the education sector. The units combine both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of effective performance, planning and accountability, development and team working. Learners will be able to work in a variety of roles within education administration and/or management.',
+          requirements: 'For entry onto the OTHM Level 4 Diploma in Education and Training qualification, learners must possess: Relevant NQF/QCF Level 3 Award/Diploma or at the level of GCE/GCSE or equivalent The learner must be 18 years or older at the beginning of the course Mature learners (over 21) with management experience (learners must check with the delivery center regarding this experience prior to registering for the programme)',
+          structure: 'Unit Ref. No. M/617/4983 Principles, Theories and Practices of Education and Training. Credit: 20, ECTS: 10, GLH: 80, TQT: 200 T/617/4984 Create Education and Training Programmes. Credit: 20, ECTS: 10, GLH: 80, TQT: 200 A/617/4985 Engage Learners in the Education and Training Process. Credit: 20, ECTS: 10, GLH: 80, TQT: 200 F/617/4986 Plan, Allocate and Monitor Work in Own Area of Responsibility. Credit: 20, ECTS: 10, GLH: 80, TQT: 200 J/617/4987 Evaluate Education and Training Provision. Credit: 20, ECTS: 10, GLH: 80, TQT: 200 L/617/4988 Reflect on and Maintain Own Skills and Practice in Education and Training. Credit: 20, ECTS: 10, GLH: 80, TQT: 200 Total: Credit: 120, ECTS: 60, GLH: 480, TQT: 1200',
+          progression: 'Successful completion of OTHM Level 4 Diploma in Education and Training qualification provides learners with the opportunity for academic progressions to OTHM or any other Level 5 Diploma in Education Training. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into Year 2 of a three-year UK Bachelor’s degree programme or direct entry to employment',
+          assessment: 'Assessment is via assignment submission. No Exams',
         },
         {
-          text: 'Diploma in Education and Training Management ',
+          text: 'Diploma in Education and Training Level 5',
           info:
-            'Diploma in Education Management and Leadership qualification is to develop learners’ understanding of policy, management theory and practice in education. It provides learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the education sector. It combines both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+            'The objective of the OTHM Level 5 Diploma in Education and Training qualification is intended to develop learners’ understanding of policy, management theory and practice in education. They provide learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. They will provide knowledge that underpins the ability to work as an effective manager in the education sector.',
+          review: 'The objective of the OTHM Level 5 Diploma in Education and Training qualification is intended to develop learners understanding of policy, management theory and practice in education. They provide learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. They will provide knowledge that underpins the ability to work as an effective manager in the education sector. They combine both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance, planning and accountability, development and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+          requirements: 'For entry onto the OTHM Level 5 Diploma in Education and Training qualification, learners must possess: Relevant NQF/QCF/RQF Level 4 diploma or equivalent recognized qualification. The learner must be 18 years or older at the beginning of the course. Mature learners (over 21) with management experience (learners must check with the delivery center regarding this experience prior to registering for the programme)',
+          structure: 'Unit Ref. No. R/617/4992 Theories and Principles of Education and Training Credit: 20, ECTS: 10, GLH: 80, TQT: 200 Y/617/4993 Lifelong Learning: Principles and Issues Credit: 20, ECTS: 10, GLH: 80, TQT: 200 D/617/4994 Resource Management in Education Credit: 20, ECTS: 10, GLH: 80, TQT: 200 H/617/4995 Develop and Evaluate Operational Plans for Own Area of Responsibility 20 10 80 200 K/617/4996 Provide Leadership and Direction for Own Area of Responsibility Credit: 20, ECTS: 10, GLH: 80, TQT: 200 M/617/4997 Professional Practice and Development in Education and Training Credit: 20, ECTS: 10, GLH: 80, TQT: 200 Total: Credit: 120, ECTS: 60, GLH: 480, TQT: 1200',
+          progression: 'Successful completion of the OTHM Level 5 Diploma in Education and Training qualification enables learners to progress into or within employment and/or continue their study towards a relevant Degree top-up programme with advanced standing at many universities in the UK and overseas. or directly entry to employment',
+          assessment: 'Assessment is via assignment submission. No Exams',
         },
         {
-          text: 'Diploma in Health and Social Care Management',
+          text: 'Diploma in Hospitality & Tourism Management Level 4',
           info:
-            'Diploma in Education Management and Leadership qualification is to develop learners’ understanding of policy, management theory and practice in education. It provides learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the education sector. It combines both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+            'The objective of the Level 4 Diploma in Tourism and Hospitality Management qualification is to support learners development as managers within the tourism and hospitality industry. The qualification enables learners to develop their knowledge of theories applicable to management in the tourism and hospitality industry. It enables learners to make well-informed and confident decisions about the management of work areas in the tourism and hospitality industry. Successful completion of the OTHM Level 4 Diploma in Tourism and Hospitality Management qualification will provide learners with the opportunity to progress to further study or employment.',
+          review: 'The objective of the Level 4 Diploma in Tourism and Hospitality Management qualification is to support learners development as managers within the tourism and hospitality industry. The qualification enables learners to develop their knowledge of theories applicable to management in the tourism and hospitality industry. It enables learners to make well-informed and confident decisions about the management of work areas in the tourism and hospitality industry. Successful completion of the OTHM Level 4 Diploma in Tourism and Hospitality Management qualification will provide learners with the opportunity to progress to further study or employment. The Qualifications will develop the Learners ability to apply analytical and evaluative techniques and to enhance those skills; investigate issues and opportunities. Develop their awareness and appreciation of managerial, organisational and environmental issues; use management techniques and practices in imaginative ways. Make use of relevant information from different sources. Develop and encourage problem solving and creativity to tackle problems and challenges. Exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills',
+          requirements: 'For entry onto the OTHM Level 4 Diploma in Tourism and Hospitality Management qualification, learners must possess: Relevant NQF/QCF/RQF Level 3 Award/Diploma or at the level of GCE/GCSE or equivalent qualification. Mature learners (over 21) with management experience (learners must check with the delivery center regarding this experience prior to registering for the programme) Learner must be 18 years or older at the beginning of the course',
+          structure: 'The Level 4 Diploma in Tourism and Hospitality Management consists of 6 mandatory units for a combined total of 120 credits, 1200 hours Total Qualification Time (TQT) and 480 Guided Learning Hours (GLH) for the completed qualification. Unit Ref. No. Y/616/2679 Tourism and Hospitality Business Management Credit: 20, GLH: 80, TQT:200 M/616/2669 Services Marketing and Customer Service Credit: 20, GLH: 80, TQT:200 H/616/2670 Accounting and Finance Credit: 20, GLH: 80, TQT:200 K/616/2671 Academic And Professional Development Credit: 20, GLH: 80, TQT:200 M/616/2672 Events Management Credit: 20, GLH: 80, TQT:200 T/616/2673 Development of the Tourism and Hospitality Industry Credit: 20, GLH: 80, TQT:200',
+          progression: 'Successful completion of OTHM Level 4 Diploma in Tourism and Hospitality Management qualification will provide learners the opportunity for a wide range of academic progressions including OTHM Level 5 Diploma in Tourism and Hospitality Management. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into 2nd year of a three- year UK Bachelors degree programme. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission. This programme is accredited by Ofqual Awarding body (Othm)',
         },
         {
-          text: 'Diploma in Human Resource Management',
+          text: 'Diploma in Hospitality & Tourism Management Level 5',
           info:
-            'Diploma in Human Resource Management qualification is to provide learners with the skills and understanding in human resource management (HRM) that align with good strategic decision making to maintain organisations’ competitive advantage. Learners acquire knowledge through an integrated approach of theory in human resource management and practice using real-time activities. Successful completion of this qualification will develop learners’ strategic human resource management and leadership skills and their ability to focus on the requirements of implementing an organisation’s strategy. Human Resource Management qualification enables learners to progress into or within employment and/or to work toward a relevant Master’s programme with advanced standing.',
+            'The objective of the Level 5 Diploma in Tourism and Hospitality Management qualification is to enable learners development as managers within the tourism and hospitality industry, with a lifelong-learning orientation. It enables learners to critically apply contemporary knowledge and theories to the management of complex problems. Successful completion of this qualification will equip learners with the specialist skills and technical terminology to develop their management skills and to progress to further study or employment.',
+          review: 'The objective of the Level 5 Diploma in Tourism and Hospitality Management qualification is to enable learners development as managers within the tourism and hospitality industry, with a lifelong-learning orientation. It enables learners to critically apply contemporary knowledge and theories to the management of complex problems. Successful completion of this qualification will equip learners with the specialist skills and technical terminology to develop their management skills and to progress to further study or employment. The Qualifications will develop the Learners ability to apply analytical and evaluative techniques and to enhance those skills. Investigate issues and opportunities. Develop their awareness and appreciation of managerial, organisational and environmental issues. Use management techniques and practices in imaginative ways. Make use of relevant information from different sources. Develop and encourage problem solving and creativity to tackle problems and challenges. Exercise judgement, own and take responsibility for decisions and actions. And develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills',
+          requirements: 'For entry onto the OTHM Level 5 Diploma in Tourism and Hospitality Management qualification, learners must possess relevant NQF/QCF/RQF Level 4 Diploma or equivalent, mature learners (over 21) with management experience (learners must check with the delivery centre regarding this experience prior to registering for the programme), learner must be 18 years or older at the beginning of the course, english requirements: If a learner is not from a majority English-speaking country must provide evidence of English language competency. For more information visit English Language Expectations page in this website.',
+          structure: 'The Level 4 Diploma in Tourism and Hospitality Management consists of 6 mandatory units for a combined total of 120 credits, 1200 hours Total Qualification Time (TQT) and 480 Guided Learning Hours (GLH) for the completed qualification. Unit Ref. No. Y/616/2679 Tourism and Hospitality Business Management Credit: 20, GLH: 80, TQT:200 M/616/2669 Services Marketing and Customer Service Credit: 20, GLH: 80, TQT:200 H/616/2670 Accounting and Finance Credit: 20, GLH: 80, TQT:200 K/616/2671 Academic And Professional Development Credit: 20, GLH: 80, TQT:200 M/616/2672 Events Management Credit: 20, GLH: 80, TQT:200 T/616/2673 Development of the Tourism and Hospitality Industry Credit: 20, GLH: 80, TQT:200',
+          progression: 'Successful completion of Level 5 Diploma in Tourism and Hospitality Management provides learners the opportunity for a wide range of academic progressions including OTHM Level 6 Diploma in Tourism and Hospitality Management. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into Final year of a three-year UK Bachelors degree programme. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission. No Exams. This programme is accredited by Ofqual Awarding body (Othm)',
         },
         {
-          text: 'Diploma in Logistics and Supply Chain Management',
+          text: 'Diploma in Hospitality & Tourism Management Level 6',
           info:
-            'Diploma in Logistics and Supply Chain Management qualification is to broaden learners’ understanding of logistics and supply chain management and is designed for those who wish to prepare for a first professional role and future career in the field. It is also suitable for logistics and supply chain professionals in the early stages of their career looking to enhance their knowledge and skills and move to the next professionally. Successful completion of this qualification will equip learners with the specialist knowledge and skills needed to further their career as a logistics and supply chain professional as well as the opportunity to embark on further study towards a relevant Master’s programme with advanced standing.',
+            'The objective of the Level 6 Diploma in Tourism and Hospitality Management qualification is to develop learners management knowledge and skills within the tourism and hospitality industry. Learners will critically evaluate contemporary knowledge and theories and use these to propose solutions to complex management problems. Successful completion of the qualification will equip learners with the specialist skills and knowledge they need to plan and manage their work areas, to make effective decisions, and to adapt effectively to the needs of a range of tourism and hospitality organisations.',
+          review: 'The objective of the Level 6 Diploma in Tourism and Hospitality Management qualification is to develop learners’ management knowledge and skills within the tourism and hospitality industry. Learners will critically evaluate contemporary knowledge and theories and use these to propose solutions to complex management problems. Successful completion of the qualification will equip learners with the specialist skills and knowledge they need to plan and manage their work areas, to make effective decisions, and to adapt effectively to the needs of a range of tourism and hospitality organisations. The Qualifications will develop the Learner’s ability to apply analytical and evaluative techniques and to enhance those skills, investigate issues and opportunities; develop their awareness and appreciation of managerial, organisational and environmental issues, use management techniques and practices in imaginative ways, make use of relevant information from different sources, develop and encourage problem solving and creativity to tackle problems and challenges, exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills',
+          requirements: 'For entry of Level 6 Diploma in Tourism and Hospitality Management qualification, learners must possess relevant NQF/QCF/RQF Level 5 diploma or equivalent recognized qualification and learner must be 18 years or older at the beginning of the course',
+          structure: 'The Level 4 Diploma in Tourism and Hospitality Management consists of 6 mandatory units for a combined total of 120 credits, 1200 hours Total Qualification Time (TQT) and 480 Guided Learning Hours (GLH) for the completed qualification. Unit Ref. No. Y/616/2679 Tourism and Hospitality Business Management Credit: 20, GLH: 80, TQT:200 M/616/2669 Services Marketing and Customer Service Credit: 20, GLH: 80, TQT:200 H/616/2670 Accounting and Finance Credit: 20, GLH: 80, TQT:200 K/616/2671 Academic And Professional Development Credit: 20, GLH: 80, TQT:200 M/616/2672 Events Management Credit: 20, GLH: 80, TQT:200 T/616/2673 Development of the Tourism and Hospitality Industry Credit: 20, GLH: 80, TQT:200',
+          progression: 'Successful completion of Level 6 Diploma in Tourism and Hospitality Management qualification provides learners the opportunity for a wide range of academic progressions including relevant OTHM Level 7 Diplomas. This qualification has been developed with career progression and professional recognition in mind. As the Level 6 Diploma in Tourism and Hospitality Management qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into relevant Masters degree programmes. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission. No Exams. This programme is accredited by Ofqual Awarding body (Othm)',
         },
         {
-          text: 'Diploma in Travel and Tourism Management',
+          text: 'Diploma in Hospitality & Tourism Management Level 7',
           info:
-            'Diploma in Tourism and Hospitality Management qualification is to provide tourism industry professionals with the specialist knowledge needed to advance their careers, or for graduates entering the tourism and hospitality sector to gain the skills needed to manage business operations. The qualification provides learners with a contemporary, critical, and international programme that supports their development as managers with a lifelong-learning orientation. The qualification enables learners to analyse complex management problems and to apply and adapt specialist skills and technical terminology to propose solutions to these problems informed by best practice and contemporary research. Successful completion of this qualification will enable learners to progress into or within employment and/or continue their study towards a relevant Master’s programme with advanced standing.',
+            'The objective of the OTHM Level 7 Diploma in Tourism and Hospitality Management qualification is to provide tourism industry professionals with the specialist knowledge needed to advance their careers, or for graduates entering the tourism and hospitality sector to gain the skills needed to manage business operations. The qualification provides learners with a contemporary, critical, and international programme that supports their development as managers with a lifelong-learning orientation. The qualification enables learners to analyse complex management problems and to apply and adapt specialist skills and technical terminology to propose solutions to these problems informed by best practice and contemporary research. Successful completion of this qualification will enable learners to progress into or within employment and/or continue their study towards a relevant Masters programme with advanced standing.',
+          review: 'The objective of the OTHM Level 7 Diploma in Tourism and Hospitality Management qualification is to provide tourism industry professionals with the specialist knowledge needed to advance their careers, or for graduates entering the tourism and hospitality sector to gain the skills needed to manage business operations. The qualification provides learners with a contemporary, critical, and international programme that supports their development as managers with a lifelong-learning orientation. The qualification enables learners to analyse complex management problems and to apply and adapt specialist skills and technical terminology to propose solutions to these problems informed by best practice and contemporary research. Successful completion of this qualification will enable learners to progress into or within employment and/or continue their study towards a relevant Masters programme with advanced standing. The Qualifications will develop the Learners ability to apply analytical and evaluative techniques and to enhance those skills, investigate issues and opportunities, develop their awareness and appreciation of managerial, organisational and environmental issues, use management techniques and practices in imaginative ways, make use of relevant information from different sources, develop and encourage problem solving and creativity to tackle problems and challenges, exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills',
+          requirements: 'For entry Level 7 Diploma in Tourism and Hospitality Management qualification, learners must possess an honors degree in related subject or UK level 6 diploma or an equivalent overseas qualification, learner must be 18 years or older at the beginning of the course',
+          structure: 'The Level 4 Diploma in Tourism and Hospitality Management consists of 6 mandatory units for a combined total of 120 credits, 1200 hours Total Qualification Time (TQT) and 480 Guided Learning Hours (GLH) for the completed qualification. Unit Ref. No. Y/616/2679 Tourism and Hospitality Business Management Credit: 20, GLH: 80, TQT:200 M/616/2669 Services Marketing and Customer Service Credit: 20, GLH: 80, TQT:200 H/616/2670 Accounting and Finance Credit: 20, GLH: 80, TQT:200 K/616/2671 Academic And Professional Development Credit: 20, GLH: 80, TQT:200 M/616/2672 Events Management Credit: 20, GLH: 80, TQT:200 T/616/2673 Development of the Tourism and Hospitality Industry Credit: 20, GLH: 80, TQT:200',
+          progression: 'The OTHM Level 7 Diploma in Tourism and Hospitality Management qualification enables learners to progress into or within employment and/or continue their further study. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to progress to Master’s top-up programmes at many universities in the UK and overseas with advanced standing. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission. No Exams. This programme is accredited by Ofqual Awarding body (Othm)',
         },
         {
-          text: 'Diploma in Hospitality and Management',
+          text: 'Diploma in Business Management Level 3',
           info:
-            'Diploma in Tourism and Hospitality Management qualification is to provide tourism industry professionals with the specialist knowledge needed to advance their careers, or for graduates entering the tourism and hospitality sector to gain the skills needed to manage business operations. The qualification provides learners with a contemporary, critical, and international programme that supports their development as managers with a lifelong-learning orientation. The qualification enables learners to analyse complex management problems and to apply and adapt specialist skills and technical terminology to propose solutions to these problems informed by best practice and contemporary research. Successful completion of this qualification will enable learners to progress into or within employment and/or continue their study towards a relevant Master’s programme with advanced standing.',
+            'This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. The Qualification provides a rich mix of disciplines and skills development opportunities. Learners will gain insight into the functioning, objectives and processes of organisations, appreciating their diversity and the influences and impact of external forces on them.',
+          review: 'This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. The Qualification provides a rich mix of disciplines and skills development opportunities. Learners will gain insight into the functioning, objectives and processes of organisations, appreciating their diversity and the influences and impact of external forces on them. The Qualifications will develop the Learners ability to apply analytical and evaluative techniques and to enhance those skills, investigate issues and opportunities, develop their awareness and appreciation of managerial, organisational and environmental issues, use management techniques and practices in imaginative ways, make use of relevant information from different sources, develop and encourage problem solving and creativity to tackle problems and challenges, exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills',
+          requirements: 'The Qualifications have been designed to be accessible without artificial barriers that restrict access and progression. Entry to the Qualifications will be through center interview and the candidates will be expected to hold the following: Learners who possess Qualifications at Level 2 and/or. Learners who have work experience in a business environment and demonstrate ambition with clear career goals. Learners who possess a level 3 qualification in another discipline and want to develop their careers in business management.',
+          structure: 'The Diploma requires 4 Mandatory Units and a minimum of 2 Optional Units Unit Reference Mandatory BM301 An Introduction to the Business Environment Level: 3, TQT: 100, Credits: 10 BM302 Business Resources Level: 3, TQT: 100, Credits: 10 BM303 An Introduction to Marketing Level: 3, TQT: 100, Credits: 10 BM304 Human Resource Management Level: 3, TQT: 100, Credits: 10 Unit Reference Optional BM305 Business Communication Level: 3, TQT: 100, Credits: 10 BM306 Understanding Health and Safety in the Business Workplace Level: 3, TQT: 100, Credits: 10 BM307 Recruitment and Selection in Business Level: 3, TQT: 100, Credits: 10',
+          progression: 'Learners completing the Level 3 Diploma in Business Management will be allowed progress to the Level 4 Certificate in Business Management, or the first year of undergraduate study in a related subject; or directly into employment in an associated profession.',
+          assessment: 'Assessment is via assignment submission. No Exams. The programme is accredited by QUALIFI',
         },
         {
-          text: 'Diploma in Information and Technology Management',
+          text: 'Diploma in Business Management Level 4',
           info:
-            'Diploma in Information Technology is designed to ensure that each learner is a confident, independent thinker with a detailed knowledge of Information Technology, and equipped with the skills to adapt rapidly to change at a junior or middle management and aspiring into higher management within their organisation or industry. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business.',
+            'This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. Management of a range of business operations and functions, the management of specific challenges for organisations will introduce Learners to management theory, practice and models that will provide valuable knowledge and know-how.',
+          review: 'This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. Management of a range of business operations and functions, the management of specific challenges for organisations will introduce Learners to management theory, practice and models that will provide valuable knowledge and know-how. The Qualifications will develop the Learners ability to apply analytical and evaluative techniques and to enhance those skills, investigate issues and opportunities; develop their awareness and appreciation of managerial, organisational and environmental issues, use management techniques and practices in imaginative ways, make use of relevant information from different sources, develop and encourage problem solving and creativity to tackle problems and challenges, exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills.',
+          requirements: 'The Qualifications have been designed to be accessible without artificial barriers that restrict access and progression. Learners who have demonstrated some ability and possess Qualifications at Level 3, for example Levels or vocational awards. Learners who have spent some time in an organisational role and shown they have capability and drive to develop. Learners seeking further professional development and gain work related skills and know- how.',
+          structure: 'The Qualification is made up of 6 units. All units are mandatory and required by learners for the Level 4 Certificate in Business Management. Ref: Unit Title Credit TQT BUS 1.1 Communications in Organisations Credit: 20, TQT: 200 BUS 1.2 Leadership and the Organisation Credit: 20, TQT: 200 BUS 1.3 Financial Awareness Credit: 20, TQT: 200 BUS 1.4 Managing Change Credit: 20, TQT: 200 BUS 1.5 Business Operations Credit: 20, TQT: 200 BUS 1.6 Developing Teams Credit: 20, TQT: 200',
+          progression: 'Learners completing the QUALIFI Level 4 Certificate in Business Management will allow progress to the QUALIFI Level 5 Diploma in Business Management or Business Enterprise, or the second year of undergraduate study in business management or directly into employment in an associated profession.',
+          assessment: 'Assessment is via assignment submission. No Exams. The programme is accredited by QUALIFI',
         },
         {
-          text: 'Diploma in Creative Media and Management',
+          text: 'Diploma in Business Management Level 5',
           info:
-            'Diploma in Education Management and Leadership qualification is to develop learners’ understanding of policy, management theory and practice in education. It provides learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the education sector. It combines both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+            'This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. Management of a range of business operations and functions, the management of specific challenges for organisations will introduce Learners to management theory, practice and models that will provide valuable knowledge and know-how.',
+          review: 'This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. Management of a range of business operations and functions, the management of specific challenges for organisations will introduce Learners to management theory, practice and models that will provide valuable knowledge and know-how. The Qualifications will develop the Learners ability to apply analytical and evaluative techniques and to enhance those skills, investigate issues and opportunities; develop their awareness and appreciation of managerial, organisational and environmental issues, use management techniques and practices in imaginative ways, make use of relevant information from different sources, develop and encourage problem solving and creativity to tackle problems and challenges, exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills',
+          requirements: 'The Qualifications have been designed to be accessible without artificial barriers that restrict access and progression. Learners who possess Qualifications at Level 3 and/or 4 can in it. Learners who have work experience at a managerial level and demonstrate ambition with clear career goals. Learners who possess a first degree in another discipline and want to develop their careers in business.',
+          structure: 'The Qualification is made up of 6 units. All units are mandatory and required by learners for the Level 5 Diploma in Business Management. Ref: BUS 2.1 Responding to the Changing Business Environment Credit: 20, TQT: 200 BUS 2.2 Effective Decision Making Credit: 20, TQT: 200 BUS 2.3 Business Development Credit: 20, TQT: 200 BUS 2.4 Business Models and Growing Organisations Credit: 20, TQT: 200 BUS 2.5 Customer Management Credit: 20, TQT: 200 BUS 2.6 Risk Management and Organisations Credit: 20, TQT: 200',
+          progression: 'Learners completing the QUALIFI Level 5 Diploma in Business Management will allow progress to the final year of an undergraduate degree or directly into employment in an associated profession.',
+          assessment: 'Assessment is via assignment submission. No Exams. The programme is accredited by QUALIFI',
         },
         {
-          text: 'Diploma in Tamil Education',
+          text: 'Diploma in Business Management Level 6',
           info:
-            'Diploma in Education Management and Leadership qualification is to develop learners’ understanding of policy, management theory and practice in education. It provides learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the education sector. It combines both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+            'The objective of the OTHM Level 6 Diploma in Business Management qualification is to provide learners with an excellent foundation for a career in a range of organisations. It designed to ensure that each learner is business ready: a confident, independent thinker with a detailed knowledge of business and management and equipped with the skills to adapt rapidly to change. The content of the qualification is focused on leadership and people management, strategic human resource management, operations management, sustainable business practice, financial decision making as well as the business research skills expected of a manager. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business. Successful completion of the Level 6 Diploma in Business Management qualification will provide learners with the opportunity to progress to further study or employment.',
+          review: 'The objective of the OTHM Level 6 Diploma in Business Management qualification is to provide learners with an excellent foundation for a career in a range of organisations. It designed to ensure that each learner is business ready: a confident, independent thinker with a detailed knowledge of business and management and equipped with the skills to adapt rapidly to change. The content of the qualification is focused on leadership and people management, strategic human resource management, operations management, sustainable business practice, financial decision making as well as the business research skills expected of a manager. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business. Successful completion of the Level 6 Diploma in Business Management qualification will provide learners with the opportunity to progress to further study or employment. The Qualifications will develop the Learners ability to apply analytical and evaluative techniques and to enhance those skills, investigate issues and opportunities, develop their awareness and appreciation of managerial, organisational and environmental issues, use management techniques and practices in imaginative ways, make use of relevant information from different sources, develop and encourage problem solving and creativity to tackle problems and challenges, exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills',
+          requirements: 'For entry onto the OTHM Level 6 Diploma in Business Management qualification, learners must possess: Relevant NQF/QCF/RQF Level 5 diploma or equivalent recognized qualification Mature learners (over 21) with management experience (learners must check with the delivery center regarding this experience prior to registering for the programme) Learner must be 18 years or older at the beginning of the course',
+          structure: 'The OTHM Level 6 Diploma in Business Management consists of 6 mandatory units for a combined total of 120 credits, 1200 hours Total Qualification Time (TQT) and 480 Guided Learning Hours (GLH) for the completed qualification. Unit Ref. No. H/616/2734 Leadership and People Management Credit: 20, GLH: 80, TQT: 200 K/616/2735 Business Research Project Credit: 20, GLH: 80, TQT: 200 M/616/2736 Operations Management Credit: 20, GLH: 80, TQT: 200 T/616/2737 Financial Decision Making Credit: 20, GLH: 80, TQT: 200 A/616/2738 Sustainable Business Practices Credit: 20, GLH: 80, TQT: 200 F/616/2739 Strategic Human Resource Management Credit: 20, GLH: 80, TQT: 200',
+          progression: 'Successful completion of Level 6 Diploma in Business Management qualification provides learners the opportunity for a wide range of academic progressions including progression to relevant OTHM Level 7 Diplomas. This qualification has been developed with career progression and professional recognition in mind. As the Level 6 Diploma in Business Management qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into relevant Masters degree programmes. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission. No Exams. This programme is accredited by Ofqual Awarding body (Othm)',
         },
         {
-          text: 'Diploma in Tamil History',
+          text: 'Post Graduate Diploma in Business Management Level 7',
           info:
-            'Diploma in Education Management and Leadership qualification is to develop learners’ understanding of policy, management theory and practice in education. It provides learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the education sector. It combines both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+            'The Qualifications have been created to develop and reward the business managers of today and the future, and to continue to bring recognition and professionalism to the management sectors.This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. The issues and concepts dealt with as part of this suite of Qualifications are best explored through exposure to organisations, for any full time Learners work placements are encouraged so that genuine experience and insight can be gained. Problem solving and creativity are attributes encouraged and developed in Learners through all the Units.',
+          review: 'The Qualifications have been created to develop and reward the business managers of today and the future, and to continue to bring recognition and professionalism to the management sectors.This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. The issues and concepts dealt with as part of this suite of Qualifications are best explored through exposure to organisations, for any full time Learners work placements are encouraged so that genuine experience and insight can be gained. Problem solving and creativity are attributes encouraged and developed in Learners through all the Units. The Qualifications will develop the Learners ability to apply analytical and evaluative techniques and to enhance those skills, investigate issues and opportunities, develop their awareness and appreciation of managerial, organisational and environmental issues, use management techniques and practices in imaginative ways, make use of relevant information from different sources, develop and encourage problem solving and creativity to tackle problems and challenges, exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills',
+          requirements: 'The Qualification has been designed to be accessible without artificial barriers that restrict access and progression. Level 6 Qualification or; First Degree or; Bachelors Degree 5 Year Managerial Experience',
+          structure: 'Learners must complete all units successfully and achieve 120 credits before the Diploma can be issued. Learners must complete the 8 mandatory units. Unit Reference QFEXE 1.1 Corporate Strategy Level: 7, TQT: 150 QFEXE 1.2 Corporate Finance and Financial Strategy Level: 7, TQT: 150 QFEXE 1.3 Human Resource Practice, Leadership and Managing People Level: 7, TQT: 150 QFEXE 1.4 Global Trade and its Impact on Strategy Level: 7, TQT: 150 QFEXE 1.5 Research, Problem Solving and Business Reporting Level: 7, TQT: 150 QFEXE 1.6 Operations, Quality and Supply Chain Management Level: 7, TQT: 150 QF708 Strategic Marketing Level: 7, TQT: 150 QFEXE 1.8 Project Management Level: 7, TQT: 150',
+          progression: 'Learners completing the Level 7 Diploma in Executive Management Management will allow progress to the QUALIFI Level 8 Diploma in Strategic Management and Leadership, or a university partner to complete a dissertation to then receive a full masters degree, or directly into employment in an associated profession.',
+          assessment: 'Assessment is via assignment submission. No Exams. The programme is accredited by QUALIFI',
         },
         {
-          text: 'Diploma in Tamil Music',
+          text: 'Diploma In Information Technology Level 4',
           info:
-            'Diploma in Education Management and Leadership qualification is to develop learners’ understanding of policy, management theory and practice in education. It provides learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the education sector. It combines both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+            'The objective of the OTHM Level 4 Diploma in Information Technology is to provide learners with an excellent foundation for a career in a range of organisations. It is designed to ensure that each learner is business ready: a confident, independent thinker with a detailed knowledge of Information Technology, and equipped with the skills to adapt rapidly to change. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business. Successful completion of the Level 4 Diploma in Information Technology will provide learners with the opportunity to progress to further study or employment to further study or employment.',
+          review: 'The objective of the OTHM Level 4 Diploma in Information Technology is to provide learners with an excellent foundation for a career in a range of organisations. It is designed to ensure that each learner is business ready: a confident, independent thinker with a detailed knowledge of Information Technology, and equipped with the skills to adapt rapidly to change. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business. Successful completion of the Level 4 Diploma in Information Technology will provide learners with the opportunity to progress to further study or employment to further study or employment. During the duration of the course you will be supported by tutor via our learning platform. Assessment will be provided by the tutors to improve the learners achievements. This includes providing formative feedback. Course materials include structured lecture notes, practical applications which includes real-world examples, and case studies that will enable you to apply your knowledge. Assessment materials are accessible through our online learning platform. A comprehensive e-library which contains recommended study texts and reference books for online reading. Supervision of all modules. Our online learning platform has multi-platform accessibility. London College of Professional Studies deliver Othm courses straight to your smartphone, tablet, laptop or desktop and students can study whenever or wherever they prefer. Over 400 books in e-library. Friendly portal and Demo videos.',
+          requirements: 'For entry onto the OTHM Level 4 Diploma in Information Technology qualification, learners must possess: Relevant NQF/QCF/RQF Level 3 Diploma or equivalent, learner must be 18 years or older at the beginning of the course, English requirements: If a learner is not from a majority English-speaking country must provide evidence of English language competency. For more information visit English Language Expectations page.',
+          structure: 'The OTHM Level 4 Diploma in Information Technology consists of 6 mandatory units for a combined total of 120 credits. Unit Ref. No. A/617/2265 Programming Foundations Credit: 20, GLH: 80, TQT: 200 F/617/2266 Systems Analysis and Design Credit: 20, GLH: 80, TQT: 200 J/617/2267 Web and Multimedia Applications Credit: 20, GLH: 80, TQT: 200 L/617/2268 Computer and Network Technology Credit: 20, GLH: 80, TQT: 200 R/617/2269 Software Development Credit: 20, GLH: 80, TQT: 200 J/617/2270 Managing Business Information Credit: 20, GLH: 80, TQT: 200',
+          progression: 'Successful completion of Level 4 Diploma in Information Technology provides learners the opportunity for a wide range of academic progressions including OTHM Level 5 Diploma in Information Technology. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into the second year of a three-year UK Bachelors degree. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission only.',
         },
         {
-          text: 'Diploma in Bharatanatya',
+          text: 'Diploma In Information Technology Level 5',
           info:
-            'Diploma in Education Management and Leadership qualification is to develop learners’ understanding of policy, management theory and practice in education. It provides learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the education sector. It combines both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+            'The objective of the OTHM Level 5 Diploma in Information Technology is to provide learners with an excellent foundation for a career in a range of organisations. It designed to ensure that each learner is ‘business ready: a confident, independent thinker with a detailed knowledge of Information Technology, and equipped with the skills to adapt rapidly to change. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business. Successful completion of the Level 5 Diploma in Information Technology will provide learners with the opportunity to progress to further study or employment.',
+          review: 'The objective of the OTHM Level 5 Diploma in Information Technology is to provide learners with an excellent foundation for a career in a range of organisations. It designed to ensure that each learner is business ready: a confident, independent thinker with a detailed knowledge of Information Technology, and equipped with the skills to adapt rapidly to change. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business. Successful completion of the Level 5 Diploma in Information Technology will provide learners with the opportunity to progress to further study or employment. Duration of the course you will be supported by tutor via our learning platform. Assessment will be provided by the tutors to improve the learners achievements. This includes providing formative feedback. Course materials include structured lecture notes, practical applications which includes real-world examples, and case studies that will enable you to apply your knowledge. Assessment materials are accessible through our online learning platform. A comprehensive e-library which contains recommended study texts and reference books for online reading. Supervision of all modules. Our online learning platform has multi platform accessibility. London College of Professional Studies deliver Othm courses straight to your smartphone, tablet, laptop or desktop and students can study whenever or wherever they prefer. Over 400 books in e-library, Friendly portal and Demo video',
+          requirements: 'For entry onto the OTHM Level 5 Diploma in Information Technology qualification, learners must possess: Relevant NQF/QCF/RQF Level 4 diploma or equivalent recognized qualification, Learner must be 18 years or older at the beginning of the course, Mature learners (over 21) with management experience (learners must check with the delivery center regarding this experience prior to registering for the programme)',
+          structure: 'The OTHM Level 5 Diploma in Information Technology consists of 6 mandatory units for a combined total of 120 credits. Unit Ref. No. K/617/2276 Software Engineering Credit: 20, GLH: 80, TQT: 200 H/617/2275 Database Systems Credit: 20, GLH: 80, TQT: 200 D/617/2274 Advanced systems Analysis and Design Credit: 20, GLH: 80, TQT: 200 Y/617/2273 Management Information Systems Credit: 20, GLH: 80, TQT: 200 R/617/2272 Network Information Systems Credit: 20, GLH: 80, TQT: 200 L/617/2271 IT Project Management Credit: 20, GLH: 80, TQT: 200',
+          progression: 'Successful completion of Level 5 Diploma in Information Technology provides learners the opportunity for a wide range of academic progressions including OTHM Level 6 Diploma in Information Technology. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into Final year of a three-year UK Bachelor’s degree. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission, no exams. This programme is accredited by Ofqual Awarding body (Othm)',
         },
         {
-          text: 'Diploma in Yoga',
+          text: 'Diploma In Information Technology Level 6',
           info:
-            'Diploma in Education Management and Leadership qualification is to develop learners’ understanding of policy, management theory and practice in education. It provides learners with an opportunity to engage with the challenges facing professionals and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the education sector. It combines both theoretical and practical knowledge in the education profession and will develop and enhance knowledge and skills in the areas of leading change, effective performance and team leadership. Learners will be able to work in a variety of roles within education administration and/or management.',
+            'The OTHM Level 6 Diploma in Information Technology is designed to ensure that each learner is a confident, independent thinker with a detailed knowledge of Information Technology, and equipped with the skills to adapt rapidly to change at a junior or middle management level and aspiring into higher management within their organisation or industry. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business',
+          review: 'The OTHM Level 6 Diploma in Information Technology is designed to ensure that each learner is a confident, independent thinker with a detailed knowledge of Information Technology, and equipped with the skills to adapt rapidly to change at a junior or middle management level and aspiring into higher management within their organisation or industry. The qualification is ideal for those who have started, or are planning to move into, a career in private or public sector business. Duration of the course you will be supported by tutor via our learning platform. Assessment will be provided by the tutors to improve the learners achievements. This includes providing formative feedback. Course materials include structured lecture notes, practical applications which includes real-world examples, and case studies that will enable you to apply your knowledge. Assessment materials are accessible through our online learning platform. A comprehensive e-library which contains recommended study texts and reference books for online reading. Supervision of all modules. Our online learning platform has multi platform accessibility. London College of Professional Studies deliver Othm courses straight to your smartphone, tablet, laptop or desktop and students can study whenever or wherever they prefer. Over 400 books in e-library, Friendly portal and Demo video',
+          requirements: 'For entry onto the OTHM Level 6 Diploma in Information Technology qualification, learners must possess: Relevant NQF/QCF/RQF Level 5 diploma or equivalent recognized qualification, Learner must be 18 years or older at the beginning of the course, Mature learners (over 21) with management experience (learners must check with the delivery center regarding this experience prior to registering for the programme)',
+          structure: 'The OTHM Level 6 Diploma in Information Technology consists of 6 mandatory units for a combined total of 120 credits. Unit Ref. No. R/617/3034 Advanced Computer Networks Credit: 20, GLH: 80, TQT: 200 Y/617/3035 Advanced Data Analytics Credit: 20, GLH: 80, TQT: 200 D/617/3036 Advanced Database Management System Credit: 20, GLH: 80, TQT: 200 H/617/3037 Management Information Systems Credit: 20, GLH: 80, TQT: 200 K/617/3038 Computers, Society and Law Credit: 20, GLH: 80, TQT: 200 M/617/3039 Computing Projects Credit: 20, GLH: 80, TQT: 200',
+          progression: 'Successful completion of Level 6 Diploma in Information Technology qualification provides learners the opportunity for a wide range of academic progressions including progression to relevant OTHM Level 7 Diplomas. The Level 6 Diploma in Information Technology has been developed with career progression and professional recognition in mind. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into relevant Masters degree programmes. For more information visit University Progressions page',
+          assessment: 'Assessment is via assignment submission. No Exams. The programme is accredited by OTHM regulated by Ofqual',
+        },
+        {
+          text: 'Diploma in Heath and Social Care Level 3',
+          info:
+            'The Level 3 Diploma in Health and Social Care Qualification has been created to develop and reward the health and social care workers of today and the future, and to continue to bring recognition and professionalism to the health and social care sector.This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for.',
+          review: 'The Level 3 Diploma in Health and Social Care Qualification has been created to develop and reward the health and social care workers of today and the future, and to continue to bring recognition and professionalism to the health and social care sector.This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. Management of a range of health and social care operations and functions and challenges for organisations will introduce Learners to theory, practice and models that will provide valuable knowledge and know-how. The objectives of this Qualification is to provide career path support to Learners who wish to develop their care and career opportunities in their chosen sector. To improve understanding of the health and social care environment, organisations and how they are managed and developed and develop skills and abilities in Learners to support their professional development.',
+          requirements: 'In order to apply you should have either. This qualification is designed for learners aged 16 and above. 5 or more GCSEs and above or other related level 2 subjects or other equivalent international qualifications',
+          structure: 'The Diploma requires 4 Mandatory Units and a minimum of 2 Optional Units Units HSC301 An Introduction to Health and Social Care Level: 3, TQT: 100, Credits: 10 HSC302 Communication for Health and Social Care Level: 3, TQT: 100, Credits: 10 HSC303 Promoting Health in the Population Level: 3, TQT: 100, Credits: 10 HSC304 Person-Centred Care Level: 3, TQT: 100, Credits: 10 Optional Units HSC305 Understanding Diabetes Care Level: 3, TQT: 100, Credits: 10 HSC306 Understanding Stroke Care Level: 3, TQT: 100, Credits: 10 HSC307 Understanding Dementia Care Level: 3, TQT: 100, Credits: 10',
+          progression: 'Learners completing the QUALIFI Level 3 Diploma in Health and Social Care will allow progress to the QUALIFI Level 4 Certificate in Health and Social Care, or the first year of undergraduate study in health and social care; or directly into employment in an associated profession.',
+          assessment: 'Assessment is via assignment submission',
+        },
+        {
+          text: 'Diploma in Heath and Social Care Level 4',
+          info:
+            'The Qualifications have been created to develop and reward the business health and social care workers of today and the future, and to continue to bring recognition and professionalism to the health and social care sector.It is envisaged that these programmes will encourage both academic and professional development so that you learners move forward to realize not just their own potential but also that of organisations across a broad range of sectors.',
+          review: 'The Qualifications have been created to develop and reward the business health and social care workers of today and the future, and to continue to bring recognition and professionalism to the health and social care sector. It is envisaged that these programmes will encourage both academic and professional development so that you learners move forward to realize not just their own potential but also that of organisations across a broad range of sectors. This suite of Qualifications provides a realistic and broad opportunity for Learners seeking career and professional development. They will support Learners in realizing their potential and by association the prospects of the organisations they work with or for. The objectives of this suite of Qualifications is to provide career path support to Learners who wish to develop their management, enterprise capabilities and opportunities in their chosen sector, improve understanding of the business environment, organisations and how they are managed and developed, and develop skills and abilities in Learners to support their professional development.',
+          requirements: 'In order to apply you should have either: Level 3 diploma or GCE/GCSE or equivalent overseas qualification and 5 years work experience',
+          structure: 'Qualifi Level 4 Health and Social Care comprises 6 Units in total. Units HSC401 Academic Study Skills Level: 4, Credit: 20 HSC402 Communicating in Health and Social Care Level: 4, Credit: 20 HSC403 An Introduction to Healthcare Policy Level: 4, Credit: 20 HSC404 Reflective Practice Level: 4, Credit: 20 HSC405 Managing People in Health and Social Care Level: 4, Credit: 20 HSC406 Sociology Concepts in Health and Ill Health Level: 4, Credit: 20',
+          progression: '',
+          assessment: 'Assessment is via assignment submission. No Exams',
+        },
+        {
+          text: 'Diploma in Healthcare Management Level 5',
+          info:
+            'The Qualifications have been created to develop and reward the health and social care workers of today and the future, and to continue to bring recognition and professionalism to the health and social care sector. Management of a range of business operations and functions, the management of specific challenges for organisations will introduce Learners to management theory, practice and models that will provide valuable knowledge and know-how.',
+          review: 'The issues and concepts dealt with as part of this suite of Qualifications are best explored through exposure to organisations, for any full-time Learners work placements are encouraged so that genuine experience and insight can be gained. Problem solving and creativity are attributes encouraged and developed in Learners through all the Units. Examples of activities which can contribute to Total Qualification Time include: Guided Learning Independent and unsupervised research/learning Unsupervised compilation of a portfolio of work experience Unsupervised e-learning Unsupervised e-assessment Unsupervised coursework Watching a pre-recorded podcast or webinar Unsupervised work-based learning.',
+          requirements: 'Learners who possess Qualifications at Level 3 and/or 4. Learners who have work experience at a managerial level and demonstrate ambition with clear career goals. Learners who possess a first degree in another discipline and want to develop their careers in health and social care or business.',
+          structure: 'Level 5 Diploma in Health and Social Care comprises 5 Units in total. Unit HSC501 Principles Underpinning Health and Social Care Level: 5, Credit: 20 HSC502 The Management of Quality in Health and Social Care Level: 5, Credit: 20 HSC503 Research Project Level: 5, Credit: 20 HSC504 Partnership working in Health and Social Care Level: 5, Credit: 20 HSC505 Working with Service users with Complex Needs Level: 5, Credit: 20',
+          progression: 'Learners completing the QUALIFI Level 5 Diploma in Health and Social Care allow progress to the final year of an undergraduate degree; or directly into employment in an associated profession.',
+          assessment: 'Assessment is via assignment submission. No Exams. The programme is accredited by QUALIFI',
+        },
+        {
+          text: 'Diploma in Healthcare Management Level 6',
+          info:
+            'The objective of the OTHM Level 6 Diploma in Health and Social Care Management qualification is to equip learners with the underpinning knowledge, understanding and skills required for a career in the health and social care sector at a managerial level. The programme enables learners to demonstrate their skills by producing evidence from their work activities, to meet national occupational standards. Learners will acquire care management skills in the Health and Social Care sector.',
+          review: 'The objective of the OTHM Level 6 Diploma in Health and Social Care Management qualification is to equip learners with the underpinning knowledge, understanding and skills required for a career in the health and social care sector at a managerial level. The programme enables learners to demonstrate their skills by producing evidence from their work activities, to meet national occupational standards. Learners will acquire care management skills in the Health and Social Care sector. The Qualifications will develop the Learners ability to: apply analytical and evaluative techniques and to enhance those skills, investigate issues and opportunities, develop their awareness and appreciation of managerial, organisational and environmental issues, use management techniques and practices in imaginative ways, make use of relevant information from different sources, develop and encourage problem solving and creativity to tackle problems and challenges, exercise judgement, own and take responsibility for decisions and actions and develop the ability to recognise and reflect on personal learning and improve their personal, social and other transferable skills.',
+          requirements: 'For entry of Level 6 Diploma in Health and Social Care Management qualification, learners must possess: Relevant NQF/QCF/RQF Level 5 diploma or equivalent overseas qualification as recognized by UK NARIC. Mature learners (over 21) with management experience (learners must check with the delivery center regarding this experience prior to registering for the programme) learner must be 18 years or older at the beginning of the course.',
+          structure: 'The OTHM Level 6 Diploma in Health and Social Care Management consists of 8 mandatory units for a combined total of 120 credits, 1200 hours Total Qualification Time (TQT) and 500 Guided Learning Hours (GLH) for the completed qualification. Unit Ref. A/507/9476 Personal and Professional Development Credit: 10, GLH: 40, TQT: 100 D/507/9471 Managing Quality in Health and Social Care Credit: 15, GLH: 60, TQT: 150 H/507/9469 Principles of Health and Social Care Management Credit: 15, GLH: 60, TQT: 150 H/507/9472 Health and Safety in Health and Social Care Workplaces Credit: 15, GLH: 60, TQT: 150 K/507/9473 Financial Decision Making for Healthcare Managers Credit: 15, GLH: 60, TQT: 150 M/507/9474 Human Resource Management in Health and Social Care Credit: 15, GLH: 60, TQT: 150 Y/507/9470 Leadership and Management for Health and Social Care Credit: 15, GLH: 60, TQT: 150 D/507/9468 Research Methods for Healthcare Professionals Credit: 20, GLH: 100, TQT: 200',
+          progression: 'Successful completion of Level 6 Diploma in Health and Social Care Management qualification provides learners the opportunity for a wide range of academic progressions including progression to relevant OTHM Level 7 Diplomas. The Level 6 Diploma in Health and Social Care Management has been developed with career progression and professional recognition in mind. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to gain direct entry into relevant Masters degree programmes. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission. This programme is accredited by Ofqual Awarding body (Othm)',
+        },
+        {
+          text: 'Postgraduate Diploma in Healthcare Management Level 7',
+          info:
+            'The objective of the Level 7 Diploma in Health Management qualification is to develop learners understanding of policy, management theory and practice in health and social care. It provides learners with an opportunity to engage with the challenges facing professionals, services users and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the hospitals/social care industry. It combines both theoretical and practical knowledge in the health and social care profession. The qualification will develop and enhance knowledge and skills in the areas of leading change, effective performance, planning and accountability, development and team leadership. Learners will be able to work in a variety of roles within health care administration and/or management.',
+          review: 'The objective of the Level 7 Diploma in Health and Social Care Management qualification is to develop learners understanding of policy, management theory and practice in health and social care. It provides learners with an opportunity to engage with the challenges facing professionals, services users and policy makers in their own country. It will provide knowledge that underpins the ability to work as an effective manager in the hospitals/social care industry. It combines both theoretical and practical knowledge in the health and social care profession. The qualification will develop and enhance knowledge and skills in the areas of leading change, effective performance, planning and accountability, development and team leadership. Learners will be able to work in a variety of roles within health care administration and/or management. The Qualifications will develop the Learners ability to: apply analytical and evaluative techniques and to enhance those skills; investigate issues and opportunities; develop their awareness and appreciation of managerial, organisational and environmental issues; use management techniques and practices in imaginative ways; make use of relevant information from different sources; develop and encourage problem solving and creativity to tackle problems and challenges; exercise judgement, own and take responsibility for decisions and actions; and develop the ability to recognize and reflect on personal learning and improve their personal, social and other transferable skills.',
+          requirements: 'For entry onto the OTHM Level 7 Diploma in Health Care Management qualification, learners must possess: An honors degree in related subject or UK level 6 diploma or an equivalent overseas qualification. Mature learners (over 21) with management experience (learners must check with the delivery center regarding this experience prior to registering for the programme). Learner must be 18 years or older at the beginning of the course.',
+          structure: 'The Level 7 Diploma in Health and Social Care Management qualification consists of 8 mandatory units for a combined total of 120 credits, 1200 hours Total Qualification Time (TQT) and 600 Guided Learning Hours (GLH) for the completed qualification. Unit Ref. No. Unit title Credit GLH TQT T/507/9461 Managing Service Delivery in Health and Social Care Credit: 15, GLH: 75, TQT: 150 A/507/9462 Managing Finance in the Healthcare Sector Credit: 15, GLH: 75, TQT: 150 F/507/9463 International Health Policy Credit: 15, GLH: 75, TQT: 150 J/507/9464 Strategic Management in the Healthcare Industry Credit: 15, GLH: 75, TQT: 150 L/507/9465 Organisational Behaviour in Health and Social Care Credit: 15, GLH: 75, TQT: 150 R/507/9466 Human Resource Management Credit: 15, GLH: 75, TQT: 150 Y/507/9467 Strategic Marketing for Health and Social Care Credit: 10, GLH: 50, TQT: 100 D/507/9468 Research Methods for Healthcare Professionals Credit: 20, GLH: 100, TQT: 200',
+          progression: 'Achieving the Level 7 Diploma in Health and Social Care Management qualification enables learners to progress into or within employment and/or continue their further study. As this qualification is approved and regulated by Ofqual (Office of the Qualifications and Examinations Regulation), learners are eligible to progress to Master’s top-up programmes at many universities in the UK and overseas with advanced standing. For more information visit University Progressions page.',
+          assessment: 'Assessment is via assignment submission. This programme is accredited by Ofqual Awarding body (Othm)',
+        },
+        {
+          text: 'Diploma in International Business Law Level 7',
+          info:
+            'The Qualification has been created to develop and reward learners with legal skills and knowledge in international business law and to continue to bring recognition and professionalism to a wide range of sectors. It is envisaged that this programme will encourage both academic and professional development so that your learners move forward to realise not just their own potential but also that of organisations across a broad range of sectors.',
+          review: 'The Qualification has been created to develop and reward learners with legal skills and knowledge in international business law and to continue to bring recognition and professionalism to a wide range of sectors. It is envisaged that this programme will encourage both academic and professional development so that your learners move forward to realize not just their own potential but also that of organisations across a broad range of sectors. The aim of this programme is to develop legal skills, analysis, logical thinking and knowledge that can usefully be applied in further study, the legal profession and public service. It provides students with an understanding of the law in the context of business to equip them with abilities needed to work with advance issues. Prospects and Objectives of this suite of Qualifications is to: provide career path support to Learners who wish to develop their management, enterprise capabilities and opportunities in their chosen sector improve understanding of the business environment, organisations and how they are managed and developed and develop skills and abilities in Learners to support their professional development.',
+          requirements: '',
+          structure: 'International Trade Law Commercial Trade Law Industrial and Intellectual Property Law Law of financial Crimes Company Law Legal Research and Methods Corporate governance - Principal and Practices',
+          progression: '',
+          assessment: '',
+        },
+        {
+          text: 'Digital Film Making Level 4',
+          info:
+            'This is a highly practical programme designed for anyone with a keen interest in films and film-making. It covers script development, casting, filming, editing and understanding the work of contemporary film makers. Awarding body is UKQS.',
+          review: 'HOW IS THE COURSE ASSESSED? This is a modular course and you will be assessed throughout the course through submission of units which will include contextual background, evidence of planning, submission of a completed practical piece of work along with reflective evaluation of the process. This is a highly practical programme designed for anyone with a keen interest in films and film-making. It covers script development, casting, filming, editing and understanding the work of contemporary film makers. Additional modules cover documentary film-making and music video-making. This programme will prepare students for employment in the film and television industries and will also give them the confidence to set up as an independent film-maker. No prior experience of film-making is required. The course enables students to develop specialised knowledge and skills in the area of video/moving image production and to develop the ability to transfer these skills into the workplace. The modules provide an underpinning knowledge of the moving image industry, film theory and the production process from script-writing to filming and editing. The course will be delivered through a series of seminars and practical workshops, with approximately 25% of your time focused on theoretical underpinning of the practical based elements. Outside of timetabled lessons, students will be expected to allocate at minimum of two full days per week in order to be able to film, as well as edit any assessed work and complete any research and written work. Lessons are usually timetabled over two days per week, which include evening lessons in order to offer flexibility when it comes to part time work commitments. Teaching staff have come direct from industry and are regularly involved in freelance work outside of their teaching commitments in order to provide students with up to date industry knowledge.',
+          requirements: 'ENTRY REQUIREMENTS FOR NEW STUDENTS 48 UCAS points which are equal to two D Grades or above at A Level, pass grades at BTEC Extended Diploma Level or MP at Level 3 Diploma, plus a C[4-5] Grade in English and Mathematics GCSEs. Applicants will need to be able to show an interest in and application for the film industry suitable for this level of study in their application forms and at interview. Those who do not have English as their first language will need to provide NARIC confirmed equivalent of 48 UCAS points and will need to demonstrate that they meet the minimum English language requirement of IELTS 6.0 with a minimum of 5.5 in each component(or equivalent). Applicants should be 18 or above. We may also admit students on the strength of other qualifications or experience. INTERVIEW REQUIREMENTS You must bring your interview letter to your appointment and arrive 15 minutes before your interview is due to take place.',
+          structure: 'Mandatory units: Individual project (set by the exam board) Creative Media Industry Professional Practice Film Practices Film Studies Editing for Film and Television Collaborative Project (set by the exam board) Personal Professional Development Advanced Film Production Studies Specialist Units: Single Camera Techniques for Television Cinematography - Camera Documentary Advanced Editing for Film and Television Script writing for Film and Television Multi-camera production All units are subject to change and may be withdrawn.',
+          progression: 'This course will prepare students for employment in the film and television industries and will also give them the confidence to set up as independent filmmakers working outside the mainstream.',
+          assessment: 'This course will prepare students for employment in the film and television industries and will also give them the confidence to set up as independent filmmakers working outside the mainstream.',
+        },
+        {
+          text: 'Video Production Level 1',
+          info:
+            'Learn how to shoot beautiful video with your DSLR camera. This is the perfect video course for beginners and hobbyists.',
+          review: 'Youre here because you want to shoot video with your DSLR or Mirrorless camera, right? Its great to have you here. You might be a brand new beginner, or have a little bit of camera knowledge and looking to become more advanced. With todays DSLR and mirrorless cameras, you can shoot beautiful HD video like never before. This is the perfect course for you if you want to jump into DSLR Video Production Our instructors and trainers will provide detailed infor and training.They will not leave you with questions. We have excellent infrastructure and service to provide a worl class atmosphere for training. We will be there for you every step of the way. If you have any questions about the course content or anything related to this topic, you can always post a question. Get Ready to Change Your Life.This course is designed to teach you the ins and outs of video production, even if you have little to no experience with it, to help create videos that help you stand out from the crowd.',
+          requirements: 'You will do better in the course if you have a DSLR camera that you can practice with. There are practice exercises that are important to do while learning how to use your DSLR camera.',
+          structure: 'Master Videography Techniques to Create Extraordinary Videos and Boost Your Freelancing Income. Thats right, this is a highly desirable skill that companies are looking to pay for in this new digital world. Understand How Cameras Work and What Gear You Need. Master Shooting in Manual Mode. Use Stabilization, Composition, and Lighting. Learn How to Record Crystal Clear Audio. Edit Your Videos and Share Them with the World. Regardless of what your level of experience is or what type of camera you use, this in-depth course is designed to provide you with everything you need to take your video skills to the next level. Whether you prefer shooting documentary, corporate, commercial, narrative or music videos, a great videographer knows how to compose a shot, light it, and edit it. By honing these skills, you can turn your passion into a career.Youll start with the basics and tackle how a camera operates in video mode, the types of cameras and lenses available, and equipment you will need for accomplishing your goals.Youll learn about your camera settings, including how to shoot in manual mode. You will use stabilization tools and master how to properly compose and light a scene.Youll even learn how to record audio using different microphones (shotgun, lavaliere/lapel, and even your smart phone) to get great quality sound.Youll then learn some advanced tips for shooting with DSLR cameras like how to shoot for slow motion, shooting a multi-camera production, and getting enough coverage.Finally, youll learn how to edit your own videos, sync audio, add titles, and export for sharing. By the end of this course, your confidence as a videographer will soar. Youll have a thorough understanding of your DSLR camera and gear so you can use them to their fullest potential to take unforgettable videos and start a profitable video career.',
+          progression: 'This course is meant for beginners who are not familiar with shooting video on a DSLR camera This course is for photographers, video newbies, or anyone else wanting to use the video feature of their DSLR camera This course is not for advanced DSLR users who already know everything about their camera',
+          assessment: 'Via practicals',
+        },
+        {
+          text: 'Cinematography all level',
+          info:
+            'Shoot better video by learning the video production techniques used by Hollywood filmmakers. And get paid to do it!',
+          review: 'This course dives right into shooting better video with 5 tips for better cinematography. you will learn the basics of cinematography including choosing the right camera, ISO, frame rate, shutter speed, f-stop/aperture, and lens options.',
+          requirements: 'Students should know what types of videos they are interested in making.Students do not need a fancy camera to follow along with this course.',
+          structure: 'This course is designed to teach you the ins and outs of professional cinematography - the art of making motion pictures. While there are plenty of video courses, its hard to find a comprehensive course that teaches you everything you had want to know about shooting video',
+          progression: 'Regardless of the type of camera you are using - DSLR, Professional Cinema Camera, GoPro, iPhone, or Film - you can shoot beautiful video. Learn professional techniques that Hollywood filmmakers are using to capture powerful images.',
+          assessment: 'Assessment is via assignment submission. This programme is accredited by Ofqual Awarding body (Othm)',
+        },
+        {
+          text: 'Digital Marketing',
+          info:
+            'Grow Your Business with Digital Marketing: Social Media Marketing, Facebook, Content, YouTube, Email Marketing, Websites',
+          review: 'We promise to do everything we can to help you with all of these digital marketing & social media marketing strategies: BRANDING , WEBSITES , EMAIL MARKETING , BLOGGING , COPYWRITING , SEO (Search Engine Optimization) , YOUTUBE , VIDEO MARKETING , FACEBOOK PAGES, FACEBOOK GROUPS , FACEBOOK ADS , FACEBOOK FOR LOCAL BUSINESSES , GOOGLE ADS , GOOGLE ANALYTICS , TWITTER , INSTAGRAM , GOOGLE PLUS , PINTEREST , LINKEDIN , PERISCOPE , LIVE-STREAMING ON SOCIAL MEDIA , PODCASTING , QUORA',
+          requirements: 'You should be ready to take action and see real results. ',
+          structure: 'Who this course is for:Entrepreneurs, business owners, bloggers, YouTubers, social media fans Website owners who want to increase web traffic, conversions, and sales Business owners who want to use digital marketing (social media, content marketing, YouTube, and many other strategies) to grow their business Anyone wanting to do your own marketing - and not waste money',
+          progression: 'WHAT DO YOU GET WHEN YOU ENROLL IN THE DIGITAL MARKETING MASTERCLASS? Lifetime access to the course and all updates Personalized support and answers to your questions Downloadable checklists to keep you on track Downloadable guides to help you take action Case Studies to show you behind the scenes of our strategies',
+          assessment: '',
+        },
+        {
+          text: 'Videography for Beginner',
+          info:
+            'Learn how to shoot videos with your DSLR or Mirrorless Camera Even If You Have No Prior Knowledge',
+          review: 'In this course we start off with the basic setting that you have to input in your camera before you can start shooting videos. These settings include Resolution, Frame Rate and Shutter Speed, Aperture, ISO, etc. Then we learn the correct way to focus in videos.',
+          requirements: 'People looking to learn the art of videography or video production using their DSLR or Mirrorless cameras.',
+          structure: 'Introduction to course Resolution Frame rate and Shutter speed Aperture ISO Shooting first video How to Focus Audio Lighting Videography Equipment Shooting Slow Motion videos Shooting  time lapse Video Editing Conclusion',
+          progression: 'People looking to learn the art of videography or video production using their DSLR or Mirrorless cameras.',
+          assessment: '',
+        },
+        {
+          text: 'Photography Advanced',
+          info:
+            'A step-by-step guide to launching your own successful photography business!',
+          review: 'Once you enroll, you will get access to a downloadable workbook that includes action items, helpful tips and resources. Using the workbook together with the courses video lectures and case studies should make it easier than ever to get your business up and running.',
+          requirements: 'You should already have a basic understanding of photography (this is not a course that will teach you how to become a photographer)',
+          structure: 'Introduction to Start Photography Buisness Basics of starting a Photogrpahy Buisness Get your First paying Clients Create your website Expanding Your Online Presence Photogrpahy Buisness Workflow Scaling your Business with Better Infrastructure selling your prints',
+          progression: 'Who this course is for:Photographers who want to make money with their skills Wedding Photographers Portrait & Headshot Photographers Food & Product Photographers Journalistic Photographers',
+          assessment: '',
+        },
+        {
+          text: 'Video Presentation',
+          info:
+            'Become an engaging On-screen communicator and create effective and professional videos.',
+          review: 'Discover how to make your own effective marketing videos that you can produce quickly and easily from your own office or home with just basic equipment or even an i-phone. We’ll cover the essential skills needed for natural and confident ‘On Camera’ communication and then look at how to set up and make your own videos that are ready for use on ‘Google Video Ads’ and social media',
+          requirements: 'Basic video camera operation',
+          structure: 'Introduction Effectivve Communication Presenting Techniques Teleprompter Scripting And Structure Onine Video SEO',
+          progression: 'Business owners and managers, online video course providers and business development managers and anyone wanting to make professional looking videos.',
+          assessment: '',
+        },
+        {
+          text: 'Video Editing',
+          info:
+            'Learn how to edit videos in Adobe Premiere Pro with these easy-to-follow Premiere Pro video editing tutorials.',
+          review: 'If you are looking for a video editing application that will allow you to edit videos however you want them, Adobe Premiere Pro is the best answer. Premiere Pro is used by professionals across the world for every type of production from business & marketing videos, music videos to documentaries, feature films. This full course is the best way to jump right in and start editing.',
+          requirements: 'Students should have Adobe Premiere Pro installed on their computers to follow along. There are A LOT OF PRACTICE EXERCISES throughout this course with downloadable practice clips. We want you to follow along.We teach this course using the Adobe Premiere Pro CC (creative cloud) versions, so it would be best if you are using CC. But you can still learn using CS6, CS5, CS4, or even CS3!',
+          structure: 'In this complete guide to Adobe Premiere Pro video editing course, you will not only learn all of the editing tools available in Premiere Pro, but also how to edit with the mindset of a professional editor.This course will cover everything you need to know to start video editing, including:Starting a project Editing your videos Adding video and audio transitionsAdding professional and modern titles (even some with motion)Improving audio and finding great free music for your projectsCorrecting and grading the color of your video to give it a great styleAdding visual effects to your projectsEditing green screen (chroma key) footageExporting your video for high-quality playback on any deviceAdvanced efficiency tipsCourse Content: Introduction : Welocme to video and project files, Stabilize shacky videos, start new project and understand workspace, import and organize video clips, keyboard shortcuts, how to import footage with media browser.Editing Video: Create sequenceand understand timeline, add clips to timeline sync footage and make selects, sync audio and video, trim clips split edits, add and edit cutaway footageand photos, adjust size and position of your clips, edit down interview, editing narrative video scenes etc. Adding Video and Audio Transitions: Course checkin, add and adjust video transitions, add audio and videos transitions from timeline, create custom blur transition, trouble with tranistions etc. Adding Titles: changes to creating titles, Create titile graphics, Animating titles, Saving title cards, Essential graphics info etc. Editing AudioColor Correction and grading Motion in Premiere pro Exporting your videoVisual Effects and Advanced premirer pro tips ',
+          progression: 'Who this course is for:You are a video creator (or want to make videos), and are wanting to edit videos with THE BEST video editing application today.You might know how to edit with Final Cut, iMovie, Sony Vegas, Premiere Elements, Windows Movie Maker, Camtasia, Screenflow, etc. But you want to transition to editing with Premiere Pro.You are a complete beginner who has never opened Premiere Pro (or have never learned how to use it properly).You have played around with Premiere Pro, but need some help becoming a more efficient editor.',
+          assessment: 'Assessment is via assignment submission. This programme is accredited by Ofqual Awarding body (Othm)',
         },
       ],
     };

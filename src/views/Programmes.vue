@@ -2,14 +2,14 @@
   <div class="programmes">
     <CommonBanner1 pageHeading="Courses" caption="Courses" />
     <!-- <Onlinepro /> -->
-    <ProgrammesBanner pageHeading="DIPLOMA PROGRAMS" />
+    <ProgrammesBanner pageHeading="COURSES" />
     <DiplomaProList />
-    <ProgrammesBanner pageHeading="UNDERGRADUATE PROGRAMS" />
+    <!-- <ProgrammesBanner pageHeading="UNDERGRADUATE PROGRAMS" />
     <UnderGradProList />
     <ProgrammesBanner pageHeading="POST GRADUATE PROGRAMS" />
     <PostGrdProList />
     <ProgrammesBanner pageHeading="DOCTORATE PROGRAMS" />
-    <DoctorateProList />
+    <DoctorateProList /> -->
   </div>
 </template>
 
@@ -18,9 +18,9 @@ import CommonBanner1 from '@/components/CommonBanner1.vue';
 // import Onlinepro from '@/components/Programmes/Onlinepro.vue';
 import ProgrammesBanner from '@/components/Programmes/ProgrammesBanner.vue';
 import DiplomaProList from '@/components/Programmes/DiplomaProList.vue';
-import UnderGradProList from '@/components/Programmes/UnderGradProList.vue';
-import PostGrdProList from '@/components/Programmes/PostGrdProList.vue';
-import DoctorateProList from '@/components/Programmes/DoctorateProList.vue';
+// import UnderGradProList from '@/components/Programmes/UnderGradProList.vue';
+// import PostGrdProList from '@/components/Programmes/PostGrdProList.vue';
+// import DoctorateProList from '@/components/Programmes/DoctorateProList.vue';
 
 export default {
   name: 'Programmes',
@@ -29,9 +29,9 @@ export default {
     // Onlinepro,
     ProgrammesBanner,
     DiplomaProList,
-    UnderGradProList,
-    PostGrdProList,
-    DoctorateProList,
+    // UnderGradProList,
+    // PostGrdProList,
+    // DoctorateProList,
   },
 };
 </script>
