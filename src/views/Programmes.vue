@@ -1,7 +1,7 @@
 <template>
   <div class="programmes">
-    <CommonBanner1 pageHeading="Diploma Programs" caption="Diploma Programs" />
-    <Onlinepro />
+    <CommonBanner1 pageHeading="Courses" caption="Courses" />
+    <!-- <Onlinepro /> -->
     <ProgrammesBanner pageHeading="DIPLOMA PROGRAMS" />
     <DiplomaProList />
     <ProgrammesBanner pageHeading="UNDERGRADUATE PROGRAMS" />
@@ -15,7 +15,7 @@
 
 <script>
 import CommonBanner1 from '@/components/CommonBanner1.vue';
-import Onlinepro from '@/components/Programmes/Onlinepro.vue';
+// import Onlinepro from '@/components/Programmes/Onlinepro.vue';
 import ProgrammesBanner from '@/components/Programmes/ProgrammesBanner.vue';
 import DiplomaProList from '@/components/Programmes/DiplomaProList.vue';
 import UnderGradProList from '@/components/Programmes/UnderGradProList.vue';
@@ -26,7 +26,7 @@ export default {
   name: 'Programmes',
   components: {
     CommonBanner1,
-    Onlinepro,
+    // Onlinepro,
     ProgrammesBanner,
     DiplomaProList,
     UnderGradProList,

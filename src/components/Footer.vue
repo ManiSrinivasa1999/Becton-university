@@ -7,10 +7,10 @@
             <v-card-text class="white--text">
               <strong class="text-h4 font-weight-bold">Beckton College</strong>
               <p class="text-h6 mt-4">
-                Online and distance learning is the future of education. Even
-                though we live in a global village the concept of a Beckton
-                College – not rooted in a particular country – such as Beckton
-                College.
+                Studying at Beckton College will provide you with the tools
+                you need to forge a bright future for yourself. With experience
+                in helping students achieve their potential, we are committed to
+                excellence in learning and teaching.
               </p>
             </v-card-text>
             <v-card-text class="white--text">
@@ -135,7 +135,7 @@ export default {
           url: '/campus',
         },
         {
-          label: 'Diploma Programs',
+          label: 'Courses',
           url: '/programmes',
         },
         {

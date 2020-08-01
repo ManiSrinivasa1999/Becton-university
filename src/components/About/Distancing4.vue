@@ -2,23 +2,33 @@
   <div class="distancing">
     <v-container>
       <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="12" lg="10" xl="10" sm="10" md="12">
+        <v-col cols="12" lg="12" xl="10" sm="10" md="12">
           <v-row class="fill-height pa-0 mt-16" align="center" justify="center">
-            <v-col cols="12" md="6">
-              <v-img eager src="@/assets/distance.jpg" height="280px"></v-img>
+            <v-col cols="12" md="4">
+              <v-img eager src="@/assets/distance.jpg"></v-img>
             </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="8">
               <div class="font-weight-bold" :class="heading">
-                WHY DISTANCE LEARNING?
+                BRITISH VALUES
               </div>
               <br />
+              <p class="font-weight-bold">
+                We prepare our students for life in modern Britain by developing
+                an understanding of democracy.
+              </p>
               <p>
-                Very few people can afford to give up work to start studying,
-                and with College fees at an all-time high, learning via
-                traditional methods is beyond reach for many.<br /><br />
-                This exciting alternative in higher education holds for you the
-                promise of professional and personal growth without any limits
-                or boundaries.
+                We prepare our students for life in modern Britain by developing an
+                understanding of democracy, the rule of law, individual liberty, mutual
+                respect and tolerance of those with different faiths and beliefs. We are
+                dedicated to promoting these values which ensure that our students develop
+                a strong sense of social and moral responsibility. British values underpin our
+                Beckton College structures and are promoted through the
+                tutorial programme, the curriculum, and our enrichment activities. All
+                students will have the opportunity to discuss British values and how these
+                apply to college life and modern Britain. All students will have the opportunity
+                on progressing from Beckton College to reflect on how the college
+                has prepared them for life in modern Britain. Our students have produced their own
+                version of the ‘Mannequin Challenge’ dedicated to promoting .
               </p>
             </v-col>
           </v-row>
@@ -33,24 +43,25 @@
             </v-col>
             <v-col cols="12">
               <div class="font-weight-bold" :class="heading">
-                LIFE AT BECKTON COLLEGE
+                OUR MISSION
               </div>
               <br />
+              <p class="font-weight-bold">
+                Our Mission to educate global leaders who create sustainable prosperity worldwide.
+              </p>
               <p class="text-subtitle">
-                Beckton College provides a warm and vibrant environment for students from
-                all walks of life.
-                The student will find the learning experience relaxed and enjoyable and
-                that it will stimulate and stretch mental ability. Leicester is an exciting and
-                diverse city with its many shopping areas including the High cross and Haymarket
-                shopping centres, Leicester has something for all tastes.<br /><br />
-                There is a vast choice of bars and restaurants to enjoy and plenty of
-                entertainment available at the various cinemas and theatres around the city.
-                Because the city has such a diverse culture it hosts events such as the
-                Caribbean Carnival,
-                Diwali lights and the Summer Sundae music festival. It is also home
-                to the National Space Centre.<br />
-                We look forward to welcoming you and helping you to achieve your
-                learning objectives.
+                We are absolutely focused on improving the student experience We have
+                high expectations for students and a commitment to excellence We set high
+                professional standards for all staff We are constantly seeking to improve
+                We all work, as a team, for the success of the beckton college
+                national and international community We expect everyone to be reliable and
+                positive and to act in accordance with beckton college principles
+                and procedures We respect, value and care for all members of national
+                and international
+                We value equality, diversity and inclusivity and treat people with
+                respect and fairness
+                We recognise and value everyone’s contribution to beckton college
+                We respond to student and staff feedback in order to improve college life .
               </p>
             </v-col>
           </v-row>
@@ -58,29 +69,30 @@
             v-if="$vuetify.breakpoint.mdAndUp"
             class="fill-height pa-0 mt-16"
           >
-            <v-col cols="12" md="6">
-              <div class="font-weight-bold mb-4" :class="heading">
-                LIFE AT BECKTON COLLEGE
+            <v-col cols="12" md="8">
+              <div class="font-weight-bold" :class="heading">
+                OUR MISSION
               </div>
               <br />
+              <p class="font-weight-bold">
+                Our Mission to educate global leaders who create sustainable prosperity worldwide.
+              </p>
               <p class="text-subtitle">
-                Beckton College provides a warm and vibrant environment for students from
-                all walks of life.
-                The student will find the learning experience relaxed and enjoyable and
-                that it will stimulate and stretch mental ability. Leicester is an exciting and
-                diverse city with its many shopping areas including the High cross and Haymarket
-                shopping centres, Leicester has something for all tastes.<br /><br />
-                There is a vast choice of bars and restaurants to enjoy and plenty of
-                entertainment available at the various cinemas and theatres around the city.
-                Because the city has such a diverse culture it hosts events such as the
-                Caribbean Carnival,
-                Diwali lights and the Summer Sundae music festival. It is also home
-                to the National Space Centre.<br />
-                We look forward to welcoming you and helping you to achieve your
-                learning objectives.
+                We are absolutely focused on improving the student experience We have
+                high expectations for students and a commitment to excellence We set high
+                professional standards for all staff We are constantly seeking to improve
+                We all work, as a team, for the success of the beckton college
+                national and international community We expect everyone to be reliable and
+                positive and to act in accordance with beckton college principles
+                and procedures We respect, value and care for all members of national
+                and international
+                We value equality, diversity and inclusivity and treat people with
+                respect and fairness
+                We recognise and value everyone’s contribution to beckton college
+                We respond to student and staff feedback in order to improve college life .
               </p>
             </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="4">
               <v-img eager src="@/assets/bu-compressed.jpg" height="330px"></v-img>
             </v-col>
           </v-row>

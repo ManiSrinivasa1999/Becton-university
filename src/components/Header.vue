@@ -38,7 +38,7 @@
         v-if="$vuetify.breakpoint.lgAndUp"
         class="d-flex justify-center align-center"
       >
-         <div v-if="$vuetify.breakpoint.lgAndUp">
+         <div v-if="$vuetify.breakpoint.lgAndUp" class="ml-10">
           <v-btn
             text
             v-for="button in buttons.slice(0, 4)"
@@ -51,7 +51,7 @@
           </v-btn>
         </div>
         <div
-          class="mr-2 ml-2"
+          class="mr-2 ml-6"
         >
           <div class="college-name">
             <v-img
@@ -169,7 +169,7 @@ export default {
           url: '/campus',
         },
         {
-          label: 'Diploma Programs',
+          label: 'Courses',
           url: '/programmes',
         },
         {

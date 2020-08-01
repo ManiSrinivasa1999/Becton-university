@@ -45,7 +45,7 @@ export default {
       features: [
         {
           head: 'Student Learning Oppurtunities',
-          content: 'Online and distance learning is the future of education. Even though we live in a global village the concept of a Beckton College – not rooted in a particular country – such as Beckton College – is occasionally misunderstood by the dinosaurs of brick and mortar education especially in countries where online education is still a novelty.',
+          content: 'Studying at Beckton College will provide you with the tools you need to forge a bright future for yourself. With experience in helping students achieve their potential, we are committed to excellence in learning and teaching.',
         },
         {
           head: 'Student Stories',
