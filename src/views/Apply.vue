@@ -34,7 +34,7 @@
                     class="mb-4"
                     contain
                     height="128"
-                    src="../assets/logo-application.jpg"
+                    src="../assets/logo-application.png"
                   ></v-img>
                   <h3 class="title font-weight-light mb-2">Welcome to Beckton College</h3>
                   <span class="caption grey--text"

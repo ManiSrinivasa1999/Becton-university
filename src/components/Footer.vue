@@ -41,21 +41,23 @@
           </v-col>
           <v-col cols="12" md="4">
             <div v-if="$vuetify.breakpoint.smAndDown">
-              <v-img eager src="../assets/logo-test.png" height="30vh" width="34vh" contain></v-img>
             </div>
-             <div v-else-if="$vuetify.breakpoint.mdOnly" class="mt-4">
+             <div v-else-if="$vuetify.breakpoint.mdOnly" class="college-name-md ma-auto">
               <v-img
                 eager
                 src="../assets/logo-test.png"
-                height="25vh"
-                width="34vh"
+                height="15vh"
+                width="20vh"
                 contain
               ></v-img>
             </div>
-            <div v-else-if="$vuetify.breakpoint.lgAndUp">
+            <div v-else-if="$vuetify.breakpoint.lgAndUp" class="college-name ma-auto">
               <v-img
-                class="background-color"
-                eager src="../assets/logo-test.png" height="40vh" width="50vh" contain></v-img>
+                eager src="../assets/logo-test.png"
+                height="30vh"
+                width="35vh"
+                contain>
+              </v-img>
             </div>
           </v-col>
           <v-col cols="12" md="4">
@@ -166,16 +168,30 @@ a:hover {
   color: green;
 }
 
-.background-color {
-  color: black !important;
-}
-
 .footer-color {
   background-color: #1b1b1b !important;
 }
 
 .text-sz {
   font-size: 9px;
+}
+
+.college-name {
+  clip-path: polygon(0% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%);
+  position: relative;
+  top: -0px;
+  background-color: #e0e0e0;
+  width: 35vh !important;
+  height: 35vh !important;
+}
+
+.college-name-md {
+  clip-path: polygon(0% 0%, 100% 0, 100% 60%, 50% 100%, 0 60%);
+  position: relative;
+  top: -0px;
+  background-color: #e0e0e0;
+  width: 20vh !important;
+  height: 20vh !important;
 }
 
 </style>
