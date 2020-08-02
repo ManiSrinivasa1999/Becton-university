@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
-    <v-footer color="footer-color">
-      <v-container>
+    <v-footer color="footer-color" class="pt-0">
+      <v-container class="pt-0">
         <v-row justify="center">
           <v-col cols="12" md="4">
             <v-card-text class="white--text">
@@ -39,7 +39,7 @@
               </div>
             </v-card-text>
           </v-col>
-          <v-col cols="12" md="4">
+          <v-col cols="12" md="4" class="pa-0 ma-0">
             <div v-if="$vuetify.breakpoint.smAndDown">
             </div>
              <div v-else-if="$vuetify.breakpoint.mdOnly" class="college-name-md ma-auto">
