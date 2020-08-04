@@ -16,6 +16,9 @@ import {
   faCaretDown,
   faGraduationCap,
   faDotCircle,
+  faCircle,
+  faChevronLeft,
+  faChevronRight,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
@@ -54,6 +57,9 @@ library.add(
   faYoutube,
   faInstagram,
   faDotCircle,
+  faCircle,
+  faChevronLeft,
+  faChevronRight,
 );
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('infinite-slide-bar', InfiniteSlideBar);

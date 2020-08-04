@@ -3,7 +3,7 @@
     <v-container>
       <v-row class="fill-height pa-0 ma-0" justify="center" align="center">
         <v-col cols="12" lg="12" xl="10" md="10" sm="12">
-          <v-row class="pa-0 ma-0">
+          <v-row class="pa-0 ma-0 text-center">
             <v-col cols="12">
               <div class="font-weight-bold text-h5">
                 STUDENT LIFE

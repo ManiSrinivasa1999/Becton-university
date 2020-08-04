@@ -17,7 +17,7 @@
                   </v-row>
                 </v-img>
               </a>
-              <a href="/admissions" class="links">
+              <a href="/campus" class="links">
                 <v-img eager src="@/assets/general2-compressed.jpg" height="250">
                   <v-row
                     align="end"
@@ -43,7 +43,7 @@
                   </v-row>
                 </v-img>
               </a>
-              <a href="/gallery" class="links">
+              <a href="/campus" class="links">
                 <v-img eager src="@/assets/general4.jpg" height="250">
                   <v-row
                     align="end"

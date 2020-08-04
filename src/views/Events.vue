@@ -2,13 +2,13 @@
   <div class="gallery">
     <CommonBanner1 pageHeading="Events" caption="Events" />
     <v-container>
-      <v-row class="fill-height pa-0 ma-0" align="center" justify="center">
-        <v-col cols="12" md="4" lg="3" sm="6" v-for="(item, i) in items" :key="i">
-          <div class="hg-wd mx-auto">
-            <v-img eager class="mx-auto" :src="item.img" height="250">
+      <v-row class="fill-height pa-0 ma-0 mt-10" align="center" justify="center">
+        <v-col cols="12" md="6" lg="4" xl="3" sm="6" v-for="(item, i) in items" :key="i">
+          <div class="hg-wd mx-auto" max-width="400">
+            <v-img eager class="mx-auto" :src="item.img" height="250" max-width="300">
             </v-img>
             <div class="text-center">
-              <div class="font-weight-bold title mb-2 green--text">
+              <div class="font-weight-bold title mb-2 green--text mt-2">
                 {{ item.title }}
               </div>
               <div class="font-weight-light sub-title mb-2">
@@ -41,7 +41,7 @@ export default {
         img: require('@/assets/event3.jpg'),
       },
       {
-        title: 'Hawaii: Oahu',
+        title: 'BU Awards 2020',
         text:
           'BU College is not just about students, but also about employees that take care of them from a beautiful island Oahu! Since life is not all about work and no fun',
         // eslint-disable-next-line global-require
@@ -62,7 +62,7 @@ export default {
         img: require('@/assets/gallery_pic4-compressed.jpg'),
       },
       {
-        title: 'Graduation ceremony, June 2020',
+        title: 'Graduation Ceremony, June 2020',
         text:
           'Photos capturing lovely moments from the graduation ceremony that took place at Pruhonice Castle, Czech Republic in June 2020.',
         // eslint-disable-next-line global-require
@@ -102,8 +102,8 @@ export default {
 }
 
 .hg-wd {
-  height: 500px;
-  width: 250px;
+  height: 450px;
+  width: 300px;
 }
 
 </style>

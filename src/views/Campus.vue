@@ -5,11 +5,11 @@
     <Stream />
     <Videos />
     <CollegeStats />
-    <v-row class="pa-0 ma-0">
+    <v-row class="pa-0 ma-0 text-center">
       <v-col cols="1"></v-col>
       <v-col cols="12" md="10">
-        <h2 class="ml-5">EVENTS</h2>
-        <p class="mt-5 ml-5">
+        <h2 class="mx-auto">EVENTS</h2>
+        <p class="mt-5 mx-auto">
           HNC, HND, Undergraduate and Postgraduate Recruitment day 2020 (
           National & International)
         </p>
@@ -19,7 +19,7 @@
     <v-row class="pa-0 ma-0 mb-5">
       <v-col cols="1"></v-col>
       <v-col class="mx-auto" cols="12" md="3">
-        <v-card class="mx-auto eventCard" max-width="400" height="100%">
+        <v-card class="mx-auto eventCard" max-width="400">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -34,16 +34,10 @@
             <div>June 01 at 09:00 am</div>
             <div>Leicester Business Centre, Leiecster, United Kingdom</div>
           </v-card-text>
-
-          <v-card-actions>
-            <v-btn color="green" text>Share</v-btn>
-
-            <v-btn color="green" text>Explore</v-btn>
-          </v-card-actions>
         </v-card>
       </v-col>
       <v-col class="mx-auto" cols="12" md="3">
-        <v-card class="mx-auto eventCard" max-width="400" height="100%">
+        <v-card class="mx-auto eventCard" max-width="400">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -56,18 +50,12 @@
 
           <v-card-text class="text--primary">
             <div>July 03 at 09:00 am</div>
-            <div>St, Paddington, London, United Kingdom</div>
+            <div>Leicester Business Centre, Leiecster, United Kingdom</div>
           </v-card-text>
-
-          <v-card-actions>
-            <v-btn color="green" text>Share</v-btn>
-
-            <v-btn color="green" text>Explore</v-btn>
-          </v-card-actions>
         </v-card>
       </v-col>
       <v-col class="mx-auto" cols="12" md="3">
-        <v-card class="mx-auto eventCard" max-width="400" height="100%">
+        <v-card class="mx-auto eventCard" max-width="400">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -82,12 +70,6 @@
             <div>June 01 at 09:00 am</div>
             <div>Leicester Business Centre, Leiecster, United Kingdom</div>
           </v-card-text>
-
-          <v-card-actions>
-            <v-btn color="green" text>Share</v-btn>
-
-            <v-btn color="green" text>Explore</v-btn>
-          </v-card-actions>
         </v-card>
       </v-col>
       <v-col cols="1"></v-col>
