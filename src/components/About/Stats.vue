@@ -82,7 +82,7 @@ export default {
           title: 'UK Accredited Diploma',
           number: '50+',
           text:
-            'BU Universities Bachelor and Master Affordable, Accredited and 100% Online Education',
+            'Beckton Colleges Bachelor and Master Affordable, Accredited and 100% Online Education',
         },
         {
           icon: 'fas fa-map-marked-alt',

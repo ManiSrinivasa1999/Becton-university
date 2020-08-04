@@ -34,60 +34,60 @@ export default {
     height: 0,
     items: [
       {
-        title: 'Graduation Ceremony 2020',
+        title: 'Graduation Ceremony at BC, December 2019',
         text:
           'Have a look at the most captivating moments from our Graduation Ceremony, where we handed out diplomas to our successful graduates.',
         // eslint-disable-next-line global-require
         img: require('@/assets/event3.jpg'),
       },
       {
-        title: 'BU Awards 2020',
+        title: 'BC Awards, December 2019',
         text:
-          'BU College is not just about students, but also about employees that take care of them from a beautiful island Oahu! Since life is not all about work and no fun',
+          'Have a look at the most captivating moments from our BC Awards, where we handed out awards to our successful students.',
         // eslint-disable-next-line global-require
         img: require('@/assets/gallery_pic2.jpg'),
       },
       {
-        title: 'Graduation Ceremony 2020',
+        title: 'Graduation Ceremony at BC, March 2020',
         text:
-          'What a great atmosphere we have had at the 2020 Graduation Ceremony! We are glad that graduates, their families and loved ones celebrated it in the best way possible.',
+          'Have a look at the most captivating moments from our Graduation Ceremony, where we handed out diplomas to our successful graduates.',
         // eslint-disable-next-line global-require
         img: require('@/assets/event.jpg'),
       },
       {
-        title: 'BU Awards 2020',
+        title: 'BC Awards, March 2020',
         text:
-          'Gala evening BU Awards 2020 took place in Clarion Congress Hotel Prague, Czech Republic on the 31st January, 2020.',
+          'Have a look at the most captivating moments from our BC Awards, where we handed out awards to our successful students.',
         // eslint-disable-next-line global-require
-        img: require('@/assets/gallery_pic4-compressed.jpg'),
+        img: require('@/assets/gallery_pic8.jpg'),
       },
       {
-        title: 'Graduation Ceremony, June 2020',
+        title: 'Graduation Ceremony at BC, May 2020',
         text:
-          'Photos capturing lovely moments from the graduation ceremony that took place at Pruhonice Castle, Czech Republic in June 2020.',
+          'Have a look at the most captivating moments from our Graduation Ceremony, where we handed out diplomas to our successful graduates.',
         // eslint-disable-next-line global-require
         img: require('@/assets/gallery_pic5.jpg'),
       },
       {
-        title: 'BU Awards 2020',
+        title: 'BC Awards, May 2020',
         text:
-          'Photos from the BU AWARDS 2020 gala evening that took place at Clarion Congress Hotel Prague on the 1st February, 2020.',
+          'Have a look at the most captivating moments from our BC Awards, where we handed out awards to our successful students.',
         // eslint-disable-next-line global-require
         img: require('@/assets/gallery_pic6-compressed.jpg'),
       },
       {
-        title: 'Graduation ceremony at BU College, June 2020',
+        title: 'Graduation Ceremony at BC, June 2020',
         text:
           'Have a look at the most captivating moments from our Graduation Ceremony, where we handed out diplomas to our successful graduates.',
         // eslint-disable-next-line global-require
         img: require('@/assets/gallery_pic7-compressed.jpg'),
       },
       {
-        title: 'BU Awards 2020',
+        title: 'BC Awards, June 2020',
         text:
-          'Photos from the BU AWARDS 2015 gala evening that took place in Clarion Congress Hotel Prague on the 4th February, 2020.',
+          'Have a look at the most captivating moments from our BC Awards, where we handed out awards to our successful students.',
         // eslint-disable-next-line global-require
-        img: require('@/assets/gallery_pic8.jpg'),
+        img: require('@/assets/gallery_pic4-compressed.jpg'),
       },
     ],
     transparent: 'rgba(255, 255, 255, 0)',

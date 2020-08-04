@@ -42,7 +42,7 @@
 
 <script>
 export default {
-  name: 'StudyatBU7',
+  name: 'BU3',
 };
 </script>
 

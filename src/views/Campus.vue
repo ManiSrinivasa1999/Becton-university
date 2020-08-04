@@ -32,7 +32,7 @@
 
           <v-card-text class="text--primary">
             <div>June 01 at 09:00 am</div>
-            <div>Leicester Business Centre, Leiecster, United Kingdom</div>
+            <div>East London, United Kingdom</div>
           </v-card-text>
         </v-card>
       </v-col>
@@ -50,7 +50,7 @@
 
           <v-card-text class="text--primary">
             <div>July 03 at 09:00 am</div>
-            <div>Leicester Business Centre, Leiecster, United Kingdom</div>
+            <div>East London,United Kingdom</div>
           </v-card-text>
         </v-card>
       </v-col>
@@ -68,7 +68,7 @@
 
           <v-card-text class="text--primary">
             <div>June 01 at 09:00 am</div>
-            <div>Leicester Business Centre, Leiecster, United Kingdom</div>
+            <div>East London, United Kingdom</div>
           </v-card-text>
         </v-card>
       </v-col>

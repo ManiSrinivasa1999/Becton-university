@@ -17,17 +17,17 @@
                 <v-card-text>
                   <span class="font-weight-bold green--text">Location: </span
                   ><br />
-                  London College of Media, <br />West Midlands House Gipsy
+                  Beckton College, <br />West Midlands House Gipsy
                   Lane,<br />
                   Willenhall West Midlands, WV13 2HA United Kingdom
                 </v-card-text>
                 <v-card-text>
                   <span class="font-weight-bold green--text">Email: </span><br />
-                  admin@londoncollegeofmedia.com
+                  info@becktoncollege.org
                 </v-card-text>
                 <v-card-text>
                   <span class="font-weight-bold green--text">Phone: </span><br />
-                  +44(0)2034752556
+                  +1 302-827-3939
                 </v-card-text>
               </v-card>
             </v-col>
