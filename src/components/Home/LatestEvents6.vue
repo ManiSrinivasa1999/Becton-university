@@ -73,7 +73,7 @@ export default {
 <style lang="scss" scoped>
 
 .event-details {
-  height: 230px;
+  height: 100px;
 }
 
 .hover {

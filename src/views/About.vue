@@ -1,6 +1,11 @@
 <template>
   <div class="about">
     <CommonBanner1 pageHeading="About Us" caption="About" />
+    <div class="align-center justify-center d-flex flex-column pa-4 pb-0">
+      <span class="text-h4 pa-4 ma-4 font-weight-bold green--text text-center">
+        Beckton College - Experimental and Experienced Learning
+      </span>
+    </div>
     <!-- <Stats /> -->
     <!-- <BU3 /> -->
     <Distancing4 />

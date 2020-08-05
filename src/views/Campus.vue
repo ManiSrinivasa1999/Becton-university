@@ -27,7 +27,7 @@
           ></v-img>
 
           <v-card-subtitle class="pb-0"
-            >Recruitment Day Philippines 2020</v-card-subtitle
+            >Recruitment Day London 2020</v-card-subtitle
           >
 
           <v-card-text class="text--primary">
@@ -50,7 +50,7 @@
 
           <v-card-text class="text--primary">
             <div>July 03 at 09:00 am</div>
-            <div>East London,United Kingdom</div>
+            <div>London,United Kingdom</div>
           </v-card-text>
         </v-card>
       </v-col>
@@ -68,7 +68,7 @@
 
           <v-card-text class="text--primary">
             <div>June 01 at 09:00 am</div>
-            <div>East London, United Kingdom</div>
+            <div>West London, United Kingdom</div>
           </v-card-text>
         </v-card>
       </v-col>
