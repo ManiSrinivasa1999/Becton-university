@@ -95,29 +95,29 @@
         <v-spacer></v-spacer>
 
         <div v-if="$vuetify.breakpoint.mdAndDown">
-          <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon @click.stop="drawer = !drawer">
+            <v-menu offset-y>
+              <template v-slot:activator="{ on, attrs }">
+                <v-btn color="success" icon v-bind="attrs" v-on="on">
+                  <v-icon>fas fa-bars</v-icon>
+                </v-btn>
+              </template>
+              <v-list no-action>
+                <v-list-item
+                  v-for="button in buttons.slice(0,6)"
+                  :key="button.label"
+                  :to="button.url"
+                >
+                  <v-list-item-content>
+                    <v-list-item-title>{{ button.label }}</v-list-item-title>
+                  </v-list-item-content>
+                </v-list-item>
+                <v-btn class="success mx-2" to="/apply">Apply Now</v-btn>
+              </v-list>
+            </v-menu>
+          </v-app-bar-nav-icon>
         </div>
       </v-app-bar>
-      <v-navigation-drawer
-        v-if="$vuetify.breakpoint.mdAndDown"
-        v-model="drawer"
-        app
-        right
-      >
-        <v-list dense>
-          <v-list-item
-            v-for="button in buttons"
-            :key="button.label"
-            :to="button.url"
-            color="success"
-          >
-            <v-list-item-content>
-              <v-list-item-title>{{ button.label }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-navigation-drawer>
-
     </v-container>
   </div>
 </template>
