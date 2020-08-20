@@ -31,21 +31,15 @@ export default {
     return {
       accreditionData: [
         // eslint-disable-next-line global-require
-        require('../../assets/logo1.jpeg'),
+        require('../../assets/vqsl.png'),
         // eslint-disable-next-line global-require
-        require('../../assets/logo2.jpeg'),
-        // eslint-disable-next-line global-require
-        require('../../assets/logo3.jpeg'),
-        // eslint-disable-next-line global-require
-        require('../../assets/logo4.jpeg'),
-        // eslint-disable-next-line global-require
-        require('../../assets/logo5.jpeg'),
-        // eslint-disable-next-line global-require
-        require('../../assets/logo6.jpeg'),
+        require('../../assets/ukqs.png'),
         // eslint-disable-next-line global-require
         require('../../assets/logo7.jpeg'),
         // eslint-disable-next-line global-require
-        require('../../assets/logo8.jpeg'),
+        require('../../assets/ukvpq.png'),
+        // eslint-disable-next-line global-require
+        require('../../assets/ukvaa.png'),
       ],
     };
   },

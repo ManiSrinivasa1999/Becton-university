@@ -6,7 +6,7 @@
           <v-row class="pa-0 ma-0">
             <v-col cols="12" xl="2" lg="2"></v-col>
             <v-col cols="12" xl="4" lg="4" md="12" sm="12" xs="12">
-              <v-img eager src="@/assets/ukflag-compressed.jpg" height="350"></v-img>
+              <v-img eager src="@/assets/ukbridge.jpg" height="350"></v-img>
             </v-col>
             <v-col cols="12" xl="4" lg="4" md="12" sm="12" xs="12">
               <v-card height="350">
