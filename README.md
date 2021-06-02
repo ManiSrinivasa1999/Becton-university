@@ -1,6 +1,6 @@
 # Beckton College
 
-## Live at : https://hungry-beaver-dba38d.netlify.app/
+## Live at : https://beckon-college.netlify.app/
 
 ## Project setup
 ```
